@@ -21,7 +21,7 @@ The reason why we need the state as above
         val n = grid[0].size
         val DIR = arrayOf(intArrayOf(0, 1), intArrayOf(1, 0), intArrayOf(0, -1), intArrayOf(-1, 0))
 
-        // this is our visited set bascially
+        // This is a 3d vector basically
         val v = Array(m) { Array(n) { BooleanArray(k + 1) } }
 
         // Our q would store sth like, this would store the obstacles left

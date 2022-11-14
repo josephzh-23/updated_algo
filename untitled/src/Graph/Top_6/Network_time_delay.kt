@@ -3,13 +3,11 @@ package Graph.Top_6
 import java.util.*
 
 /*
+The format below is very important as discussed
+
  'a': {['b', 3], ['c', 4], ['d', 7]},
     'b': {['c',1], ['f',5]},
-    in the above format as discussed
- */
-/*
-Strictly using algo as we have found
-for n nodes to receive all
+    k: here is the starting point ehre
  */
 fun networkDelayTime(times: Array<IntArray>, n: Int, k: Int): Int {
     // Step1 : use a map first to add src: [weight, target]
@@ -48,7 +46,7 @@ fun networkDelayTime(times: Array<IntArray>, n: Int, k: Int): Int {
     val visited: MutableSet<Int> = HashSet()
 
     var min = 0
-    minHeap.add(intArrayOf(k, 0))
+    minHeap.add(intArrayOf(k  , 0))
     // Step 2 use a queue and visited set
     while (!minHeap.isEmpty()) {
 

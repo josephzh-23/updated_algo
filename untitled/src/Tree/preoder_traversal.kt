@@ -2,6 +2,8 @@ package Tree
 
 // Root comes first, then left subtree
 // right subtree
+
+// postOrder: left right, then right
 /*
            3
       4         5
