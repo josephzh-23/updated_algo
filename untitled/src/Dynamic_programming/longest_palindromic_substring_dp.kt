@@ -6,6 +6,8 @@ package Dynamic_programming
 OC: O(n^2)
 Longest palindromic substring
 
+a
+
 Video by tech dose may need to check out the video for better
 representation
 substr(string, i, j)
