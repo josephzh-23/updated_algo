@@ -16,3 +16,21 @@ package Dynamic_programming
  Index    0   1    2   3   4    5
   DP      8   5    3   2   1    1
 */
+
+// A little different from the other one solution
+
+
+// O: O(n)
+// S: O(1) cst space used here
+fun climbStairs(n: Int): Int {
+    if (n == 1) {
+        return 1
+    }
+    val dp = IntArray(n + 1)
+    dp[1] = 1
+    dp[2] = 2
+    for (i in 3..n) {
+        dp[i] = dp[i - 1] + dp[i - 2]
+    }
+    return dp[n]
+}

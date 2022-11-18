@@ -3,6 +3,16 @@ package Dynamic_programming.`2d_programming`
 import java.util.*
 
 
+/*
+Problem taken from Coding Ninjas up there
+1. You are given an array of n positive integers and integer k, check if there
+exists a subset in ARR with a sum = to k
+2. Return true if there exists a subset with sum = k. otherwise return false
+
+If arr = [1, 2, 3, 4]    k = 4
+there exists 2 subset with sum [1, 3] and [4]
+
+ */
 
 /*
 TC: O( n* target)

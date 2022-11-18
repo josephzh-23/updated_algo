@@ -1,17 +1,31 @@
-package Tree
+import LinkedList.ListNode
+import Tree.insert
 
-import Tree.Top6.isLeaf
+fun flattenTree(root: TreeNode?): ListNode{
+// dummy node
+    var list = ListNode(0)
 
-fun addRightBoundary2(root: TreeNode, res: ArrayList<Int>) {
+    root?.apply {
 
-    var cur: TreeNode = root.right
-    val tmp = ArrayList<Int>()
-    while (cur != null) {
-        if (isLeaf(cur) == false) tmp.add(cur.value)
-        cur = if (cur.right != null) cur.right else cur.left
+        flatten(left)
+        //process this here
+        list.next = ListNode(value)
+        flatten(right)
+
+
     }
-//    var
+    return list
 
-    // Add the temp result to the right
 
 }
+
+fun main() {
+    var n= TreeNode(3)
+    n = insert(n, 2)
+    n = insert(n, 5)
+
+    flatten(n)
+}
+
+
+

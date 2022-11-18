@@ -16,7 +16,7 @@ O (1) not using array or dict or anythign at all
 cur                         1
 max_so_far                  3      120
 min_so_far                  -30   -12
-
+Since we have negative number
 so as seen we need to keep track of the min and max seen so far
  */
 
