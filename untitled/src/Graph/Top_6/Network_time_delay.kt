@@ -11,10 +11,7 @@ The format below is very important as discussed
  */
 fun networkDelayTime(times: Array<IntArray>, n: Int, k: Int): Int {
     // Step1 : use a map first to add src: [weight, target]
-
-
     //Build the graph table
-
 
     //Build the graph table
     var graph: MutableMap<Int, MutableList<IntArray>> = HashMap()

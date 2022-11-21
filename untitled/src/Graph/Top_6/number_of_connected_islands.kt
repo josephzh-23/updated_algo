@@ -5,6 +5,8 @@ package Graph.Top_6
 // Treat this as if there is an edge between 2 horizontally adjacent nodes of
 // value of 1
 /*
+Since when we see 1, when we visit it becomes 0, this is how we know it has
+been visited
 Every visited node set as 0, it's the same as visited set basically
  */
 internal class Solution8 {
