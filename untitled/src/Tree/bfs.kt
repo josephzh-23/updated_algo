@@ -1,14 +1,10 @@
 package Tree
 
+import TreeNode
 import java.util.*
 import kotlin.collections.ArrayList
 
-fun main(){
-    var root = TreeNode(3)
-    root.left = TreeNode(4)
-    root.right = TreeNode(5)
-    levelOrder(root)
-}
+
 
     fun levelOrder(r: TreeNode?): List<List<Int>>{
 
@@ -23,6 +19,7 @@ fun main(){
         }
         while(!q.isEmpty()) {
             val curLevel = ArrayList<Int>()
+            // The num of nodes in cur level
             for (i in 0 until q.size) {
                 val cur = q.remove()
                 curLevel.add(cur.value)
@@ -43,3 +40,11 @@ fun main(){
     }
 
 
+fun main(){
+    var root = TreeNode(3)
+    root.left = TreeNode(4)
+    root.right = TreeNode(5)
+    insert(root, 6)
+    insert(root, 7)
+    levelOrder(root)
+}

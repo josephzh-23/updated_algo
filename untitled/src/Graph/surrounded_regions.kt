@@ -13,7 +13,7 @@ The steps
 When you see an o, start a dfs in all directions
 
 2. We can traverse all the borders first, and find the os
-and turn it into #
+and turn it into #s as said
 We want to find all elem = o that's connected to border 'o'
 turn into #
 3. When you see an x you can terminate the search as said

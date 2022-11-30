@@ -8,7 +8,7 @@ This would look like the following
   1   2
     3
   4   5
-    1  0 ->   3 1 0 ->   4 3  1 0  ->   pop 4
+     ->   3 1 0 ->   4 3  1 0  ->   pop 4
     5 3  1  0 ->   pop 5 ->
        3  1  0  ->   2 3  1  0 -> pop 2
        3 1 0 -> pop 3       1 0
