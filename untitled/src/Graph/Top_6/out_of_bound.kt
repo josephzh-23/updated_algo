@@ -5,20 +5,34 @@ package Graph.Top_6
 1. things to watch out fo the array out of bound index error here
 2.
  */
-val w = 'w'
-val b ='b'
-var grid = arrayOf(charArrayOf('w', 'b', 'w', 'b', 'w'),
-        charArrayOf('b', 'b', 'b', 'b', 'b'),
-        charArrayOf('w', 'b', 'b', 'b', 'b'),
-        charArrayOf('w', 'b', 'b', 'b', 'b'))
+
+/*
+The graph here is
+1  1  1   1
+1  1  1   1
+1  0  0   1
+1  1  1   1
+ */
+
+var grid = arrayOf(intArrayOf(1, 1, 1, 1),
+        intArrayOf(1, 1, 1, 1),
+        intArrayOf(1, 0, 0, 1),
+        intArrayOf(1, 1, 1, 1))
 
 
 
 
 fun main() {
+
+    checkOutOfBound()
+}
+
+
+fun checkOutOfBound(){
+
     // and to work on this problem here
     val x= 0
-    val y = 4
+    val y = 0
 
     val curColor = grid[x][y]
     val row = grid.size
@@ -28,14 +42,14 @@ fun main() {
     for(dir in directions){
         val newRow = x + dir[0]
         val newCol = y + dir[1]
+
+        // then we can find the path between nodes here
         // There is the arrayout of bound index exception here
-        if (newRow >= 0 && newRow < row && newCol >= 0 && newCol < col) {
+        if (newRow < 0 ||newCol < 0) {
             println("new row and col is $newRow and $newCol")
-            println("within bound ")
+            println("out of bound ")
         }else{
-            println("new row and col is $newRow and $newCol")
-            println("out of bound  ")
+            println(" within bound")
         }
     }
-
 }

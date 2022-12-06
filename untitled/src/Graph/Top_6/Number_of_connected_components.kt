@@ -1,3 +1,6 @@
+
+
+// https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
 fun main() {
     var s= Solution4()
     var edges = arrayOf(intArrayOf(0,1),

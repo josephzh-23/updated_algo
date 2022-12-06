@@ -1,5 +1,5 @@
 
-import java.util.HashMap
+import java.util.*
 
 
 fun main() {
@@ -38,5 +38,6 @@ fun main() {
         println(i)
     }
 
-    // update dictionary
+    // Get the max and min in the dicrinoaty
+//    Collections.min(capitalCities)
 }

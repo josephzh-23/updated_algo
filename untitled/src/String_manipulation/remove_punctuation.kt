@@ -1,9 +1,11 @@
 package String_manipulation
 
-fun rmvPunct(s:String){
+fun removePunctuation(input: String): String? {
+    val builder = StringBuilder()
+    for (c in input.toCharArray()) if (Character.isLetterOrDigit(c)) builder.append(if (Character.isLowerCase(c)) c else c.lowercaseChar())
+    return builder.toString().also{println(it)}
+}
 
-    for(c in s){
-
-        s.
-    }
+fun main() {
+    removePunctuation("joseph####")
 }

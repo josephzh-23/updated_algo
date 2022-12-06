@@ -41,7 +41,6 @@ class Solution {
         }
 
         // The case where grid[r][c] =='1' basically, to mark it as visited
-
         //mark it
         seen[r][c] = true
         // Then call dfs on each direction

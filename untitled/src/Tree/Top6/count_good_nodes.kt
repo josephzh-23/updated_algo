@@ -1,5 +1,3 @@
-import Tree.TreeNode
-
 /*
 Use the preorder approach, center -> left tree and right tree
 1. Keep track of the greatest value seen so far
@@ -18,10 +16,10 @@ internal class Sol {
             numGoodNodes++
         }
         if (node.right != null) {
-            dfs(node.right, Math.max(node.value, maxSoFar))
+            dfs(node.right!!, Math.max(node.value, maxSoFar))
         }
         if (node.left != null) {
-            dfs(node.left, Math.max(node.value, maxSoFar))
+            dfs(node.left!!, Math.max(node.value, maxSoFar))
         }
     }
 }
@@ -31,10 +29,10 @@ fun main (){
 
     val root = TreeNode(3)
     root.left = TreeNode(1)
-    root.left.left = TreeNode(3)
+    root.left?.left = TreeNode(3)
     root.right = TreeNode(4)
-    root.right.left = TreeNode(1)
-    root.right.right = TreeNode(5)
+    root.right?.left = TreeNode(1)
+    root.right?.right = TreeNode(5)
     s.countGoodNodes(root)
 
 }

@@ -10,7 +10,7 @@ import java.util.*
     /*At each point check if it
     1. can look at each word and figure out the diff between 2 words
 
-     2. Want to fidn the shortest path from beginning to the end of the
+     2. Want to find the shortest path from beginning to the end of the
      word, each node differs by 1 letter
 
      3. "Hit" could be connected to any word in the list as long as they differ
@@ -20,13 +20,11 @@ import java.util.*
      like in teh approach given before
 
      But if you create that, total SC: O(n^2 *m) n for each word
-     m for the letter of the word
+     m for the # of rletter of the word
 
      Constraints: len(w) < 10       len(list) < 5000
 
-     Can change this to n* m2, (m is bigger, so why we use it
-
-
+     Can change this to n* m2, (m is bigger, so why we use it)
      */
 
 
@@ -94,7 +92,6 @@ import java.util.*
                 /*
                  Check for all possible characters
                  temp1  "ait" -> "bit" - "cit"    and so on
-
                  */
                 for (i in 0 until curr.length)  //For each index
                 {
@@ -110,32 +107,36 @@ import java.util.*
                     while (c <= 'z') {
                         temp1.setCharAt(i, c)
                         val temp = temp1.toString()
-
+                        println(temp)
                         // This is checking if it's same word
-                        // temp = hot
-                        // cur == hit
-                        if (curr.compareTo(temp) == 0) {
+                        // temp = hit
+                        // cur == hit   then this would be true
 
+                        // The found case
+                        if (curr.compareTo(temp) == 0) {
+                            println("found sth here")
                             // Why are we incrementing c here
+                            // so it would then be a, b
                             ++c
+                            println("$c")
                             continue  //Skip the same word
                         }
 
                         // Have reached the end word
                         if (temp.compareTo(endWord) == 0){
-
-                            println(depth)
+                            println(depth+1)
                             return depth + 1
                         } //endWord found}
 
 
                         /*
-                        Not the same word found so far
+                        The not found case
+                        This is not the same word found so far
                    if not same word found then try following,
                    Check if "bit" in the set that we began add it to q
                    and process
+                   temp hit
                          */
-
                         if (myset.contains(temp)) {
                             q.add(temp)
                             myset.remove(temp)
@@ -154,7 +155,7 @@ import java.util.*
 
 
 fun main() {
-
+    // this should return 5 as explained
     wordladder("hit", "cog",
     arrayOf("hot", "dot", "dog", "lot", "log", "cog"))
 }

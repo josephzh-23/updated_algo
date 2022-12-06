@@ -28,6 +28,7 @@ object Knapsack_01 {
         // Knapsack table
 
         // Initialize a table where individual rows represent items
+        // So whether to include an item
         // and columns represent the weight of the knapsack
         // All have ot be +1 as indicated
         val DP = Array(N + 1) { IntArray(capacity + 1) }
@@ -40,7 +41,7 @@ object Knapsack_01 {
             val w = W[i - 1]
             val v = V[i - 1]
             for (curCap in 1..capacity) {
-
+                println("value is $v")
                 // Consider not picking this element
                 // This would be directly 1 row above
                 DP[i][curCap] = DP[i - 1][curCap]
@@ -82,10 +83,10 @@ object Knapsack_01 {
         var V = intArrayOf(1, 4, 8, 5)
         var W = intArrayOf(3, 3, 5, 6)
         println(knapsack(capacity, W, V))
-        capacity = 7
-        V = intArrayOf(2, 2, 4, 5, 3)
-        W = intArrayOf(3, 1, 3, 4, 2)
-        println(knapsack(capacity, W, V))
+//        capacity = 7
+//        V = intArrayOf(2, 2, 4, 5, 3)
+//        W = intArrayOf(3, 1, 3, 4, 2)
+//        println(knapsack(capacity, W, V))
     }
 }
 

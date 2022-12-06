@@ -1,9 +1,9 @@
 package Tree.Top6
 
-import Tree.TreeNode
+import TreeNode
 
 
-    // Whatever inorder you have preorder
+// Whatever inorder you have preorder
     // always the 1st elem in the preorder
 
     // 1. find the preorder root in the inorder []
@@ -47,9 +47,9 @@ fun buildTree(preorder: IntArray, preStart: Int, preEnd: Int, inorder: IntArray?
     // This gives the number of indexes left in the case
     val numsLeft = inRootIndex - inStart
     root.left = buildTree(preorder, preStart + 1, preStart + numsLeft, inorder,
-            inStart, inRootIndex - 1, inMap)
+            inStart, inRootIndex - 1, inMap)!!
     root.right = buildTree(preorder, preStart + numsLeft + 1, preEnd, inorder,
-            inRootIndex + 1, inEnd, inMap)
+            inRootIndex + 1, inEnd, inMap)!!
     return root
 }
 

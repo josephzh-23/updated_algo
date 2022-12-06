@@ -24,15 +24,17 @@ fun longestSubstringTwoMostCharacters(s: String):Int{
         // b 2
         hp.put(s[r], r++)
 
+
+        // Since we will have 2 char at most
         if(hp.size ==3){
 
             // Delet the left most character since window
             // need to be slided now
-            val idxDel = Collections.min(hp.values)
+            val leftMostIndex = Collections.min(hp.values)
             //delete this char
-            hp.remove(s[idxDel])
+            hp.remove(s[leftMostIndex])
 
-            l = idxDel + 1
+            l = leftMostIndex + 1
         }
         maxLen = Math.max(maxLen, r - l)
     }

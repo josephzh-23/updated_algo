@@ -1,70 +1,63 @@
+
+// Course schedule is for a directed graph
+//https://www.youtube.com/watch?v=CL4NZAoOdpM&t=483s
+
+
 package Graph.Top_6
 
-
-/*
-OC: O(V+ E)     v vertex Edge: number of edges
-Check the notes on topological sorting
-this follows the khan's algorithm
- */
-
-internal class Solution13 {
+internal class Course_Schedule3 {
+    lateinit var adj: Array<MutableList<Int>>
+    lateinit var visited: BooleanArray
+    lateinit var explored: BooleanArray
     fun canFinish(numCourses: Int, prerequisites: Array<IntArray>): Boolean {
+        adj = Array(numCourses){mutableListOf(numCourses)}
 
-        // <node, # of incoming edges>
-        val table = IntArray(numCourses)
-        for (courses in prerequisites) {
-
-            // [1, 0]       0 would be the prereq here
-            val curCourse = courses[0]
-            table[curCourse]++
+        // Initialize a new list for each node here
+        for (i in 0 until numCourses) {
+            adj[i] = ArrayList()
         }
-        // The set that contains node with no edges
-        val hs: MutableSet<Int> = HashSet()
+        visited = BooleanArray(numCourses)
+        explored = BooleanArray(numCourses)
 
-
-        //find the element that has no incoming edges and then add to set
-        for (i in table.indices) {
-            if (table[i] == 0) {
-                hs.add(i)
-            }
+        // [1, 2]   ->    1: [2]
+        for (i in prerequisites.indices) {
+            adj[prerequisites[i][0]].add(prerequisites[i][1])
         }
-        //If the set is empty that means we have cyclic graph
-        if (hs.isEmpty() == true) {
-            return false
-        }
-
-        // Continue top sort if non empty, remove elem from hashset
-        while (hs.isEmpty() == false) {
-            val it: Iterator<Int> = hs.iterator()
-            val element = it.next()
-
-
-            //Remove edges that the current element has
-            for (course in prerequisites.indices) {
-
-                //check to see if element's prerequisite and the current course
-                val preQ = prerequisites[course][1]
-
-                //We found a connection between prequisite and current course
-                if (preQ == element) {
-                    val curCourse = prerequisites[course][0]
-
-                    //remove the incoming edges of this current course
-                    table[curCourse]--
-                    // if no more incoming edges
-                    if (table[curCourse] == 0) {
-                        hs.add(curCourse)
-                    }
+        for (i in 0 until numCourses) {
+            if (!visited[i]) {
+                if (isCyclic(i)) {
+                    return false
                 }
             }
-            // Then rmv it
-            hs.remove(element)
-        }
-        //check if there is any elem that has incoming edges
-        // if there is still edge -> cycle found
-        for (course in table) {
-            if (course > 0) return false
         }
         return true
     }
+
+    fun isCyclic(node: Int): Boolean {
+        visited[node] = true
+        for (neigh in adj[node]) {
+            if (!visited[neigh]) {
+                if (isCyclic(neigh)) {
+                    return true
+                }
+            } else if (!explored[neigh]) {
+                return true
+            }
+        }
+        explored[node] = true
+        return false
+    }
+}
+
+fun main(){
+
+    val times1 = arrayOf(
+            intArrayOf(1, 0),
+            intArrayOf(0, 2),
+    );
+    var c = Course_Schedule3()
+    // This is 3 because of the 2 before
+    println(c.canFinish(3, times1))
+
+    // And then using this we could have
 }

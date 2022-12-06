@@ -1,5 +1,7 @@
 package Tree
 
+import TreeNode
+
 /*
 TC: O(n)    n : total num of the ndoes in the tree
 SC: O(h)    for the call stack : h: the height of the tree here

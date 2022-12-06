@@ -1,22 +1,21 @@
+
 //package Tree
-//
+// O(n)
 //// Low and high represent the ranges here
-//fun validate(root: TreeNode?, min: Int?, max: Int?): Boolean {
-//    // Empty trees are valid BSTs.
-//    if (root == null) {
-//        return true
-//    }
-//    /*
-//     Return false when
-//     1. r.val < low
-//     */
-//
-//    return if (min != null && root.value <= min || max != null && root.value >= max) {
-//        false
-//    } else validate(root.right, root.value, max) && validate(root.left, min, root.value)
-//    // The left and right subtree must also be valid.
-//}
-//
-//fun isValidBSTRecur(root: TreeNode?): Boolean {
-//    return validate(root, null, null)
-//}
+internal class Solution {
+    fun validate(root: TreeNode?, low: Int?, high: Int?): Boolean {
+        // Empty trees are valid BSTs.
+        if (root == null) {
+            return true
+        }
+        // The current node's value must be between low and high.
+        return if (low != null && root.value <= low || high != null && root.value >= high) {
+            false
+        } else validate(root.right, root.value, high) && validate(root.left, low, root.value)
+        // The left and right subtree must also be valid.
+    }
+
+    fun isValidBST(root: TreeNode?): Boolean {
+        return validate(root, null, null)
+    }
+}

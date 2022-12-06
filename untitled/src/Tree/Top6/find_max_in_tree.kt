@@ -1,6 +1,6 @@
 package Tree.Top6
 
-import Tree.TreeNode
+import TreeNode
 import java.lang.Integer.max
 
 
@@ -41,15 +41,15 @@ fun main() {
     var s = Solution12()
     val root = TreeNode(1)
     root.left = TreeNode(8)
-    root.left.left = TreeNode(8)
-    root.left.left.right = TreeNode(831)
-    root.left.left.right.left = TreeNode(5)
-    root.left.left.right.right = TreeNode(6)
+    root.left?.left = TreeNode(8)
+    root.left?.left?.right = TreeNode(831)
+    root.left?.left?.right?.left = TreeNode(5)
+    root.left?.left?.right?.right = TreeNode(6)
     root.right = TreeNode(7)
-    root.right.right = TreeNode(8)
-    root.right.right.left = TreeNode(9)
-    root.right.right.left.left = TreeNode(10)
-    root.right.right.left.right = TreeNode(11)
+    root.right?.right = TreeNode(8)
+    root.right?.right?.left = TreeNode(9)
+    root.right?.right?.left?.left = TreeNode(10)
+    root.right?.right?.left?.right = TreeNode(11)
 
     s.findMaxInTree(root)
 }

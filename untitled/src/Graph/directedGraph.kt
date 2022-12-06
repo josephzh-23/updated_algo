@@ -1,9 +1,10 @@
 package Graph
-
+// Directed graph :
 // Edge has a specific direction  A-> B
 // But not B -> A       not the other way around
 
-// Using adjacency list
+// Undirected graph->   same as weighted graph
+// Using adjacency list for directed graph
 
 /*
 When is a directed graph cyclic? A - b - c - d- e - a
@@ -25,7 +26,7 @@ internal class DirectedGraph(edges: List<Edge>) {
 
     //Graph Constructor
     init {
-        // adjacency list memory allocation
+        // init a list for each node in adj list
         for (i in edges.indices) adj_list.add(i, ArrayList<Node>())
 
         // add edges to the graph

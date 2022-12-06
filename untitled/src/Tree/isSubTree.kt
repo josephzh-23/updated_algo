@@ -1,5 +1,7 @@
 package Tree
 
+import TreeNode
+
 /*
 TC: O(m * n)    for every n node in the tree
 check if the tree rooted at node is = to the subroot,

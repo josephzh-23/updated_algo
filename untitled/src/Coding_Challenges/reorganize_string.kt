@@ -15,7 +15,7 @@ Use a hashmap
 
 a -> 3      b -> 2     c -> 2
 
-each time we take off a, use b, since this is the next most
+each time we take off a, also then take off b, since this is the next most
 freq elemetn
 a: 3      a: 2      a: 1
 b: 1 ->   b: 0  ->  b: 0
@@ -34,7 +34,7 @@ fun reorganizeString(s: String): String {
     for(char in s){
         // This can be simplifed using getOrDefault()
         counts.apply {
-            put(char, counts.getOrDefault(char, 0) + 1)
+            put(char, getOrDefault(char, 0) + 1)
         }
     }
     // Build this based on how many times the character has occured
@@ -42,6 +42,7 @@ fun reorganizeString(s: String): String {
         counts.get(a)!!- counts.get(b)!!
     }
     // This will sort automatically
+    // counts.keys at this point will be
     maxHeap.addAll(counts.keys)
     var results = StringBuilder()
     while(maxHeap!=null){

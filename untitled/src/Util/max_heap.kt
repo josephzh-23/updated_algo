@@ -14,11 +14,11 @@ object maxheap {
         printDictionary((count as HashMap<*, *>))
 
         // init heap 'the less frequent element first'
-        val heap: Queue<Int> = PriorityQueue { n1: Int?, n2: Int? -> count[n1]!! - count[n2]!! }
+        val maxHeap: Queue<Int> = PriorityQueue { n1: Int?, n2: Int? -> count[n1]!! - count[n2]!! }
         for (n in count.keys) {
-            heap.add(n)
+            maxHeap.add(n)
             //            if (heap.size() > k) heap.poll();
         }
-        println(heap.poll())
+        println(maxHeap.poll())
     }
 }

@@ -1,6 +1,6 @@
 package Tree.Top6
 
-import Tree.TreeNode
+import TreeNode
 
 /*
 Trav in reverse inorder right, r, left as indicated
@@ -36,7 +36,7 @@ fun main() {
     var root = TreeNode(3)
     root.left = TreeNode(1)
     root.right = TreeNode(4)
-    root.left.right = TreeNode(2)
+    root.left?.right = TreeNode(2)
     sol3().findKthSmallest(1, root)
 
 }

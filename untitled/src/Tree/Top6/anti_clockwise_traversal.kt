@@ -1,6 +1,6 @@
 package Tree.Top6
 
-import Tree.TreeNode
+import TreeNode
 
 
 /*
@@ -8,10 +8,6 @@ import Tree.TreeNode
 An article also for this problem
 
 https://takeuforward.org/data-structure/boundary-traversal-of-a-binary-tree/
-
-Start with root.left then put it on
-if no left -> then go right
-then go left
 
 My plan might seem a little bit of an overkill for a problem
 like this so let's see the actual solutino
@@ -46,8 +42,9 @@ fun isLeaf(root: TreeNode): Boolean {
     return root.left == null && root.right == null
 }
 
+// add everything except for the leaf here
 fun addLeftBoundary(root: TreeNode, res: ArrayList<Int>) {
-    var cur: TreeNode = root.left
+    var cur: TreeNode? = root.left
     while (cur != null) {
         if (isLeaf(cur) == false) res.add(cur.value)
 
@@ -58,7 +55,7 @@ fun addLeftBoundary(root: TreeNode, res: ArrayList<Int>) {
 
 fun addRightBoundary(root: TreeNode, res: ArrayList<Int>) {
 
-    var cur: TreeNode = root.right
+    var cur: TreeNode? = root.right
     val tmp = ArrayList<Int>()
     while (cur != null) {
         if (isLeaf(cur) == false) tmp.add(cur.value)
@@ -80,8 +77,8 @@ fun addLeaves(root: TreeNode, res: ArrayList<Int>) {
         res.add(root.value)
         return
     }
-    if (root.left != null) addLeaves(root.left, res)
-    if (root.right != null) addLeaves(root.right, res)
+    if (root.left != null) addLeaves(root.left!!, res)
+    if (root.right != null) addLeaves(root.right!!, res)
 }
 
 fun printBoundary(node: TreeNode): ArrayList<Int> {
@@ -99,15 +96,15 @@ fun printBoundary(node: TreeNode): ArrayList<Int> {
 fun main(args: Array<String>) {
     val root = TreeNode(1)
     root.left = TreeNode(2)
-    root.left.left = TreeNode(3)
-    root.left.left.right = TreeNode(4)
-    root.left.left.right.left = TreeNode(5)
-    root.left.left.right.right = TreeNode(6)
+    root.left?.left = TreeNode(3)
+    root.left?.left?.right = TreeNode(4)
+    root.left?.left?.right?.left = TreeNode(5)
+    root.left?.left?.right?.right = TreeNode(6)
     root.right = TreeNode(7)
-    root.right.right = TreeNode(8)
-    root.right.right.left = TreeNode(9)
-    root.right.right.left.left = TreeNode(10)
-    root.right.right.left.right = TreeNode(11)
+    root.right?.right = TreeNode(8)
+    root.right?.right?.left = TreeNode(9)
+    root.right?.right?.left?.left = TreeNode(10)
+    root.right?.right?.left?.right = TreeNode(11)
     val boundaryTraversal: ArrayList<Int>
     boundaryTraversal = printBoundary(root)
     println("The Boundary Traversal is : ")

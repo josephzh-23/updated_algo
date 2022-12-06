@@ -1,6 +1,6 @@
 package Tree.Top6
 
-import Tree.TreeNode
+import TreeNode
 
 // Find lowest common ancestor
 
@@ -29,11 +29,11 @@ fun lowestCommonAncestor(root: TreeNode, p: TreeNode, q: TreeNode): TreeNode? {
    // Check if in right tree
     if(p.value > root.value && q.value > root.value){
 
-       return lowestCommonAncestor(root.right,p, q )
+       return lowestCommonAncestor(root.right!!,p, q )
 
         // In the left case
     }else if(p.value < root.value && q.value < root.value){
-        return lowestCommonAncestor(root.left,p, q )
+        return lowestCommonAncestor(root.left!!,p, q )
     }else{
         return root
     }

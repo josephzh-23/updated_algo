@@ -18,20 +18,20 @@ fun topKFrequent(nums: IntArray, k: Int): IntArray? {
 
     // init heap 'the less frequent element first'
     // Still a min heap though
-    val heap: Queue<Int> = PriorityQueue { n1: Int?, n2: Int? -> count[n1]!! - count[n2]!! }
+    val minHeap: Queue<Int> = PriorityQueue { n1: Int?, n2: Int? -> count[n1]!! - count[n2]!! }
 
     // 2. keep k top frequent elements in the heap
     // O(N log k) < O(N log N) time
     for (n in count.keys) {
-        heap.add(n)
-        if (heap.size > k) heap.poll()
+        minHeap.add(n)
+        if (minHeap.size > k) minHeap.poll()
     }
 
     // 3. build an output array
     // O(k log k) time
     val top = IntArray(k)
     for (i in k - 1 downTo 0) {
-        top[i] = heap.poll()
+        top[i] = minHeap.poll()
     }
     top.forEach{
         println(it)

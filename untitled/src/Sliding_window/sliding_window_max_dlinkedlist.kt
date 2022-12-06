@@ -2,8 +2,17 @@ package Sliding_window
 
 import java.util.*
 
+
 /*
- 1. Remember your deque would be kept in decreasing order
+1.Check Any el out of bound
+2. Any el <= a[i]
+If el < a[i], then el has to be removed. This is why it’s stored in decreasing fashion, can be
+removed in from the back here.
+
+3. Then also add the last element to this as well
+4. Add the results to the results array with the index and the value at that index
+
+ 5. Can remove from the back here
  */
 
 internal object TUF {
@@ -15,7 +24,9 @@ internal object TUF {
 
         // store right idx, this is for
         var rightIndex = 0
-        // store index of the elements
+
+        // store index of the elements, not the values
+        // itself
         val q: Deque<Int> = ArrayDeque()
         for (i in a.indices) {
 
@@ -28,12 +39,13 @@ internal object TUF {
                 q.pollLast()
             }
 
-            // Now add to back
+            // Now add to back the new index at each level
             q.offer(i)
 
             /*
-            0  1  2     at here when idx = 2, k = 3
+            1, 3, -1      at here when idx = 2, k = 3
             it will start getting the max from the q here
+            r[2] = 1
              */
             if (i >= k - 1) {
 

@@ -1,4 +1,7 @@
 package Tree
+
+import TreeNode
+
 // in order left, r, right
 // preOrder: r, left and right
 // postOrder: left, right, center
@@ -6,7 +9,12 @@ fun main() {
     var s = Solution()
     var root = TreeNode(3)
     root.left = TreeNode(4)
+    root.left!!.left = TreeNode(1)
+    root.left!!.right = TreeNode(6)
+
     root.right = TreeNode(5)
+    root.right!!.left = TreeNode(3)
+    root.right!!.right = TreeNode(7)
     s.inorderTraversal(root)
 }
 internal class Solution {

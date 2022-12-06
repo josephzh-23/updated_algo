@@ -1,4 +1,4 @@
-package Util
+package String_manipulation
 
 fun changeString(){
 
