@@ -3,10 +3,13 @@ package Sliding_window
 import java.util.*
 import kotlin.collections.HashMap
 
+//https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/
 
-// So at most 2 char are different
-// Use 2 pter l and r, move the r pter when contain < 2 char
-//  if > 3 char, then move l pter
+/*
+1. when reach 3 most char
+2. Delete left most index value
+3. Update the left
+ */
 
 fun longestSubstringTwoMostCharacters(s: String):Int{
 

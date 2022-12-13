@@ -13,12 +13,13 @@ class Solution {
 
     fun maxAreaOfIsland(grid: Array<IntArray>): Int {
         this.grid = grid;
-        seen =   Array(grid.size) { BooleanArray(grid[0].size) }
-        val nr = grid.size
-        val nc = grid[0].size
+        val rowSize = grid.size
+        val colSize = grid[0].size
+        seen =   Array(rowSize) { BooleanArray(colSize) }
+
         var num = 0
-        for (r in 0 until nr) {
-            for (c in 0 until nc) {
+        for (r in 0 until rowSize) {
+            for (c in 0 until colSize) {
                     num = Math.max(num, area(r, c))
                 }
             }

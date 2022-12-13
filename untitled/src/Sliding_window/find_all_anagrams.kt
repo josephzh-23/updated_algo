@@ -12,6 +12,7 @@ shash :   idx:0  1 2  3 4    each idx represent   -> 'a' 'b' 'c' 'd' 'e'
 phash :   idx: 0 1 2  3 4
        count: 1  1 1  1 1
 
+Notice this can also be done using dictionary here
  */
 fun findAnagrams(s:String, p:String): List<Int>{
     var ans = mutableListOf<Int>()
@@ -19,36 +20,36 @@ fun findAnagrams(s:String, p:String): List<Int>{
     var phash = IntArray(26)
 
     var (left ,right) = Pair(0, 0)
-    var windowSize = p.length
-    var len = s.length
+    var pLen = p.length
+    var sLen = s.length
     if(s.length==0 || s==null) return ans
 
     // store at each idx the frequencey of that letter
     var count = IntArray(26)
 
-    if(len < windowSize){
+    if(sLen < pLen){
 
         return ans
     }
 
 
-    // this is for the first window
+    // this is for the first window only with windowLen = 3
+    // s: abc   p: abc
     // set up all the counts
-    while(right < windowSize){
+    while(right < pLen){
         phash[p[right]-'a']++
         shash[s[right++]-'a']++
     }
-
-    right--
-
-    // Now start sliding the window
+    // So start at the right index
+    right-=1
+    // N
     /*
-    and each time when we slide we then
+    and with each iteration
     1. dec count for leftMost char, inc left pt
     2. inc count for rightmost char, int right pt
-    2. If phash size == shash
+    2. If phash size == shash, add the left index to resList
      */
-    while(right <len){
+    while(right <sLen){
 
         // This is when all hash.size are the same
         // then add the left pointer idx
@@ -59,7 +60,7 @@ fun findAnagrams(s:String, p:String): List<Int>{
         right++
         // So this is when not at the end yet
 
-        if(right!= len){
+        if(right!= sLen){
             shash[s[right]-'a']++
         }
 

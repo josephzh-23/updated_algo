@@ -1,4 +1,4 @@
-package Graph.Top_6
+package Graph
 
 
 /*
@@ -13,21 +13,13 @@ The graph here is
 1  0  0   1
 1  1  1   1
  */
-
-var grid = arrayOf(intArrayOf(1, 1, 1, 1),
-        intArrayOf(1, 1, 1, 1),
-        intArrayOf(1, 0, 0, 1),
-        intArrayOf(1, 1, 1, 1))
-
-
-
-
-fun main() {
-
-    checkOutOfBound()
-}
-
-
+var w = 'w'
+var b = 'b'
+var e = 'e'
+var grid2 = arrayOf(charArrayOf(w, w, w, w),
+        charArrayOf(w, w, w, w),
+        charArrayOf(b, w, w, w),
+        charArrayOf(w, w, w, w))
 fun checkOutOfBound(){
 
     // and to work on this problem here
@@ -52,4 +44,9 @@ fun checkOutOfBound(){
             println(" within bound")
         }
     }
+}
+
+fun main() {
+
+    checkOutOfBound()
 }

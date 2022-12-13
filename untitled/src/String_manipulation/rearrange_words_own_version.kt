@@ -11,7 +11,11 @@ import kotlin.collections.HashMap
 // Create a set that would store all frequency in the set
 // c -> 2   a -> 3  b->3
 
-// What we need is a set to store frequency of the set
+/*
+
+Count the # of time each word occurs in the whole sentence per char
+{c: 3}  means c is in 3 words here
+ */
 // Use 1 more structure here
 // O(m *n)
 fun arrangeWords(text: String): String {

@@ -37,6 +37,7 @@ fun bfsGraph(data: Array<IntArray>?, start: Int): Int {
     var q = LinkedList<Int>()
     val visited = BooleanArray(10)
 
+    // You add the starting point to this
     q.add(start)
     visited[start] = true
     while(!q.isEmpty()){

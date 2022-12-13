@@ -1,6 +1,7 @@
 package String
 
 // this way we go towards the middle from the back
+// and the start
 internal class Solution {
     fun isPalindrome(s: String): Boolean {
         var i = 0

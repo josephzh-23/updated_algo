@@ -3,7 +3,9 @@ package Sliding_window
 import java.util.*
 
 
-
+/*
+https://leetcode.com/problems/degree-of-an-array/
+ */
 /*
 An array that has degree d, must have some element x occur d times.
 So 1. need count dict

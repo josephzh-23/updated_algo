@@ -14,6 +14,8 @@ Every time we poll from the queue
 going on
 5. Move in all 4 direcitons as said and then ssee what's goin
 g on
+
+https://leetcode.com/problems/number-of-islands/description/
  */
 
 // Using the bfs here and then
@@ -44,6 +46,9 @@ fun numIslands(grid: Array<CharArray>?): Int {
                         val newCol = curr[1] + dir[1]
                         if (newRow >= 0 && newRow < row && newCol >= 0 && newCol < col && grid[newRow][newCol] == '1') {
                             qu.add(intArrayOf(newRow, newCol))
+
+                            // Mark sth as 2 basically saying it hasn't
+                            // been visited here essentiallly
                             grid[newRow][newCol] = '2'
                         }
                     }

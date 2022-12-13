@@ -15,7 +15,6 @@ The reason why we need the state as above
     on left: 0 obstacle removed
     on right: 1 obstacle removed    even though both end up at (0, 1)
  */
- class Solution3 {
     fun shortestPath(grid: Array<IntArray>, k: Int): Int {
         val m = grid.size
         val n = grid[0].size
@@ -72,4 +71,3 @@ The reason why we need the state as above
         }
         return -1
     }
-}

@@ -2,13 +2,15 @@ package Sliding_window
 /*
 
 Time complexity : O(n^2)O(n
-expanding around the center takes O(n^2) times
+expand around the center for odd and even case
+
  */
 fun longestPalindromeString(
         s:String
 ):String{
 
     var res = ""
+    // Storign the result of the length
     var reslen = 0
 
     for(i in s.indices){
