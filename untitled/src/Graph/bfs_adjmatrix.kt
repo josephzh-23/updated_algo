@@ -1,31 +1,60 @@
 package Graph
 
+import Graph.Top_6.directions
 import java.util.*
+
+var matrix =arrayOf(
+        intArrayOf(1, 1, 1, 1),
+        intArrayOf(1, 0, 0, 0),
+        intArrayOf(1, 0, 0, 0),
+        intArrayOf(1, 0, 0, 0),
+);
 
 
 // Using the bfs adjacency matrix here
-fun searchMatrix(matrix: Array<IntArray>, target: Int): Boolean {
+// THis one will work for sure 100% as said
+fun searchMatrix(matrix: Array<IntArray>): Boolean {
 
     // given a start point here
-    var start =
-    var visited = BooleanArray(matrix.size)
-    Arrays.fill(visited, false)
-
+//    var start = intArrayOf(1,1)
+    // 1 and 1 are the starting point for this
+    var visited =Array(matrix.size){BooleanArray(matrix[0].size)}
+    var start = intArrayOf(0, 0)
     var q: Queue<IntArray> = LinkedList()
-    q.add(intArrayOf)
+    q.add(start)
 
-    visited[start] = true
+    var count = 0
+
+    visited[start[0]][start[1]] = true
     while(!q.isEmpty()){
         var node = q.poll()
-        println("removed node is")
-        q.remove(q.get(0))
-    }
+        var x= node[0]; var y = node[1]
+        // YOu need to print the node at that point
 
+
+        directions.forEach { dir ->
+            var dx = x + dir[0]
+            var dy = y + dir[1]
+            if (isInBounds(matrix, dx, dy) ) {
+                if(!visited[dx][dy]) {
+                    println("removed node is ${matrix[dx][dy]} ")
+                    visited[dx][dy] = true
+                    q.offer(intArrayOf(dx, dy))
+                }
+            }
+        }
+    }
+    return true
+}
+fun main() {
+    searchMatrix(matrix)
 }
 
 // This makes sure no array out of bound exception here
-fun isOutOfBounds( board: Array<CharArray>, x: Int, y:Int): Boolean {
-    return (x< 0|| y< 0 || x> board.size - 1|| y> board[0].size -1)
+fun isInBounds( board: Array<IntArray>, x: Int, y:Int): Boolean {
+   if (x< 0|| y< 0 || x>= board.size|| y>= board[0].size){
+       return false
+   }else return true
 }
 
 

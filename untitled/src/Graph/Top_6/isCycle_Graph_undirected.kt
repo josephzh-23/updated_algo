@@ -58,17 +58,12 @@ internal class Solution3 {
         // mark as visited and check each neighbor
         vis[node] = true
         for (neigh in adj[node]) {
-
             if (vis[neigh] == false) {
-
                 if (checkForCycle(neigh, node, vis, adj) == true) {
-
                     return true
                 }
-
                 // THis checks for the case where next node is the previous node
                 // This is the
-
                 /*
                 A cycle would form below
                           3

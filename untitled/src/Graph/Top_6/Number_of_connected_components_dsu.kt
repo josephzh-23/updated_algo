@@ -88,3 +88,5 @@ class UnionFind(n: Int) {
         numOfComponets--
     }
 }
+
+fun trial(){}

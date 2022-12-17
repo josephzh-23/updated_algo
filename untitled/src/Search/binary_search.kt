@@ -6,20 +6,15 @@ package Search
 internal class BinarySearch {
     // Returns index of x if it is present in arr[l..
     // r], else return -1
-    fun binarySearch(arr: IntArray, l: Int, r: Int, x: Int): Int {
+    fun binarySearch(arr: IntArray, l: Int, r: Int, target: Int): Int {
         if (r >= l) {
             val mid = l + (r - l) / 2
 
-            // Found the value looking for
-            if (arr[mid] == x) return mid
+            if (arr[mid] == target) return mid
 
-            // If element is smaller than mid, then
-            // it can only be present in left subarray
-            return if (x< arr[mid]) binarySearch(arr, l, mid - 1, x)
-            else binarySearch(arr, mid + 1, r, x)
+            return if (target< arr[mid]) binarySearch(arr, l, mid - 1, target)
+            else binarySearch(arr, mid + 1, r, target)
 
-            // Else the element can only be present
-            // in right subarray
         }
         return -1
     }

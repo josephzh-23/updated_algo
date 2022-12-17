@@ -42,6 +42,7 @@ object Knapsack_01 {
             val v = V[i - 1]
             for (curCap in 1..capacity) {
                 println("value is $v")
+                // 2 cases: pick or not pick the element
                 // Consider not picking this element
                 // This would be directly 1 row above
                 DP[i][curCap] = DP[i - 1][curCap]
@@ -49,12 +50,13 @@ object Knapsack_01 {
                 // Check if we can get a better value if we were to include current item
                 // Consider including the current element and
                 // see if this would be more profitable
-                if (curCap >= w && DP[i - 1][curCap - w] + v > DP[i][curCap]) DP[i][curCap] = DP[i - 1][curCap - w] + v
+                if (curCap >= w && DP[i - 1][curCap - w] + v > DP[i][curCap])
+                    DP[i][curCap] = DP[i - 1][curCap - w] + v
             }
         }
 
 
-        // Part 2: this part is completely optional
+        // Part 2: this part is completely optional for printing out the stuff
         var sz = capacity
         val itemsSelected: MutableList<Int> = ArrayList()
 
@@ -73,7 +75,7 @@ object Knapsack_01 {
         // java.util.Collections.reverse(itemsSelected);
         // return itemsSelected;
 
-        // Return the maximum profit
+        // this Return the maximum profit
         return DP[N][capacity]
     }
 

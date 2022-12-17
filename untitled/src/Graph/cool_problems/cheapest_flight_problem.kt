@@ -1,4 +1,4 @@
-package Graph.Top_6
+package Graph.cool_problems
 
 import java.util.*
 //flights where flights[i] = [fromi, toi, pricei]

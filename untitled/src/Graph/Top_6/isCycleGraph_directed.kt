@@ -15,10 +15,10 @@ b/c 3-5
  */
 
 /*
-Cycle here      7  -  2, 8
+Cycle here      7  -  2,
 8 - 9       9 - 7           a cycle at 7 here
 There would be 2 visited arrays, 1 for visited and 1 for
-dfs_visited
+dfs_visited (also known as explored)
 Each time you visit a node, mark all node as 1 and check its neigbor
 
 How to know cycle?

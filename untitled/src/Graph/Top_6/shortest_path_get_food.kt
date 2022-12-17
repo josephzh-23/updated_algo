@@ -2,6 +2,7 @@ package Graph.Top_6
 
 import java.util.*
 //https://leetcode.com/problems/shortest-path-to-get-food/description/
+// Need to add both i, j and the # of step for the q here
 fun getFood(grid: Array<CharArray>): Int {
     var count = 0
     var rowSize = grid.size

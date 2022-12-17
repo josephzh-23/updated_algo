@@ -3,6 +3,7 @@ package Graph.Top_6
 import java.util.*
 
 /*
+https://leetcode.com/problems/network-delay-time/description/
 The format below is very important as discussed
 
  'a': {['b', 3], ['c', 4], ['d', 7]},
