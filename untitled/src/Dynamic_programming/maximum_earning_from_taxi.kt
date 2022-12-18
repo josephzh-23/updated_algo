@@ -1,7 +1,5 @@
 package Dynamic_programming
 
-import java.util.*
-import kotlin.collections.ArrayList
 
 // n points you are driving on here
 // 1- n
@@ -38,8 +36,8 @@ dp table
     From 0-5 it stays at 0, since we are still carrying psgers no drop off
     yet.
 
-     the profit 0  0  0  0   0   0  6  6  6  9  9
- the stop pts  0  1  2  3   4   5  6  7  8  9  10 11
+     the profit 0  0  0  0   0   0  6  6  6  9   9
+ the stop pts  0   1  2  3   4   5  6  7  8  9  10 11
  Based on [3, 10, 2]
     At i = 10, max is 9  [10-3 + 2]= 9 this will be > 6 from previous,
      so  you  are ignoring 6, can only take 1 passenger
@@ -64,40 +62,43 @@ dp table
 fun maxTaxiEarnings( n: Int, rides: Array<IntArray>): Long {
     // For each end: there would be a list of values here
     // end : [start, price]
-    var map:MutableMap< Int, ArrayList<IntArray>> = HashMap()
-    for(r in rides){
-        var values = map.get(r[1])
 
-        // end: []
-        if(values == null){
-            values = ArrayList()
-            map.put(r[1], values)
-        }
-        // end: [1, 2]      example
-        values.add(r)
+    // This is a DP problem with DP expression as :
+    /*
+     dp[i] = max of (dp[i-1], max of profit i can earn from all
+    rides ending at this point i.e dp[i-start] + profit)
+
+     */
+
+
+    // This is a DP problem with DP expression as :
+    // dp[i] = max of (dp[i-1], max of profit i can earn from all rides ending at this point i.e dp[i-start] + profit)
+
+    // store all rides ending at particular position
+    val end: MutableMap<Int, MutableList<IntArray>> = HashMap()
+    var maxEnd = 0
+    // Would give you the end_index: [ 2, 5, 1]
+    for (ride in rides) {
+        maxEnd = Math.max(maxEnd, ride[1])
+        end.putIfAbsent(ride[1], ArrayList())
+        end[ride[1]]!!.add(ride)
     }
 
-    var dp = IntArray(n+ 1)
-
-    // WHy start at 2
-    for(i in 2 until n){
-        var values = map.get(i)
-        if(values!=null){
-            var earning = 0
-            for(value in values){
-                // [10, 12, 3]     and [11, 12, 2]  take 1st one
-                // 5 + dp[10]
-                // take 2nd one     12- 11 + 2 + dp[11]
-                earning  = Math.max(earning, value[1] - value[0] + value[2] + dp[value[0]])
-            }
-            // When you get down to here then
-            // [10, 12, 3]     and [11, 12, 2]
-            dp[i] = earning
+    val dp = LongArray(maxEnd + 1)
+    dp[0] = 0
+    for (i in 1..maxEnd) {
+        dp[i] = dp[i - 1]
+        if (!end.containsKey(i)) {
+            continue
         }
-        // Always take the maximum of the value down here
-        dp[i] = Math.max(dp[i], dp[i-1])
+
+        // could then be dp[10] + (12 -10 + 3)
+        for (ride in end[i]!!) {
+            dp[i] = Math.max(dp[i], dp[ride[0]] + (ride[1] - ride[0] + ride[2]))
+        }
     }
-    return dp[n].toLong()
+
+    return dp[maxEnd]
 }
 
 fun main() {
@@ -109,5 +110,5 @@ fun main() {
             intArrayOf(11, 12, 2),
             intArrayOf(12, 15, 2),
             intArrayOf(13, 18, 1))
-    maxTaxiEarnings(5,arr )
+    println(maxTaxiEarnings(5,arr ))
 }

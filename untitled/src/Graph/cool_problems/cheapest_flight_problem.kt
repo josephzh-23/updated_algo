@@ -4,7 +4,6 @@ import java.util.*
 //flights where flights[i] = [fromi, toi, pricei]
 
 // Time Limit Exceeded
-internal class Solution1 {
     fun findCheapestPrice(n: Int, flights: Array<IntArray>, src: Int, dst: Int, K: Int): Int {
         val g = Array(n) { IntArray(n) }
         for (f in flights) {
@@ -31,4 +30,3 @@ internal class Solution1 {
         }
         return -1
     }
-}

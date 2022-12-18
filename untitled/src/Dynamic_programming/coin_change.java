@@ -3,6 +3,7 @@ package Dynamic_programming;
 import java.util.Arrays;
 
 /*
+https://leetcode.com/problems/coin-change/
 Basically break this into a subproblem
 1. [1, 3, 4, 5] 		Amt = 7
 min coin  should be 2, 	with [ 3 + 4]

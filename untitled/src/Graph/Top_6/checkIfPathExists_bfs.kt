@@ -8,9 +8,7 @@ import kotlin.collections.HashMap
 TC: O(V + E) V = # of vertices and E = num of edges
 n nodes and m eedges in this problem
  */
-private var edges = arrayOf(intArrayOf(0,1),
-intArrayOf(1, 2),
-intArrayOf(2, 0))
+
 /*
 
 Here will implement the bfs or dfs approach here
@@ -36,7 +34,6 @@ fun checkIfPathExists(n: Int, edges: Array<IntArray>, source: Int, destination: 
         var node = q.pop()
         println("the popped queue is $node")
 
-
         if(node == destination){
             return true
         }
@@ -54,7 +51,9 @@ fun checkIfPathExists(n: Int, edges: Array<IntArray>, source: Int, destination: 
 }
 
 fun main(){
-
+   var edges = arrayOf(intArrayOf(0,1),
+            intArrayOf(1, 2),
+            intArrayOf(2, 0))
     countNumPath(3, edges, 0, 2)
 
 }

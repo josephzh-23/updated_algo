@@ -19,7 +19,6 @@ min_so_far                  -30   -12
 Since we have negative number
 so as seen we need to keep track of the min and max seen so far
  */
-
 /*
  use a curMin and curMax so far, and also keep track of the result so
  far, because the result could be either
