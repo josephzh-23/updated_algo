@@ -1,4 +1,4 @@
-package Graph.Top_6
+package Graph.Cycle_detection
 
 /*
 
@@ -101,7 +101,7 @@ internal object Solution5 {
         val dfsVis = IntArray(N)
         for (i in 0 until N) {
             if (vis[i] == 0) {
-                if (Solution5.checkCycle(i, adj, vis, dfsVis) == true) return true
+                if (checkCycle(i, adj, vis, dfsVis) == true) return true
             }
         }
         return false

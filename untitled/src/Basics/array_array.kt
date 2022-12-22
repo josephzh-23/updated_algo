@@ -1,5 +1,5 @@
 package Util
-
+// When given 3 array values
 fun minimumCost(n: Int, connections: Array<IntArray>): Int {
     // this is an array of arrays here
 //    val g = Array(n) { IntArray(n) }

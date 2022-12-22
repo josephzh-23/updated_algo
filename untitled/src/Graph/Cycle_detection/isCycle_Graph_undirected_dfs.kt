@@ -1,4 +1,4 @@
-package Graph.Top_6
+package Graph.Cycle_detection
 
 // Perform a dfs from 1 to # of nodes
 // And check if cycle is formed here

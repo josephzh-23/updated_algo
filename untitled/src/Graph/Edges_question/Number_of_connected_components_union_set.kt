@@ -2,11 +2,19 @@
 
 // https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
 fun main() {
-    var s= Solution4()
     var edges = arrayOf(intArrayOf(0,1),
     intArrayOf(1, 2),
     intArrayOf(3, 4))
-    s.countComponents(5, edges)
+
+    var edges2 = arrayOf(intArrayOf(0,1),
+            intArrayOf(1, 2),
+            intArrayOf(2, 3),
+            intArrayOf(3, 4))
+    /*
+    Here the answer should give 2, since 0 - 1 - 2 connected
+    and 3-4 connected here.
+     */
+    countComponents(5, edges2)
 }
 
 /*
@@ -15,22 +23,27 @@ Time complexity == O (n + M* log(n))    (with compression)
 
 n = num of nodes given   m = num of edges we have
  */
-class Solution4{
 
 
-    fun countComponents(n: Int, edges: Array<IntArray>):Int{
-        var u = UnionFind(n)
-        for(edge in edges){
-            u.union(edge[0], edge[1])
-        }
-        print(u.numOfComponets)
-        return u.numOfComponets
+fun countComponents(n: Int, edges: Array<IntArray>): Int {
+    var u = UnionFind(n)
+    for (edge in edges) {
+        u.union(edge[0], edge[1])
     }
+        print(u.numOfComponets)
+    return u.numOfComponets
 }
 
 class UnionFind(n: Int) {
     private val parents: IntArray
     private val ranks: IntArray
+
+    // This vairable is used to check if a cycle
+    var isCycle = false
+
+    /*
+    basically for every edges where there is no component
+     */
     var numOfComponets = 0
 
     init {
@@ -69,15 +82,21 @@ class UnionFind(n: Int) {
         return root
     }
 
-    fun findComponentSize(cur: Int): Int {
-        val parent = find(cur)
-        return ranks[parent]
-    }
+//    fun findComponentSize(cur: Int): Int {
+//        val parent = find(cur)
+//        return ranks[parent]
+//    }
 
     fun union(node1: Int, node2: Int) {
         val node1Parent = find(node1)
         val node2Parent = find(node2)
-        if (node1Parent == node2Parent) return
+
+        // If the same parent, that means a cycle is found
+        if (node1Parent == node2Parent) {
+            isCycle = true
+            return
+        }
+
         if (ranks[node1Parent] > ranks[node2Parent]) {
             parents[node2Parent] = node1Parent
             ranks[node1Parent] += ranks[node2Parent]
@@ -88,5 +107,3 @@ class UnionFind(n: Int) {
         numOfComponets--
     }
 }
-
-fun trial(){}

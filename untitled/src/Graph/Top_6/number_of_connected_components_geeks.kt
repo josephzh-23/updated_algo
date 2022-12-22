@@ -14,11 +14,11 @@ Basically the idea is that you move in here
 
 fun main(){
 
-    println(countComponents(5, arrayOf(intArrayOf(0, 1),
+    println(countComponentsdfs(5, arrayOf(intArrayOf(0, 1),
             intArrayOf(1, 2),
             intArrayOf(3, 4))))
 }
-fun countComponents(n: Int, edges: Array<IntArray>): Int {
+fun countComponentsdfs(n: Int, edges: Array<IntArray>): Int {
     var res = 0
 
     val adj = Array<ArrayList<Int>>(n){ ArrayList() }
