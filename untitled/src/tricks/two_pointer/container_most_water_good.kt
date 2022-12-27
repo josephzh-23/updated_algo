@@ -1,4 +1,4 @@
-package two_pointer
+package tricks.two_pointer
 /*
 The formula
 area = (R- L) * min(height[l], height[r])

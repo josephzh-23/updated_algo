@@ -7,6 +7,9 @@ fun main(){
     dfsMatrix()
 }
 
+
+val dir = arrayOf(intArrayOf(0, 1), intArrayOf(1, 0), intArrayOf(0, -1), intArrayOf(-1, 0))
+
 fun dfsMatrix(){
     // and that's it
     var grid = arrayOf(intArrayOf(0,0,1,0),
@@ -26,16 +29,15 @@ fun dfsMatrix(){
 fun dfs(grid: Array<IntArray>, r: Int, c: Int, seen: Array<BooleanArray>) {
 
     // visited already
-    if (r < 0 || c < 0 || r >= grid.size || c >=
-            grid[0].size || seen[r][c]) {
+    if (r < 0 || c < 0 || r >= grid.size || c >= grid[0].size || seen[r][c]) {
         return
     }
     // else mark as visited
     seen[r][c] = true
     println(grid[r][c])
-    dfs(grid, r - 1, c, seen)
-    dfs(grid, r + 1, c, seen)
-    dfs(grid, r, c - 1, seen)
-    dfs(grid, r, c + 1, seen)
+
+    for (d in dir) {
+        dfs(grid, r + d[0], c + d[1], seen)
+    }
 
 }

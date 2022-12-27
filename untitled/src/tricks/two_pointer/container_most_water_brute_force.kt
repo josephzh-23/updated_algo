@@ -1,4 +1,4 @@
-package two_pointer
+package tricks.two_pointer
 
 fun containMostWaterBF(height:IntArray):Int{
 

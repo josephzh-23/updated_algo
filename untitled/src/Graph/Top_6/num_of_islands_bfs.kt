@@ -66,5 +66,5 @@ fun main() {
             charArrayOf('0', '0', '0', '1', '1'))
 
     numIslands(grid)
-
+    // and using this we can have the data sent here
 }

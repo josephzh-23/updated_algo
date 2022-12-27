@@ -4,6 +4,7 @@ import java.util.*
 import kotlin.collections.HashMap
 
 /*
+
 TC: O(nlogn)
 
 Use a max heap-> b/c most frequent item here
@@ -91,5 +92,32 @@ fun reorganizeString(s: String): String {
 
 fun main() {
 
-    reorganizeString("jooooseph")
+//    reorganizeString("jooooseph")
+}
+
+
+fun reorganizeString3(s:String){
+// build this part first
+    val counts: MutableMap<Char, Int> = HashMap()
+
+    for(char in s){
+        // This can be simplifed using getOrDefault()
+        counts.apply {
+            put(char, getOrDefault(char, 0) + 1)
+        }
+    }
+    // Based on the number of times this has happened
+
+    val maxHeap: Queue<Char> = PriorityQueue { a: Char, b: Char ->
+        counts.get(a)!!- counts.get(b)!!
+    }
+
+    maxHeap.addAll(counts.keys)
+
+    var result = StringBuilder()
+    while(!maxHeap.isEmpty()){
+        
+        val res =maxHeap.poll()
+
+    }
 }

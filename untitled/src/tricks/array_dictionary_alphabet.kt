@@ -7,7 +7,7 @@ fun main() {
 
     for(i in 0 until string1.length){
         var char = string1[i]
-        s1map[char.code - 'a'.code]++
+        s1map[char.code - 'a'.code] = i
     }
     s1map.forEach{
         println(it)

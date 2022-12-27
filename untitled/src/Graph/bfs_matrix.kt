@@ -3,6 +3,8 @@ package Graph
 import Graph.Top_6.directions
 import java.util.*
 
+
+
 var matrix =arrayOf(
         intArrayOf(1, 1, 1, 1),
         intArrayOf(1, 0, 0, 0),
@@ -22,6 +24,8 @@ fun searchMatrix(matrix: Array<IntArray>): Boolean {
     var start = intArrayOf(0, 0)
     var q: Queue<IntArray> = LinkedList()
     q.add(start)
+
+    // We know the starting pt right here
 
     var count = 0
 

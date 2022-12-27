@@ -1,4 +1,4 @@
-package Sliding_window
+package Sliding_window.Hard
 /*
 
 Time complexity : O(n^2)O(n

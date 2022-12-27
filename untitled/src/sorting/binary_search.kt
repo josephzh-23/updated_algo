@@ -1,4 +1,4 @@
-package Search
+package sorting
 
 // Begin with mid elem,
 // Java implementation of recursive Binary Search

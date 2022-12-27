@@ -11,6 +11,17 @@ fun main() {
         println(row.contentToString())
     }
 
+    for (i in 1 until arr.size) {
+        for (j in 1 until arr[i].size) {
+            if (arr[i][j] == 0) {
+                // of that column
+                arr[0][j] = 0
+                // of that row
+                arr[i][0] = 0
+            }
+        }
+    }
+
     /*
     Main pts
     1. Create a dp array of size [n][k+1], a 2d array, size of input is 1

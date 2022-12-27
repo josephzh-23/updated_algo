@@ -1,4 +1,4 @@
-package Search;
+package sorting;
 
 class Solution{
 

@@ -26,11 +26,13 @@ internal class Solution15 {
         val pacific = Array(row) { BooleanArray(col) }
         val atlantic = Array(row) { BooleanArray(col) }
 
-        //DFS for first row and last row
+        //So basically we start from first and last column
         for (i in 0 until col) {
             dfs(matrix, 0, i, Int.MIN_VALUE, pacific)
             dfs(matrix, row - 1, i, Int.MIN_VALUE, atlantic)
         }
+        //So basically we start from first and last row
+
         for (i in 0 until row) {
             dfs(matrix, i, 0, Int.MIN_VALUE, pacific)
             dfs(matrix, i, col - 1, Int.MIN_VALUE, atlantic)

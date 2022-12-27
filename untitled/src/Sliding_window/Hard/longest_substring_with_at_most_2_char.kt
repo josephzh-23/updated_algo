@@ -1,4 +1,4 @@
-package Sliding_window
+package Sliding_window.Hard
 
 import java.util.*
 import kotlin.collections.HashMap

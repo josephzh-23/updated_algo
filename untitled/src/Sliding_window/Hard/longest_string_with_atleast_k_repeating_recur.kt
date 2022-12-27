@@ -1,4 +1,4 @@
-
+package Sliding_window.Hard
 // The answer for this would be O(n^2) solution
 // S: O(n)  the answer for this would be O(n^2)
 fun longestSubstring(s: String, k: Int): Int {

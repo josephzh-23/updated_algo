@@ -26,7 +26,7 @@ so as seen we need to keep track of the min and max seen so far
  */
 
 
-internal class Solution {
+internal class Solution18 {
     fun maxProduct(nums: IntArray): Int {
         var max_so_far = nums[0]
         var min_so_far = nums[0]
