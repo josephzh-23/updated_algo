@@ -36,13 +36,13 @@ fun countComponentsdfs(n: Int, edges: Array<IntArray>): Int {
     return res
 }
 
-fun dfs(adj: Array<ArrayList<Int>>, isVisited: BooleanArray, i: Int) {
-   if(isVisited[i]){
+fun dfs(adj: Array<ArrayList<Int>>, isVisited: BooleanArray, vertex: Int) {
+   if(isVisited[vertex]){
        return
    }
-    isVisited[i] = true
+    isVisited[vertex] = true
     // loop throgh the node
-    for(j in 0 until adj[i].size){
-        dfs(adj,isVisited, adj.get(i).get(j))
+    for(j in 0 until adj[vertex].size){
+        dfs(adj,isVisited, adj.get(vertex).get(j))
     }
 }

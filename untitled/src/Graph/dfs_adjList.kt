@@ -1,8 +1,11 @@
 package Graph
 
+import Graph.Top_6.countComponentsdfs
 import java.util.*
 
 /*
+dfs adjacency list is best for dealing with edges, add them to a list
+would be a lot simpler as said
 This would look like the following
     0
   1   2
@@ -13,62 +16,38 @@ This would look like the following
        3  1  0  ->   2 3  1  0 -> pop 2
        3 1 0 -> pop 3       1 0
  */
+fun main() {
+    // this below forms 0 1 2
+    var edges =  arrayOf(intArrayOf(0, 1),
+            intArrayOf(1, 2))
+    // the passed in n is very important
+    dfsTraversal(3, edges)
+}
+fun dfsTraversal(n: Int, edges: Array<IntArray>){
 
-
-internal class Graph( //number of nodes
-        private val V: Int) {
-    private val adj: Array<LinkedList<Int>?> //adjacency list
-
-    init {
-        adj = arrayOfNulls<LinkedList<Int>>(V)
-        for (i in 0 until V) {
-            adj[i] = LinkedList<Int>()
+    val adj = Array<ArrayList<Int>>(n){ ArrayList() }
+    // For the boolean array we need to know # of vertices usually given
+    // in the questions
+    val visited = BooleanArray(n)
+    edges.forEach{edge->
+        adj[edge[0]].add(edge[1])
+        adj[edge[1]].add(edge[0])
+    }
+    for(i in 0 until n){
+        if(!visited[i]){
+            dfs(adj, visited, i)
         }
     }
+}
 
-    fun addEdge(v: Int, w: Int) {
-        adj[v]?.add(w) //adding an edge to the adjacency list (edges are bidirectional in this example)
+fun dfs(adj: Array<ArrayList<Int>>, isVisited: BooleanArray, vertex: Int) {
+    if(isVisited[vertex]){
+        return
     }
-
-    fun DFSUtil(vertex: Int, visited: BooleanArray) {
-        visited[vertex] = true //mark the node as explored
-        print("$vertex ")
-        var a = 0
-        for (i in adj[vertex]!!.indices)
-        //iterate through the linked list and then propagate to the next few nodes
-        {
-            a = adj[vertex]!!.get(i)
-            if (!visited[a]) //only propagate to next nodes which haven't been explored
-            {
-                DFSUtil(a, visited)
-            }
-        }
-    }
-
-    fun DFS(v: Int) {
-        val already = BooleanArray(V) //initialize a new boolean array to store the details of explored nodes
-        DFSUtil(v, already)
-
-
-    }
-
-    companion object {
-        @JvmStatic
-        fun main(args: Array<String>) {
-            val g = Graph(6)
-            g.addEdge(0, 1)
-            g.addEdge(0, 2)
-            g.addEdge(1, 0)
-            g.addEdge(1, 3)
-            g.addEdge(2, 0)
-            g.addEdge(2, 3)
-            g.addEdge(3, 4)
-            g.addEdge(3, 5)
-            g.addEdge(4, 3)
-            g.addEdge(5, 3)
-            println(
-                    "Following is Depth First Traversal: ")
-            g.DFS(0)
-        }
+    isVisited[vertex] = true
+    println(" the viisted node is $vertex")
+    // loop throgh the node same as verticies
+    for(i in 0 until adj[vertex].size){
+        dfs(adj,isVisited, adj[vertex].get(i))
     }
 }
