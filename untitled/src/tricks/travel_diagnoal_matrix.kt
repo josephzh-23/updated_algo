@@ -4,5 +4,5 @@ package tricks
 // downward over here
 
 fun minimumCost(min: Array<IntArray>): Int {
-   
+
 }
