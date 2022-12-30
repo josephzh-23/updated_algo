@@ -31,6 +31,7 @@ internal class Solution14 {
         var num_islands = 0
         for (r in 0 until nr) {
             for (c in 0 until nc) {
+                // that's your starting point here
                 if (grid[r][c] == '1') {
                     ++num_islands
                     dfs(grid, r, c)

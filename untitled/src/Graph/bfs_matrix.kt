@@ -39,7 +39,7 @@ fun searchMatrix(matrix: Array<IntArray>): Boolean {
         directions.forEach { dir ->
             var dx = x + dir[0]
             var dy = y + dir[1]
-            if (isInBounds(matrix, dx, dy) ) {
+            if (isInBoundsInt(matrix, dx, dy) ) {
                 if(!visited[dx][dy]) {
                     println("removed node is ${matrix[dx][dy]} ")
                     visited[dx][dy] = true
@@ -55,7 +55,7 @@ fun main() {
 }
 
 // This makes sure no array out of bound exception here
-fun isInBounds( board: Array<IntArray>, x: Int, y:Int): Boolean {
+fun isInBoundsInt(board: Array<IntArray>, x: Int, y:Int): Boolean {
    if (x< 0|| y< 0 || x>= board.size|| y>= board[0].size){
        return false
    }else return true

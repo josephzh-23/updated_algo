@@ -21,10 +21,10 @@ The graph here is
 var w = 'w'
 var b = 'b'
 var e = 'e'
-var grid2 = arrayOf(charArrayOf(e, e, e, e, b, b, b),
-        charArrayOf(e, e, e,e, b, w,b),
-        charArrayOf(e, e, e, e,b,e,b),
-        charArrayOf(e, e, e, e, e, e,e))
+var goBoard = arrayOf(charArrayOf(e, e, e, e, b, b, b),
+                    charArrayOf(e, e, e,b,  w, w, b),
+                     charArrayOf(e, e, e, e,b, e, b),
+                    charArrayOf(e, e, e, e, e, e,e))
 
 /*
 Output: 1
@@ -54,7 +54,8 @@ fun solveGo(board: Array<CharArray>, r: Int, c:Int):Int{
 fun bfs(board: Array<CharArray>,visited: Array<BooleanArray>,  r: Int, c:Int):Int{
 
     var count = 0
-    var valid = true
+    // valid is needed to check if you can capture sth
+    var surrounded = true
     // Move in 4 directions
     val directions = arrayOf(intArrayOf(1, 0), intArrayOf(0, 1), intArrayOf(-1, 0), intArrayOf(0, -1))
     val q: Queue<IntArray> = LinkedList()
@@ -69,7 +70,7 @@ fun bfs(board: Array<CharArray>,visited: Array<BooleanArray>,  r: Int, c:Int):In
         // This means you have run into an empty stone
         // spot so no count returned
         if (board[x][y] == 'e') {
-            valid = false
+            surrounded = false
         } else {
             // Here a white stone is encountered
             visited[x][y] = true
@@ -81,7 +82,7 @@ fun bfs(board: Array<CharArray>,visited: Array<BooleanArray>,  r: Int, c:Int):In
         }
     }
 
-    return if (valid) count else 0
+    return if (surrounded) count else 0
 }
 fun isOutOfBounds( board: Array<CharArray>, x: Int, y:Int): Boolean {
     return (x< 0|| y< 0 || x> board.size - 1|| y> board[0].size -1)
@@ -93,5 +94,5 @@ fun main() {
     Explanation: If you place a black stone on
     (2, 5) then you capture 1 white stone from the enemy.
      */
-    println(solveGo(grid2, 2, 5))
+    println(solveGo(goBoard, 2, 5))
 }

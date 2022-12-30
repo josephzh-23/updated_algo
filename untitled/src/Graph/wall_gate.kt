@@ -10,7 +10,6 @@ What we can do
 
 
 import Graph.Top_6.directions
-import Graph.Top_6.isOutofBounds
 import java.util.*
 
 var matrix2 =arrayOf(
@@ -65,7 +64,7 @@ fun wallGates(grid: Array<IntArray>): Boolean {
         directions.forEach { dir->
             var newRow = row + dir[0]
             var newCol = col + dir[1]
-            if (isInBounds(matrix, newRow, newCol)&& grid[newRow][newCol] != -1) {
+            if (isInBoundsInt(matrix, newRow, newCol)&& grid[newRow][newCol] != -1) {
                 q.add(intArrayOf( newRow, newCol, dist +1))
             }
         }

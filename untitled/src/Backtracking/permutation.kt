@@ -25,7 +25,9 @@ fun permute(nums: IntArray): List<List<Int>> {
 
 private fun backtrack(resultList: MutableList<List<Int>>,
                       tempList: ArrayList<Int>, nums: IntArray) {
-    // If we match the length, it is a permutation
+    // Bscically once this returns it will jump directly to
+    // tempList.removeAt(tempList.size -1)
+    //
     if (tempList.size == nums.size) {
         resultList.add(ArrayList(tempList))
         return

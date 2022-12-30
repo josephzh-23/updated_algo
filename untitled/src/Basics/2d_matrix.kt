@@ -11,6 +11,7 @@ fun main() {
         println(row.contentToString())
     }
 
+    // used to loop throught the matrix here
     for (i in 1 until arr.size) {
         for (j in 1 until arr[i].size) {
             if (arr[i][j] == 0) {
