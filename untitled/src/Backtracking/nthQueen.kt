@@ -3,7 +3,7 @@ package Backtracking
 import java.util.*
 
 
-internal class Solution {
+internal class Solution13 {
     var res: MutableList<List<String>> = LinkedList()
     fun solveNQueens(n: Int): List<List<String>> {
         val board = Array(n) { CharArray(n) }
@@ -15,14 +15,17 @@ internal class Solution {
     }
 
     private fun helper(board: Array<CharArray>, row: Int, col: Int, n: Int) {
-        // Column out of bound
         var row = row
         var col = col
         var n = n
+
+        // Column out of bound
+        // Then go to the next row
         if (col == board[0].size) {
             col = 0
             row++
         }
+
         // n is 0 then add to the res
         if (n == 0) {
             res.add(toString(board))
@@ -41,7 +44,9 @@ internal class Solution {
             n++
         }
 
-        // Skip this cell, we place a '.'
+        // This means not valid
+        // If we decide to Skip this cell, we place a '.', put it
+        // as empty here
         helper(board, row, col + 1, n)
     }
 
@@ -58,6 +63,7 @@ internal class Solution {
         return list
     }
 
+    // this makes
     private fun isValid(board: Array<CharArray>, row: Int, col: Int): Boolean {
 
         val N = board.size
@@ -74,9 +80,9 @@ internal class Solution {
         var j = col
 
         // this is when you go in the diagonal
-        // upper left position so go diagnoal here
+        // in the upper left diagnoal direction
         while (0 <= i && 0 <= j) {
-            // if this not empty
+            // if there is a queen there then no good
             if (board[i][j] != '.') return false
             i--
             j--

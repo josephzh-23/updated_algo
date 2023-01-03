@@ -8,9 +8,9 @@ fun main(args: Array<String>) {
 //        findAllIndex(arr, 4, 0);
 //        System.out.println(list);
 
-        var list = ArrayList<Int>();
-        var ans = findAllIndex(arr, 4, 0, list);
-        System.out.println(ans);
+        var list = ArrayList<Int>()
+    var ans = findAllIndex(arr, 4, 0, list)
+    System.out.println(ans)
 //        System.out.println(list);
 //    System.out.println(findAllIndex2(arr, 4, 0))
 }

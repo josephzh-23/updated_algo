@@ -1,47 +1,38 @@
 package Tree
 
-// Data structure to store a binary tree node
-internal class PreOrderNode(var data: Int) {
-    var left: PreOrderNode?
-    var right: PreOrderNode? = null
+import TreeNode
 
-    // Function to create a new binary tree node having a given key
-    init {
-        left = right
+// Data structure to store a binary tree node
+
+
+// Recursive function to perform preorder traversal on the tree
+fun preorder(root: TreeNode?) {
+    // return if the current node is empty
+    if (root == null) {
+        return
     }
+    print(root.value.toString() + " ")
+    preorder(root.left)
+    preorder(root.right)
 }
 
-internal object Main2 {
-    // Recursive function to perform preorder traversal on the tree
-    fun preorder(root: PreOrderNode?) {
-        // return if the current node is empty
-        if (root == null) {
-            return
-        }
-        print(root.data.toString() + " ")
-        preorder(root.left)
-        preorder(root.right)
-    }
-
-    @JvmStatic
-    fun main(args: Array<String>) {
-        /* Construct the following tree
-                   1
-                 /   \
-               2       3
-              /      /   \
-            4      5       6
-                  / \
-                7     8
-        */
-        val root = PreOrderNode(1)
-        root.left = PreOrderNode(2)
-        root.right = PreOrderNode(3)
-        root.left!!.left = PreOrderNode(4)
-        root.right!!.left = PreOrderNode(5)
-        root.right!!.right = PreOrderNode(6)
-        root.right!!.left!!.left = PreOrderNode(7)
-        root.right!!.left!!.right = PreOrderNode(8)
-        preorder(root)
-    }
+fun main(args: Array<String>) {
+    /* Construct the following tree
+               1
+             /   \
+           2       3
+          /      /   \
+        4      5       6
+              / \
+            7     8
+    */
+    val root = TreeNode(1)
+    root.left = TreeNode(2)
+    root.right = TreeNode(3)
+    root.left!!.left = TreeNode(4)
+    root.right!!.left = TreeNode(5)
+    root.right!!.right = TreeNode(6)
+    root.right!!.left!!.left = TreeNode(7)
+    root.right!!.left!!.right = TreeNode(8)
+    preorder(root)
 }

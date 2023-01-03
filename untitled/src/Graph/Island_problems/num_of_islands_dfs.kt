@@ -1,15 +1,14 @@
-package Graph.Top_6
+package Graph.Island_problems
 
-// Check out this solutino right here
-// O (m *n )
-// Treat this as if there is an edge between 2 horizontally adjacent nodes of
-// value of 1
 /*
-Since when we see 1, when we visit it becomes 0, this is how we know it has
-been visited
-Every visited node set as 0, it's the same as visited set basically
+
+DFS
+If node =1 trigger the dfs search
+set all node as 0 to mark visited, then counter the
+# of 1s
  */
-internal class Solution8 {
+
+internal class Solution14 {
     fun dfs(grid: Array<CharArray>, r: Int, c: Int) {
         val nr = grid.size
         val nc = grid[0].size
@@ -32,6 +31,7 @@ internal class Solution8 {
         var num_islands = 0
         for (r in 0 until nr) {
             for (c in 0 until nc) {
+                // that's your starting point here
                 if (grid[r][c] == '1') {
                     ++num_islands
                     dfs(grid, r, c)

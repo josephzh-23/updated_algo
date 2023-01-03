@@ -1,4 +1,4 @@
-package Dynamic_programming
+package Backtracking
 
 /*
 1   start       2  ending square

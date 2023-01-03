@@ -1,4 +1,4 @@
-package Graph.Top_6
+package Graph.bfs_with_return_value
 
 import java.util.*
 
@@ -22,9 +22,9 @@ var w = 'w'
 var b = 'b'
 var e = 'e'
 var goBoard = arrayOf(charArrayOf(e, e, e, e, b, b, b),
-                    charArrayOf(e, e, e,b,  w, w, b),
-                     charArrayOf(e, e, e, e,b, e, b),
-                    charArrayOf(e, e, e, e, e, e,e))
+                    charArrayOf(e, e, e, b,  w, w, b),
+                     charArrayOf(e, e, e, e, b, e, b),
+                    charArrayOf(e, e, e, e, e, e, e))
 
 /*
 Output: 1
@@ -64,7 +64,7 @@ fun bfs(board: Array<CharArray>,visited: Array<BooleanArray>,  r: Int, c:Int):In
     while(!q.isEmpty()){
         var node = q.poll()
         var x= node[0]; var y = node[1]
-        if(isOutOfBounds(board, x, y)|| visited[x][y] ||
+        if(isOutOfBounds(board, x, y) || visited[x][y] ||
                 board[x][y] == 'b')continue
 
         // This means you have run into an empty stone

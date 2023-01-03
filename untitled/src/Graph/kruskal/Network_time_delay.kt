@@ -1,4 +1,4 @@
-package Graph.Top_6
+package Graph.kruskal
 
 import java.util.*
 

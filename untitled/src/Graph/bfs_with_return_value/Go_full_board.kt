@@ -1,13 +1,14 @@
-package Graph.Top_6
+package Graph.bfs_with_return_value
 
 import java.util.*
 
 // This is to find all the surrounded white stones here
+// given an entire board here
 
 var goBoard2 = arrayOf(charArrayOf(w, w, b, e, b, b, b),
-        charArrayOf(b, b, e,b,  w, w, b),
-        charArrayOf(e, e, e, e,b, e, b),
-        charArrayOf(e, e, e, e, e, e,e))
+        charArrayOf(b, b, e, b,  w, w, b),
+        charArrayOf(e, e, e, e, b, e, b),
+        charArrayOf(e, e, e, e, e, e, e))
 
 fun main() {
     println(solveGodfs(goBoard2))
@@ -36,16 +37,11 @@ fun solveGodfs(board: Array<CharArray>):Int{
             }
         }
     }
-    for(coord in aList) {
+    // For each coordinate where there is list
+    for (coord in aList) {
         val r = coord[0]
         val c = coord[1]
-
-        // Mark spot as visited before the visiting area here
-//        for (dir in directions) {
-
-        // Just pass in starting coords
-            count += bfsBoard(board, visited, r, c)
-//        }
+        count += bfsBoard(board, visited, r, c)
     }
     return count
 }
@@ -63,7 +59,7 @@ fun bfsBoard(board: Array<CharArray>,visited: Array<BooleanArray>,  r: Int, c:In
     while(!q.isEmpty()){
         var node = q.poll()
         var x= node[0]; var y = node[1]
-        if(isOutOfBounds(board, x, y)|| visited[x][y] ||
+        if(isOutOfBounds(board, x, y) || visited[x][y] ||
                 board[x][y] == 'b')continue
 
         // This means you have run into an empty stone

@@ -12,7 +12,6 @@ import TreeNode
     [3, 4, 1, 6, 5, 3, 7]
  */
 fun main() {
-    var s = Solution()
     var root = TreeNode(3)
     root.left = TreeNode(4)
     root.left!!.left = TreeNode(1)

@@ -1,4 +1,4 @@
-
+package tricks
 
 fun taverseBoundary(g: Array<IntArray>) {
     val rows = g.size
