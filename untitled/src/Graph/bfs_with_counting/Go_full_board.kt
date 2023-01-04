@@ -1,4 +1,4 @@
-package Graph.bfs_with_return_value
+package Graph.bfs_with_counting
 
 import java.util.*
 

@@ -1,6 +1,6 @@
 package Graph
 
-import Graph.bfs_with_return_value.directions
+import Graph.bfs_with_counting.directions
 import java.util.*
 
 

@@ -1,4 +1,4 @@
-package Graph.bfs_with_return_value
+package Graph.bfs_with_counting
 
 import java.util.*
 
@@ -48,6 +48,7 @@ fun solveGo(board: Array<CharArray>, r: Int, c:Int):Int{
     var count = 0
     for (dir in directions) {
         count += bfs(board, visited, r + dir[0], c + dir[1])
+        println(" # of times comes here")
     }
     return count
 }
@@ -74,7 +75,9 @@ fun bfs(board: Array<CharArray>,visited: Array<BooleanArray>,  r: Int, c:Int):In
         } else {
             // Here a white stone is encountered
             visited[x][y] = true
-            // So within the bound here
+
+            // If white encountered then we need to basically do another traverseal
+            // But add a 1 count for each white encountered
             directions.forEach { dir ->
                 q.offer(intArrayOf(x + dir[0], y + dir[1]))
             }
