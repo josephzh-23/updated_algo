@@ -11,6 +11,10 @@ fun uniquePathsWithObstacles(g: Array<IntArray>): Int {
     var dp =  Array(rows) { IntArray(cols) }
     var flag = false
 
+    /*
+     If there is a obst in first row, every thing in first row
+     becomes 1 or if there is a
+     */
 
     for(i in 0 until cols){
         // this traverses the first row here
@@ -25,6 +29,7 @@ fun uniquePathsWithObstacles(g: Array<IntArray>): Int {
     flag = false
 
     // Everything in that first column will then be 0
+    // If there is a zero there
         // [0][0]
         // [1][0]
     for(i in 0 until rows) {

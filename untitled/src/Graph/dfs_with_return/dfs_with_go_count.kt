@@ -1,6 +1,7 @@
 package Graph.dfs_with_return
 
 import Graph.bfs_with_counting.b
+import Graph.bfs_with_counting.directions
 import Graph.bfs_with_counting.e
 import Graph.bfs_with_counting.w
 
@@ -17,7 +18,7 @@ import Graph.bfs_with_counting.w
 
 // count the # of white stones surrounded
 fun main() {
-    var goBoard2 = arrayOf(charArrayOf(w, w, b, e, b, b, b),
+    var goBoard2 = arrayOf(charArrayOf(w, b, b, e, b, b, b),
             charArrayOf(b, b, e, b, w, w, b),
             charArrayOf(e, e, e, e, b, b, b),
             charArrayOf(e, e, e, e, e, e, e))
@@ -36,36 +37,40 @@ fun countNumWhite2(grid: Array<CharArray>): Int {
         for (c in 0 until nc) {
             if (grid[r][c] == 'w') {
 //               if(dfs(grid, r, c)){
-                (countNumCaptured2(grid, r, c, seen))
+              totalCount +=  (countNumCaptured2(grid, r, c, seen,0))
                 }
 
             }
         }
-    return totalCount
+   return totalCount
 }
 
 // By using this we can tell if captured on all sides
-fun countNumCaptured2(grid: Array<CharArray>, r: Int, c: Int, seen: Array<BooleanArray>){
+fun countNumCaptured2(grid: Array<CharArray>, r: Int, c: Int, seen: Array<BooleanArray>,
+count:Int):Int{
     // visited already
+    var count = count
     if (r < 0 || c < 0 || r >= grid.size || c >= grid[0].size || seen[r][c]) {
-        return
+        return 0
     }
     // If see black continue
     if (grid[r][c] == 'b') {
-        return
+        return 0
     }
 
     // See empty return false
     if (grid[r][c] == 'e') {
-        totalCount = 0
-        return
+        return 0
     }
 
+    if (grid[r][c] == 'w') {
+        return 1
+    }
     // Encounter white stone here, inc count
     seen[r][c] = true
-    totalCount++
-    countNumCaptured(grid, r + 1, c, seen)
-    countNumCaptured(grid, r - 1, c, seen)
-    countNumCaptured(grid, r, c + 1, seen)
-    countNumCaptured(grid, r, c - 1, seen)
+
+    for (d in directions) {
+        count+=countNumCaptured2(grid, r + d[0], c + d[1], seen, count)
+    }
+    return count
 }

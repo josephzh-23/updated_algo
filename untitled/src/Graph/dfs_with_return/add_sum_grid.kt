@@ -5,7 +5,7 @@ import Graph.bfs_with_counting.directions
 
 
 
-// How to count variables in a grid 
+// How to count variables in a grid
 fun main() {
 
     dfsMatrix()
@@ -36,6 +36,9 @@ count:Int) :Int{
     // visited already
     if (r < 0 || c < 0 || r >= grid.size || c >= grid[0].size || seen[r][c]
             || grid[r][c] == 0) {
+
+    // And then using the code here we would get what we want in no time
+        // as said
         return 0
     }
 

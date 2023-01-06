@@ -1,4 +1,4 @@
-package Graph.cool_problems
+package Graph.kruskal
 
 import java.util.*
 

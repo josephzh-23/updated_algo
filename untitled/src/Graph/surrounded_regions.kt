@@ -90,3 +90,18 @@ internal class Solution {
         dfs(row, col - 1)
     }
 }
+
+
+ fun solve2(board: Array<CharArray>): Unit {
+     // 
+    // 0 should not be flipped here
+     // - It is on the border, or
+     //- It is adjacent to an 'O' that should not be flipped.
+     //The bottom 'O' is on the border, so it is not flipped.
+     //The other three 'O' form a surrounded region, so they are flipped.
+
+     // dfs
+
+     // Using the solve and go problem
+
+ }
