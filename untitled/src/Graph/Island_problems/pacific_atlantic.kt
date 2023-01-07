@@ -4,13 +4,14 @@ import java.util.*
 
 
 /*
+
+https://leetcode.com/problems/pacific-atlantic-water-flow/
 This is the optimized approach
 1. We only visit the cell that's valid
 - basically the cell where height[cell] >= height[neigh]
 2. Once visited we will mark it as 0
 
 3. Have 2 sarapte arrays for this and then keep going
-4.
  */
 
 internal class Solution15 {
@@ -28,7 +29,7 @@ internal class Solution15 {
         val pacific = Array(row) { BooleanArray(col) }
         val atlantic = Array(row) { BooleanArray(col) }
 
-        //So basically we start from first and last column
+        //So basically we start from first and last row
         for (i in 0 until col) {
             dfs(matrix, 0, i, Int.MIN_VALUE, pacific)
             dfs(matrix, row - 1, i, Int.MIN_VALUE, atlantic)

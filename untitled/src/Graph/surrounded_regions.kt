@@ -1,4 +1,9 @@
- package Graph
+package Graph
+
+import Graph.bfs_with_counting.b
+import Graph.bfs_with_counting.e
+import Graph.bfs_with_counting.w
+import Graph.dfs_with_return.totalCount
 
 // What to do in this case
 
@@ -92,16 +97,64 @@ internal class Solution {
 }
 
 
- fun solve2(board: Array<CharArray>): Unit {
-     // 
+// The practice section here
+fun main(){
+
+    var goBoard2 = arrayOf(charArrayOf('x','x', 'x', 'x'),
+            charArrayOf('x', 'o', 'o', 'x'),
+            charArrayOf('x', 'x', 'o', 'x'),
+            charArrayOf('x', 'o', 'x', 'x'))
+    surroundedRegion(goBoard2)
+}
+fun surroundedRegion(board: Array<CharArray>){
+    //
     // 0 should not be flipped here
-     // - It is on the border, or
-     //- It is adjacent to an 'O' that should not be flipped.
-     //The bottom 'O' is on the border, so it is not flipped.
-     //The other three 'O' form a surrounded region, so they are flipped.
+    // - It is on the border, or
+    //- It is adjacent to an 'O' that should not be flipped.
+    //The bottom 'O' is on the border, so it is not flipped.
+    //The other three 'O' form a surrounded region, so they are flipped.
 
-     // dfs
+    // dfs
 
-     // Using the solve and go problem
+    // Using the solve and go problem
+    // and that's it
+    var seen = Array(board.size) { BooleanArray(board[0].size) }
+    var count = 0
+    val nr = board.size
 
- }
+    val nc = board[0].size
+    for (r in 0 until nr) {
+        for (c in 0 until nc) {
+            if (board[r][c] == 'o') {
+//               if(dfs(board, r, c)){
+                (flip(board, r, c, seen))
+            }
+
+        }
+    }
+    board
+}
+
+
+fun flip(grid: Array<CharArray>, r: Int, c: Int, seen: Array<BooleanArray>) {
+    // visited already, if on the boundary then return already
+    if (r < 0 || c < 0 || r >= grid.size || c >= grid[0].size || seen[r][c]
+            || r == 0 || r == grid.size - 1 || c == 0 || c == grid[0].size - 1) {
+        return
+    }
+
+    // See empty return false
+    if (grid[r][c] == 'x') {
+        return
+    }
+
+    // Encounter white stone here, inc count
+    seen[r][c] = true
+    // If see o
+    grid[r][c] = 'x'
+
+    flip(grid, r + 1, c, seen)
+    flip(grid, r - 1, c, seen)
+    flip(grid, r, c + 1, seen)
+    flip(grid, r, c - 1, seen)
+}
