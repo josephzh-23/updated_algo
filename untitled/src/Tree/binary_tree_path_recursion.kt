@@ -23,7 +23,9 @@ fun construct_paths(root: TreeNode?, path: String?, paths: LinkedList<String?>) 
         else {
             path += "->" // extend the current path
             construct_paths(root.left, path, paths)
+//            println(path)
             construct_paths(root.right, path, paths)
+//            println(path)
         }
     }
 }
@@ -37,8 +39,10 @@ fun main() {
     val root = TreeNode(1)
     root.left = TreeNode(2)
     root.right = TreeNode(3)
+    root.left!!.left = TreeNode(4)
     root.left!!.right = TreeNode(5)
-    // [1->2->5, 1->3]      the supposed answer
+//     [1->2->5, 1->3]      the supposed answer
+//    binaryTreePaths(root)
     println(binaryTreePaths(root))
 //    preorder(root)
 }

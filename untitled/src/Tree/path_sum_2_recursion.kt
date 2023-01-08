@@ -21,6 +21,8 @@ fun main() {
 fun pathSumRec(root: TreeNode?, targetSum: Int): List<List<Int?>?> {
     val result: MutableList<List<Int>> = ArrayList()
     pathSum(root, targetSum, ArrayList(), result)
+    println(result)
+
     return result
 }
 
