@@ -2,6 +2,7 @@ package String_manipulation
 
 import java.util.*
 import kotlin.collections.HashMap
+
 //https://leetcode.com/problems/rearrange-words-in-a-sentence/
 // Problem: rearrange words in a sentence
 // brute force approach using q
@@ -23,30 +24,30 @@ fun arrangeWords(text: String): String {
     // <Word, count>
     var dict = HashMap<String, Int>()
     var words = text.split(" ")
-    words.forEach{word->
-            for (ch in word){
-                dict.put(word, dict.getOrDefault(word, 0)+1)
-            }
+    words.forEach { word ->
+        for (ch in word) {
+            dict.put(word, dict.getOrDefault(word, 0) + 1)
+        }
     }
 
     // Based on the string values here
-    var maxH: Queue<String> = PriorityQueue{n1: String, n2: String-> dict[n1]!! - dict[n2]!!}
+    var maxH: Queue<String> = PriorityQueue { n1: String, n2: String -> dict[n1]!! - dict[n2]!! }
     var s = StringBuilder()
-    for(n in dict.keys){
+    for (n in dict.keys) {
         maxH.add(n)
     }
 
-    while(!maxH.isEmpty()){
+    while (!maxH.isEmpty()) {
         s.append(maxH.poll() + " ")
 
     }
 
-    return s.toString().also{println(it)}
+    return s.toString().also { println(it) }
 
 }
 
 fun main() {
-   arrangeWords("Leetcode is cool")
-   arrangeWords("")
+    arrangeWords("Leetcode is cool")
+    arrangeWords("")
 }
 

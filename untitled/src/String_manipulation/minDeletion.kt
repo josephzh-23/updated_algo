@@ -12,13 +12,21 @@ fun minDeletions(s: String): Int {
     for (c in s.toCharArray()) {
         freq[c - 'a']++
     }
-    // 3   2   1
+
+
+    // Min deletion
+    // Use a seen frequency here to store the count for each character
+    //  A: 3        b: 3
+
     val uniqueFreq: MutableSet<Int> = HashSet()
 
     // this will iter over all the char in frequency here
+    // for example b: 3 since a already has 3
+    // decrease it by 1 and add to unique
     for (count in freq) {
 
         var tempCount = 0
+
         // if it contains 3, and we see another 3
         while (count > 0 && uniqueFreq.contains(count)) {
             deletion++

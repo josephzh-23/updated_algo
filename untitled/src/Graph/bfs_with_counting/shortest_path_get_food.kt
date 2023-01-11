@@ -61,7 +61,7 @@ fun isOutofBounds(board: Array<CharArray>, x: Int, y:Int): Boolean {
 }
 
 fun main() {
-    // using the main functino here
+    // using the Recursion_Backtracking.main functino here
     var grid = arrayOf(charArrayOf('x', 'x', 'x','x', 'x', 'x'),
             charArrayOf('x', '*', 'o','o', 'o', 'x') ,
             charArrayOf('x', 'o', 'o','#', 'o', 'x'),

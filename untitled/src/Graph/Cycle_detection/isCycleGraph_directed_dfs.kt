@@ -5,7 +5,6 @@ package Graph.Cycle_detection
 https://www.youtube.com/watch?v=uzVUw90ZFIg&t=432s
 The dfs for the undirected grpah would not work here
 Directed means for the below:
-The concept is as above:
  3  - 4 - 5
 3-  6 -5        there is no cycle here
 
@@ -15,8 +14,8 @@ b/c 3-5
  */
 
 /*
-Cycle here      7  -  2,
-8 - 9       9 - 7           a cycle at 7 here
+Cycle here      7  -  2,    8 - 9       9 - 7
+    a cycle at 7 here, since it's directed here
 There would be 2 visited arrays, 1 for visited and 1 for
 dfs_visited (also known as explored)
 Each time you visit a node, mark all node as 1 and check its neigbor

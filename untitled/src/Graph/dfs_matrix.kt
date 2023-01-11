@@ -5,7 +5,7 @@ import Graph.bfs_with_counting.directions
 
 fun main() {
 
-    dfsMatrix()
+    dfsmmatrix()
 }
 
 

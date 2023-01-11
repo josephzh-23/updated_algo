@@ -27,7 +27,7 @@ internal object RemoveDuplicatesExample4 {
         println(newstr)
     }
 
-    // main() method start
+    // Recursion_Backtracking.main() method start
     @JvmStatic
     fun main(args: Array<String>) {
         // Create a string variable with default value
