@@ -1,5 +1,7 @@
 package Search
 
+
+//The number > than the target using binary search
 object Ceiling {
     @JvmStatic
     fun main(args: Array<String>) {
@@ -16,26 +18,27 @@ object Ceiling {
         if (target > arr[arr.size - 1]) {
             return -1
         }
-        var start = 0
-        var end = arr.size - 1
+        var l = 0
+        var r = arr.size - 1
 
 
-        while (start <= end) {
+        while (l <= r) {
+
             // find the middle element
 //            int mid = (start + end) / 2; // might be possible that (start + end) exceeds the range of int in java
-            val mid = start + (end - start) / 2
+            val mid = l + (r - l) / 2
 
             // on the left
             if (target < arr[mid]) {
-                end = mid - 1
+                r = mid - 1
 
             } else if (target > arr[mid]) {
-                start = mid + 1
+                l = mid + 1
             } else {
                 // ans found
                 return mid
             }
         }
-        return start
+        return l
     }
 }

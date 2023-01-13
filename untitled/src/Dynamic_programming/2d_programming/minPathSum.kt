@@ -1,6 +1,6 @@
 package Dynamic_programming.`2d_programming`
 
-
+//  https://leetcode.com/problems/minimum-path-sum/
 fun main() {
     var g = arrayOf(intArrayOf(1, 3, 1),
     intArrayOf(1, 5, 1), intArrayOf(4, 2,1))

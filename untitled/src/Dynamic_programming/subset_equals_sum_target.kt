@@ -63,7 +63,7 @@ object SubsetSum {
     @JvmStatic
     fun main(args: Array<String>) {
         val arr = intArrayOf(1, 2, 3, 5)
-        val sum = 7
+        val sum = 15
         println(isSubsetExists(arr, sum))
     }
 }

@@ -1,9 +1,9 @@
 package Search
 
 fun binarySearch(
-        arr: IntArray, target: Int, start: Int, end: Int): Int {
-    var start = start
-    var end = end
+        arr: IntArray, target: Int, l: Int, r: Int): Int {
+    var start = l
+    var end = r
     var index = Int.MAX_VALUE
     while (start <= end) {
         val mid = start + (end - start) / 2
