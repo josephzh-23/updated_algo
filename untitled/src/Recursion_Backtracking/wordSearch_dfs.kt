@@ -1,6 +1,7 @@
 package Backtracking
 
 import Graph.bfs_with_counting.directions
+
 var exists = false
 
 //https://leetcode.com/problems/word-search/description/
@@ -11,7 +12,7 @@ fun wordSearch(board: Array<CharArray>, word: String): Boolean {
     var arr = ArrayList<Char>()
     // another way to store
     for (c in word.toCharArray()) {
-       arr.add(c)
+        arr.add(c)
     }
     // do a dfs on this
 
@@ -29,17 +30,16 @@ fun wordSearch(board: Array<CharArray>, word: String): Boolean {
     // once count then need the code next
 }
 
-fun dfs(grid: Array<CharArray>, r: Int, c: Int, seen: Array<BooleanArray>
-, charArr: ArrayList<Char>) {
+fun dfs(grid: Array<CharArray>, r: Int, c: Int, seen: Array<BooleanArray>, charArr: ArrayList<Char>) {
     // visited already
     if (r < 0 || c < 0 || r >= grid.size || c >= grid[0].size || seen[r][c]) {
         return
     }
-    if(charArr.contains(grid[r][c])){
+    if (charArr.contains(grid[r][c])) {
         charArr.remove(grid[r][c])
     }
-    if(charArr.isEmpty()){
-       exists= true
+    if (charArr.isEmpty()) {
+        exists = true
     }
 
     // else mark as visited
@@ -50,15 +50,16 @@ fun dfs(grid: Array<CharArray>, r: Int, c: Int, seen: Array<BooleanArray>
                 charArr)
     }
 }
+
 fun main() {
     var board = arrayOf(charArrayOf('a', 'b', 'c', 'e'),
             charArrayOf('s', 'f', 'c', 's'),
             charArrayOf('a', 'd', 'e', 'e'))
     var word = "abcced"
 
-   wordSearch(board, word)
+    wordSearch(board, word)
     println(exists)
 }
 
-
+/**/
 

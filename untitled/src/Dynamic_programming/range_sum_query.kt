@@ -26,6 +26,7 @@ class NumMatrix(matrix: Array<IntArray>) {
 
     fun sumRegion(row1: Int, col1: Int, row2: Int, col2: Int): Int {
         // bottom right - top right - bottom left + top left
+        // below is just the formula and don't ask how it works here
         val sum = matSum[row2 + 1][col2 + 1] - matSum[row1][col2 + 1] - matSum[row2 + 1][col1] + matSum[row1][col1]
         return sum
     }
