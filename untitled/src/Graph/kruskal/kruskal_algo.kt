@@ -57,7 +57,7 @@ class Graph internal constructor(var V: Int, // V-> no. of vertices & E->no.of e
         }
     }
 
-    // The Recursion_Backtracking.main function to construct MST using Kruskal's
+    // The Backtracking.main function to construct MST using Kruskal's
     // algorithm
     fun KruskalMST() {
         // This will store the resultant MST

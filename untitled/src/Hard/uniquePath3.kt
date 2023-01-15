@@ -3,6 +3,8 @@ package Dynamic_programming
 // 1 represents the starting square
 // 2-ending     0 empty     -1 can't walk
 
+//https://leetcode.com/problems/unique-paths-iii/description/
+// Have to use backtracking for this one
 internal class Solution {
     fun uniquePathsIII(grid: Array<IntArray>): Int {
         var zero = 0 // Count the 0's

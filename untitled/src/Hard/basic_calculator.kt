@@ -29,7 +29,6 @@ fun calculate(s: String): Int {
 
             // Save the recently encountered '+' sign
             sign = 1
-
             // Reset operand
             operand = 0
 

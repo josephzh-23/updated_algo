@@ -15,36 +15,29 @@ import java.util.*
 
 fun main() {
 
-    var s = "(()))"
+    var s = "(()())(())"
     solution(s).print()
 }
 
 fun solution(str: String) {
-    val mappings: HashMap<Char, Char>
-
     var s = Stack<Char>()
-// Initialize hash map with mappings. This simply makes the code easier to read.
-    mappings = HashMap()
-    mappings[')'] = '('
+    var sb = StringBuilder()
 
-    // an opening bracket
     for(c in str.toCharArray()){
-        // an opening bracket here
-        if(mappings.containsValue(c)){
-
-            if(s.isEmpty()){
-                s.push(c)
-            }else if(s.peek()!='('){
-                s.add(c)
+        if(c == '('){
+            if(s.size>0){
+                sb.append(c)
             }
+            s.push(c)
+        }
 
-            // an closing bracket
-        }else{
-            if(s.peek() == 'c'){
-                s.add(c)
+        //with the closing parenthesis
+        else{
+            s.pop()
+            if(s.size> 0){
+                sb.append(c)
             }
         }
     }
-    println(s)
-
+    println(sb)
 }

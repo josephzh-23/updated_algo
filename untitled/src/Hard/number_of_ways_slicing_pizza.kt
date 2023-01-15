@@ -12,17 +12,21 @@ class number_of_ways_slicing_pizza() {
 
     fun count(r: Int, c: Int, cuts: Int, apples: Array<IntArray>): Int {
 
-        if(cuts ==0) {
-            if (apples[r][c]> 0) {
-                dp[r][c][cuts]=1
-            }else{
-                dp[r][c][cuts]=0
+        if (cuts == 0) {
+
+            // If there is some cuts there to be found there then that's 1 case
+            // there
+            if (apples[r][c] > 0) {
+                dp[r][c][cuts] = 1
+            } else {
+                dp[r][c][cuts] = 0
             }
             return dp[r][c][cuts]
         }
 
         var rowSum = 0;
-        var colSum = 0
+        var colSum = 0;
+
         // horizontal cuts here
         for (i in r + 1 until n) {
             // there is still cuts left
@@ -43,11 +47,11 @@ class number_of_ways_slicing_pizza() {
         return dp[r][c][cuts]
     }
 
-    fun ways(pizza: Array<String>, k: Int):Int {
-        for(i in 0 until dp.size){
-            for(j in 0 until dp[0].size){
-                for(l in 0 until dp[0][0].size){
-                    dp[i][j][l] =-1
+    fun ways(pizza: Array<String>, k: Int): Int {
+        for (i in 0 until dp.size) {
+            for (j in 0 until dp[0].size) {
+                for (l in 0 until dp[0][0].size) {
+                    dp[i][j][l] = -1
                 }
             }
         }
@@ -64,17 +68,17 @@ class number_of_ways_slicing_pizza() {
                 if ((pizza[i][j] == 'A')) {
                     temp = 1
                 }
-                apples[i][j] = apples[i+1][j]+apples[i][j + 1] - apples[i + 1][j + 1] + temp
+                apples[i][j] = apples[i + 1][j] + apples[i][j + 1] - apples[i + 1][j + 1] + temp
             }
         }
 
-        var ans = count(0, 0, k-1,apples)
+        var ans = count(0, 0, k - 1, apples)
         return ans
     }
 }
 
 fun main() {
     var s = number_of_ways_slicing_pizza()
-    var s2 = arrayOf("A..","AAA", "...")
+    var s2 = arrayOf("A..", "AAA", "...")
     s.ways(s2, 3).print()
 }
