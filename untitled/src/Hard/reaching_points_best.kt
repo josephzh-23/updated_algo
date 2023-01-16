@@ -1,5 +1,6 @@
 package Hard
 
+// In recursion notes here
 // This is using the modulus optor
 fun reachingPointsBest(sx: Int, sy: Int, tx: Int, ty: Int): Boolean {
     var tx = tx

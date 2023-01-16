@@ -1,35 +1,40 @@
-package Stacks_Queue
-
 import java.util.*
 
-fun main() {
 
+fun main() {
+    // Encode the string here and you get
+    var str = "3[a2[c]]"
 }
 
-// THis question has to do with
 fun decodeString(s: String): String {
-    var st = Stack<Char>()
-    for(i in 0 until s.length){
-        if(s[i]!=']'){
-            st.add(s[i])
-        }
-        else{
-            var substr = ""
+    val countStack = Stack<Int>()
+    val stringStack = Stack<StringBuilder>()
+    var currentString = StringBuilder()
+    var k = 0
+    for (ch in s.toCharArray()) {
+        if (Character.isDigit(ch)) {
+            k = k * 10 + ch.code - '0'.code
+        } else if (ch == '[') {
+            // push the number k to countStack
+            countStack.push(k)
+            // push the currentString to stringStack
+            stringStack.push(currentString)
+            // reset currentString and k
+            currentString = StringBuilder()
+            k = 0
+        } else if (ch == ']') {
+            val decodedString = stringStack.pop()
 
-            // This is for when popping very important
-            while(st.peek()!='['){
-                substr = st.pop() + substr
+            // this is important too
+            println(decodedString)
+            // decode currentK[currentString] by appending currentString k times
+            for (currentK in countStack.pop() downTo 1) {
+                decodedString.append(currentString)
             }
-            st.pop()
-
-            var k = ""
-            // if it's digit we keep this up
-            while(!st.isEmpty()&&st.peek().isDigit()){
-                k = st.pop() + k
-
-            }
-            st.add((k.toInt() *substr.toInt()).toChar())
+            currentString = decodedString
+        } else {
+            currentString.append(ch)
         }
     }
-    // sort the decode string question here
+    return currentString.toString()
 }

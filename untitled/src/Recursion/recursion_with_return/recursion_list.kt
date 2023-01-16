@@ -1,4 +1,4 @@
-package Tree
+package Recursion.recursion_with_return
 
 import TreeNode
 
@@ -20,8 +20,7 @@ fun main() {
     root.right = TreeNode(5)
     root.right!!.left = TreeNode(3)
     root.right!!.right = TreeNode(7)
-     var res= preorderTraversal(root)
-    println(res)
+    preorderTraversal(root)
 }
 fun preorderTraversal(root: TreeNode?): List<Int>? {
     val res: MutableList<Int> = ArrayList()

@@ -1,10 +1,4 @@
 package Graph
-// Directed graph :
-// Edge has a specific direction  A-> B
-// But not B -> A       not the other way around
-
-// Undirected graph->   same as weighted graph
-// Using adjacency list for directed graph
 
 /*
 When is a directed graph cyclic? A - b - c - d- e - a

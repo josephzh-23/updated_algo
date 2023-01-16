@@ -44,7 +44,6 @@ fun dfs(adj: Array<ArrayList<Int>>, isVisited: BooleanArray, vertex: Int) {
         return
     }
     isVisited[vertex] = true
-    println(" the viisted node is $vertex")
     // loop throgh the node same as verticies
     for(i in 0 until adj[vertex].size){
         dfs(adj,isVisited, adj[vertex].get(i))

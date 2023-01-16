@@ -12,8 +12,11 @@ Basically the idea is that you move in here
          mark them as visited.
  */
 
-fun main(){
 
+
+fun main(){
+// following will print 2
+    // since 0-1-2      2nd connected: 3-4
     println(countComponentsdfs(5, arrayOf(intArrayOf(0, 1),
             intArrayOf(1, 2),
             intArrayOf(3, 4))))
@@ -46,3 +49,4 @@ fun dfs(adj: Array<ArrayList<Int>>, isVisited: BooleanArray, vertex: Int) {
         dfs(adj,isVisited, adj.get(vertex).get(j))
     }
 }
+

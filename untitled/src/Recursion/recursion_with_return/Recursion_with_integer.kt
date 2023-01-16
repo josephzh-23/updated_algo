@@ -1,4 +1,4 @@
-package Recursion
+package Recursion.recursion_with_return
 
 // f(4) = f(3) + f(2)
 internal object recursion_with_integer {

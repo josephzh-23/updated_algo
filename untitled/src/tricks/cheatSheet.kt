@@ -4,6 +4,9 @@ import java.util.*
 
 
 fun main() {
+
+    var arr = ArrayList<Int>()
+
     val n = 0
     val board = Array(n) { CharArray(n) }
     for (cs in board) {

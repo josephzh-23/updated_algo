@@ -23,15 +23,20 @@ private fun combine(i: Int, str: StringBuilder, result: MutableList<String>,
         result.add(str.toString())
         return
     }
-    /*
-    Combining the data from d[i]
-     */
+
+    // the digit changes at each iteration
     val d = digits[i]
+    // 2:   a, b, c
+    // 3:   d, e, f       4: g, h, i
+
     for (c in mappings[Character.getNumericValue(d)]) {
         // First iter   abc
         str.append(c)
+        println(str)
         combine(i + 1, str, result, digits)
         // it will delete the b here
+
+        // After the return it will come here
         str.deleteCharAt(str.length - 1)
     }
 }
@@ -41,6 +46,11 @@ private val mappings = arrayOf(charArrayOf(), charArrayOf(),
         charArrayOf('d', 'e', 'f'),
         charArrayOf('g', 'h', 'i'), charArrayOf('j', 'k', 'l'), charArrayOf('m', 'n', 'o'), charArrayOf('p', 'q', 'r', 's'), charArrayOf('t', 'u', 'v'), charArrayOf('w', 'x', 'y', 'z'))
 
+
+/*
+Will be sth like a,  ad,  ae,   af,
+b,   bd,   be,  bf
+ */
 fun main() {
     letterCombinations("23")
 }

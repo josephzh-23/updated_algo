@@ -4,6 +4,7 @@ import tricks.print
 import java.util.*
 
 
+// A basic question is like
 fun main() {
     var s = Solution33()
     var s3 = "1+(1+1)"
@@ -58,8 +59,8 @@ internal class Solution33 {
                     // will be 1 idx after
                     index++
                     val curNum = dfs()
-                    // Since it will be
-                    println("current number is $curNum")
+                    // This is kind of like backtracking
+                    // since we are returning from above here
 
                     // Once we hit a close bracket ), it will come here
                     // since returning the dfs above

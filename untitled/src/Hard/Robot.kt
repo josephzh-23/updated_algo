@@ -1,6 +1,5 @@
 package Hard
-
-internal interface Robot {
+interface Robot {
 
 
     // returns true if next cell is open and robot moves into the cell.
@@ -15,3 +14,4 @@ internal interface Robot {
     // Clean the current cell.
     fun clean()
 }
+
