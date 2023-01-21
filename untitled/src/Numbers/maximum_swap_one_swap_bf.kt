@@ -24,7 +24,7 @@ object LargestNumber {
 
                 // Swapping and checking for the larger
                 num_in_str = swap(num_in_str, i, j)
-                if (temp.compareTo(num_in_str) < 0) {
+                if (temp < num_in_str) {
                     temp = num_in_str
                     println(temp)
                 }

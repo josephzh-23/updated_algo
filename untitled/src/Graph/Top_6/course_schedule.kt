@@ -5,6 +5,7 @@
 // This is using the dfs problem
 package Graph.Top_6
 
+
 internal class Course_Schedule3 {
     lateinit var adj: Array<MutableList<Int>>
     lateinit var visited: BooleanArray
@@ -17,6 +18,14 @@ internal class Course_Schedule3 {
             adj[i] = ArrayList()
         }
         visited = BooleanArray(numCourses)
+
+        /*
+        When do you mark explored as true ?
+
+        All it's neighbor has been visited!
+        when go from 2 -> 3         visited[3] = true
+        explored[3] = true
+         */
         explored = BooleanArray(numCourses)
 
         // [1, 2]   ->    1: [2]
@@ -41,6 +50,7 @@ internal class Course_Schedule3 {
                     return true
                 }
             } else if (!explored[neigh]) {
+                println(explored[neigh])
                 return true
             }
         }
@@ -53,7 +63,7 @@ fun main(){
 
     val times1 = arrayOf(
             intArrayOf(1, 0),
-            intArrayOf(0, 2),
+            intArrayOf(0, 1),
     );
     var c = Course_Schedule3()
     // This is 3 because of the 2 before

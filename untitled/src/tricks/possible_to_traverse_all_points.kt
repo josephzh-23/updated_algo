@@ -1,5 +1,7 @@
 package tricks
 
+import print
+
 fun main() {
     // This will let you know when it's done
     var arr = arrayOf(intArrayOf(1, 1, 1, 1),

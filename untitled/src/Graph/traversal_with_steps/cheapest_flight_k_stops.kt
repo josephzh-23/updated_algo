@@ -1,4 +1,4 @@
-package Graph.kruskal
+package Graph.traversal_with_steps
 
 import java.util.*
 

@@ -1,4 +1,4 @@
-package Graph.kruskal
+package Graph.dijkstra
 
 import java.util.*
 

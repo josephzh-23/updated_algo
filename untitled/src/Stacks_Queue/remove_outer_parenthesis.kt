@@ -1,7 +1,7 @@
 package Stacks_Queue
 
 
-import tricks.print
+import print
 import java.util.*
 
 

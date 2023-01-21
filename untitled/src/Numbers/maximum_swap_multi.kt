@@ -1,6 +1,6 @@
 package Numbers
 
-import tricks.print
+import print
 
 // Find the max digit
 // This allows more than 1 swap

@@ -21,7 +21,7 @@ dfs_visited (also known as explored)
 Each time you visit a node, mark all node as 1 and check its neigbor
 
 How to know cycle?
-So when you see a node visited[n] = true dfsVisited[n] = true
+So when you see a node visited[n] = true or dfsVisited[n] = true
 you know this has been visited here
 
 TC: O(n+ e)     # of ndoes + edges here
@@ -49,17 +49,17 @@ internal object Solution5 {
         neighbors.add(5)
         graph.add(neighbors)
 
-        //Vertex - 2
+        //Vertex - 2: [1, 3]
         neighbors = ArrayList()
         neighbors.add(3)
         graph.add(neighbors)
 
-        //Vertex - 3
+        //Vertex - 3: [4]
         neighbors = ArrayList()
         neighbors.add(4)
         graph.add(neighbors)
 
-        //Vertex - 4
+        //Vertex - 4 : [0, 1]
         neighbors = ArrayList()
         neighbors.add(0)
         neighbors.add(1)
@@ -85,8 +85,16 @@ internal object Solution5 {
                 if (checkCycle(neighbor, adj, vis, dfsVis) == true) {
                     return true
                 }
-                // 1 is for dfs visited and the other for the visited as said
-                // right so they are alot more similar than you thought
+
+
+                // THis checks for the case where next node is the previous node
+                // This is the
+                /*
+                A cycle would form below
+                          3
+                       /    \
+                    1   -    2
+                 */
             } else if (dfsVis[neighbor] == 1) {
                 return true
             }

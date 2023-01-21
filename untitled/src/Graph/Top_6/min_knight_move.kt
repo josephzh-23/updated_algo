@@ -5,15 +5,13 @@ import java.util.*
 
 // The new problem here
 
-// A knight with 8 moves here
 /*
-0. Make sure data structure right first
-1. Check if col at x, y
-2. Need a set as said, need newCol and newRow
-3. Q with # of moves with the knight (no need for dijkstra, minQ, since
-you already have it )
+Similar to the
+1. This needs to be done using the
 
-4. Need to iterate thru each level of the q if not storing move int the q
+2. Need to iterate thru each level of the q
+
+
  */
 
 

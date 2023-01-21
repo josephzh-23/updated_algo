@@ -1,6 +1,6 @@
 package Dynamic_programming
 
-import tricks.print
+import print
 
 //https://leetcode.com/problems/range-sum-query-2d-immutable/
 class NumMatrix(matrix: Array<IntArray>) {

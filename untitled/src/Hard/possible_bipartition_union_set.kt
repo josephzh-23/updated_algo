@@ -22,7 +22,7 @@ fun main() {
     // the passed in n is very important
     posPartition(3, edges)
 }
-fun dfsTraversal(n: Int, edges: Array<IntArray>){
+fun posPartition(n: Int, edges: Array<IntArray>){
 
     val adj = Array<ArrayList<Int>>(n){ ArrayList() }
     // For the boolean array we need to know # of vertices usually given
@@ -39,7 +39,7 @@ fun dfsTraversal(n: Int, edges: Array<IntArray>){
     }
 }
 
-fun dfs(adj: Array<ArrayList<Int>>, isVisited: BooleanArray, vertex: Int) {
+fun dfsc(adj: Array<ArrayList<Int>>, isVisited: BooleanArray, vertex: Int) {
     if(isVisited[vertex]){
         return
     }

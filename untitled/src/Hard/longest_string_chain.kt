@@ -54,3 +54,38 @@ fun longestStrChain(words: Array<String>): Int {
     return longestWordSequenceLength
 }
 
+
+fun main() {
+    var words = arrayOf("ba", "bad")
+    appearBefore(words)
+}
+// check if contains previous word first
+fun appearBefore(words: Array<String>) {
+    val dp: MutableMap<String, Int> = HashMap()
+    var appearBefore = false
+    for(word in words){
+        var presentLength = 0
+        // Check if previous word occurs here
+        for(i in 0 until word.length){
+            val temp = java.lang.StringBuilder(word)
+            val prevWord =  temp.deleteCharAt(i).toString()
+            println(prevWord)
+            if(dp.getOrDefault(prevWord, 0) > 1){
+                appearBefore = true
+            }
+            //
+            presentLength++
+        }
+        dp[word] = presentLength
+    }
+    println(appearBefore)
+
+}
+
+
+
+
+
+
+
+

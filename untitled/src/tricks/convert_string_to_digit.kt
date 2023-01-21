@@ -1,6 +1,6 @@
 package tricks
 
-import java.util.*
+import print
 
 fun main() {
     var s = "123"

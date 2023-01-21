@@ -1,7 +1,6 @@
 package Hard
 
-import tricks.print
-import java.util.*
+import print
 
 class number_of_ways_slicing_pizza() {
 

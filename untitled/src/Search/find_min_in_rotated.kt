@@ -1,6 +1,6 @@
 package Search
 
-import tricks.print
+import print
 import java.lang.Integer.min
 
 fun main() {

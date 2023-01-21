@@ -23,8 +23,8 @@ fun longestSubstringTwoMostCharacters(s: String):Int{
 
     while(r< n){
         // when the slidewindow contains less than 3 characters
-        // e 1
-        // b 2
+        // a b c d
+        // a ->0   b-> 1   c-> 2
         hp.put(s[r], r++)
 
 

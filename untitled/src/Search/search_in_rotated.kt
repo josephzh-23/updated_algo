@@ -1,6 +1,6 @@
 package Search
 
-import tricks.print
+import print
 
 fun search(nums: IntArray?, target: Int): Int {
     if (nums == null || nums.size == 0) {

@@ -2,6 +2,7 @@ package Tree.Top6
 
 import TreeNode
 
+// this will get you the nodes with the highest frequency here
 internal class Solution10 {
     var prev: Int? = null
     var count = 1
