@@ -1,7 +1,7 @@
 //import java.util.*
 //
 //
-//fun main() {
+//fun Tree.Hard.main() {
 //    minKnightMoves(2, 1)
 //}
 //

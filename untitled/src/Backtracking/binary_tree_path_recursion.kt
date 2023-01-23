@@ -1,7 +1,18 @@
 
 import java.util.*
 
+/*
+The most intuitive way is to use a recursion here.
 
+ One is going through the tree by considering at each step the node itself
+  and its children.
+   Situation 1:
+   If node is not a leaf, one extends the current path by a node
+   value and calls recursively the path construction for its children.
+
+   Situation 2
+   If node is a leaf, one closes the current path and adds it into the list of paths.
+ */
 // This is just preorder traversal
 // path: a string var
 // https://leetcode.com/problems/binary-tree-paths/

@@ -27,7 +27,7 @@ internal object RemoveDuplicatesExample4 {
         println(newstr)
     }
 
-    // Backtracking.main() method start
+    // Backtracking.Tree.Hard.main() method start
     @JvmStatic
     fun main(args: Array<String>) {
         // Create a string variable with default value

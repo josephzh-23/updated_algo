@@ -1,5 +1,10 @@
 /*
 Use the preorder approach, center -> left tree and right tree
+
+A good node is the greatest value seen among a subtree
+    1
+ 2      3       3 is a good node
+
 1. Keep track of the greatest value seen so far
 2. So if >= max, then good node
 3. Else bad node

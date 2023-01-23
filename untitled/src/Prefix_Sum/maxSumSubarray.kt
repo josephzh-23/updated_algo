@@ -30,8 +30,7 @@ fun maximumSumSubarray(arr: IntArray, n: Int): Int {
 
     // Used to get the prefix sum array here
     prefixSum[0] = arr[0]
-    for (i in 1 until n) prefixSum[i] = (prefixSum[i - 1]
-            + arr[i])
+    for (i in 1 until n) prefixSum[i] = (prefixSum[i - 1] + arr[i])
 
     // loop through the array, keep
     // track of minimum prefix sum so
@@ -41,8 +40,7 @@ fun maximumSumSubarray(arr: IntArray, n: Int): Int {
         /*
         By - minPrefixSum, you will get what you want here
          */
-        res = Math.max(res, prefixSum[i] -
-                min_prefix_sum)
+        res = Math.max(res, prefixSum[i] - min_prefix_sum)
         min_prefix_sum = Math.min(min_prefix_sum,
                 prefixSum[i])
     }

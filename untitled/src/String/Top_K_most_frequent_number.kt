@@ -40,7 +40,7 @@
 //    return res
 //}
 //
-//fun Tree.Tree.Top6.Backtracking.main(){
+//fun Tree.Tree.Top6.Backtracking.Tree.Hard.main(){
 //    var nums = intArrayOf(4, 3, 3, 3, 3, 2, 1, 2)
 //    topKMostFrequentElements(nums, 2)
 //}

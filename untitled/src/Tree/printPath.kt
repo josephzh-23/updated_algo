@@ -15,7 +15,7 @@ fun main() {
     r.right!!.left!!.right = TreeNode(8)
 
     printPath(r)
-//    println(hasPathSum(root, 8))
+//    println(Tree.Hard.hasPathSum(root, 8))
 }
 fun printPath(r: TreeNode?){
 

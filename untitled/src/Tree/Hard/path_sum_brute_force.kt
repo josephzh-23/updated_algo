@@ -1,4 +1,4 @@
-package Tree
+package Tree.Hard
 
 import TreeNode
 //https://leetcode.com/problems/path-sum-iii/

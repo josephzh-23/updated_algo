@@ -1,4 +1,6 @@
-import Tree.printPath
+package Tree.Hard
+
+import TreeNode
 
 fun main() {
     var r = TreeNode(1)

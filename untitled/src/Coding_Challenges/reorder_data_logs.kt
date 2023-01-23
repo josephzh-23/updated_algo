@@ -2,7 +2,7 @@
 //
 //import java.util.*
 //
-//fun Tree.Tree.Top6.Backtracking.main() {
+//fun Tree.Tree.Top6.Backtracking.Tree.Hard.main() {
 //    var logs = arrayOf(
 //            "dig1 8 1 5 1",
 //            "let1 art can",
