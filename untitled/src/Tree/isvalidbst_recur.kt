@@ -2,7 +2,7 @@
 //package Tree
 // O(n)
 //// Low and high represent the ranges here
-internal class Solution {
+internal class Solution33 {
     fun validate(root: TreeNode?, low: Int?, high: Int?): Boolean {
         // Empty trees are valid BSTs.
         if (root == null) {

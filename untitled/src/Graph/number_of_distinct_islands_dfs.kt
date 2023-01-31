@@ -1,6 +1,5 @@
 package Graph
 
-import print
 
 
 fun main() {
@@ -9,7 +8,7 @@ fun main() {
     var s = arrayOf(intArrayOf(1,1, 0,1, 1),
     intArrayOf(1, 0, 0,0,0),
     intArrayOf(0, 0,0, 0,1), intArrayOf(1,1,0,1,1))
-    sol.numIslands(s).print()
+    sol.numIslands(s)
 //    s.
 //    s.numIslands()
 }
@@ -39,7 +38,11 @@ internal class Solution17 {
                     baseCol = c
                     // Start sth new each time here
                     var sb = StringBuilder()
+
+                    // Pass in a base case
                     dfs(grid, r, c, sb)
+
+                    // This make sure unique
                     set.add(sb.toString())
                 }
             }
@@ -56,6 +59,7 @@ internal class Solution17 {
         // If this is the first time looking at it then put this here
         grid[r][c] = 0
         // Add coords to the string
+        // [1011
         sb.append(r - baseRow)
         sb.append(c - baseCol)
         dfs(grid, r - 1, c, sb)

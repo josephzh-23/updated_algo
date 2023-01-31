@@ -1,6 +1,5 @@
 package Numbers
 
-import print
 
 // Find the max digit
 // This allows more than 1 swap
@@ -9,7 +8,7 @@ import print
 
 fun main() {
     var rr = 1234
-    maximumSwap(rr).print()
+    maximumSwap(rr)
 }
 fun maximumSwap(num: Int): Int {
 

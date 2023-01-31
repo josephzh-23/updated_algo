@@ -1,6 +1,5 @@
 package Search
 
-import print
 
 fun search(nums: IntArray?, target: Int): Int {
     if (nums == null || nums.size == 0) {
@@ -65,5 +64,5 @@ fun search(nums: IntArray?, target: Int): Int {
 
 fun main() {
     var arr = intArrayOf(4, 5, 6, 7, 0, 1, 2)
-    search(arr, 5).print()
+    search(arr, 5)
 }

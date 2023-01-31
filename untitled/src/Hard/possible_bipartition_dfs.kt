@@ -1,6 +1,5 @@
 package Hard
 
-import print
 
 // THis is simliar to the redundant connection edge problem
 
@@ -15,7 +14,7 @@ var MAX_EDGE_VAL = 1000
 fun main() {
     var edges = arrayOf(intArrayOf(1, 2),
             intArrayOf(1, 3), intArrayOf(2, 4))
-    findRedundantConnection(edges).print()
+    findRedundantConnection(edges)
 }
 fun findRedundantConnection(edges: Array<IntArray>): Boolean {
     var seen: MutableSet<Int> = HashSet()

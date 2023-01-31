@@ -1,6 +1,5 @@
 package Sliding_window.Hard
 
-import print
 
 // The answer for this would be O(n^2) solution
 // S: O(n)  the answer for this would be O(n^2)
@@ -8,7 +7,7 @@ import print
 
 fun main() {
     var word = "ababbc"
-    longestSubstringWithAtLeastK(word, 2).print()
+    longestSubstringWithAtLeastK(word, 2)
 }
 
 fun longestSubstringWithAtLeastK(s: String, k: Int): Int {

@@ -20,7 +20,7 @@ fun main() {
 
 fun inorderTraversal(root: TreeNode?): List<Int> {
     val res: MutableList<Int> = ArrayList()
-    helper(root, res)
+    helper2(root, res)
     res.forEach {
         println(it)
     }
@@ -30,8 +30,8 @@ fun inorderTraversal(root: TreeNode?): List<Int> {
 
 fun helper(root: TreeNode?, res: MutableList<Int>) {
     if (root != null) {
-        helper(root.left, res)
+        helper2(root.left, res)
         res.add(root.value)
-        helper(root.right, res)
+        helper2(root.right, res)
     }
 }

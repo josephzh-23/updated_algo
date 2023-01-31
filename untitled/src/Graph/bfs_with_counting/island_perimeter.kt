@@ -1,6 +1,6 @@
 //package Graph.bfs_with_counting
 //
-//import Graph.isInBoundsInt
+//import Graph.Basics.isInBoundsInt
 //import java.util.*
 //
 //

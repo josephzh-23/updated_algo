@@ -1,6 +1,5 @@
 package Hard
 
-import print
 
 //https://leetcode.com/problems/range-sum-query-2d-immutable/
 class NumMatrix(matrix: Array<IntArray>) {
@@ -38,7 +37,7 @@ fun main() {
             intArrayOf(4, 1, 0, 1, 7),
             intArrayOf(1, 0, 3, 0, 5)))
     //should give back the 8
-    ss.sumRegion(2, 1, 4, 3).print()
+    ss.sumRegion(2, 1, 4, 3)
 }
 
 /**

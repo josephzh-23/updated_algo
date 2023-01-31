@@ -1,6 +1,6 @@
 package tricks
 
-import top_tricks.swapChar
+import top_tricks.swapNumber
 
 
 fun main() {
@@ -8,7 +8,7 @@ fun main() {
     for(i in 1 until s.length){
         var word = s.toCharArray()
         if(word[i-1] == word[i]){
-            swapChar(s, i, i+1)
+            swapNumber(s, i, i+1)
         }
     }
 }

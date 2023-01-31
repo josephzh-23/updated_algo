@@ -27,6 +27,7 @@ internal class Solution1 {
         return node
     }
 
+    // No path compression here
     fun union(i: Int, j: Int) {
         val iRoot = find(i)
         val jRoot = find(j)

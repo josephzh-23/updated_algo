@@ -6,7 +6,7 @@ fun main() {
     println(str)
 }
 // Using this can be very helpful
-fun swapChar(str:String, i: Int, j: Int): String{
+fun swapNumber(str:String, i: Int, j: Int): String{
     var cArray = str.toCharArray()
 
     // Swap the first one
@@ -16,4 +16,6 @@ fun swapChar(str:String, i: Int, j: Int): String{
     return StringBuilder().append(cArray).toString()
 
 }
+
+// Here we basically swap the number here
 

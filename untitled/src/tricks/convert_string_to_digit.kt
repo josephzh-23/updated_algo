@@ -1,11 +1,10 @@
 package tricks
 
-import print
 
 fun main() {
     var s = "123"
 
-    calculate(s).print()
+    calculate(s)
 }
 fun calculate(s: String):Int{
     var operand = 0
