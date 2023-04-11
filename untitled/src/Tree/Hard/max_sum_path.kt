@@ -9,7 +9,7 @@ fun main() {
     r.right!!.left = TreeNode(15)
     r.right!!.right = TreeNode(7)
     var s = Sole()
-    s.maxPathSum(r).print()
+    s.maxPathSum(r)
 }
 
 // This will be a post order traversal

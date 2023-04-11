@@ -1,11 +1,10 @@
 package Search
 
-import print
 import java.lang.Integer.min
 
 fun main() {
     var arr = intArrayOf(3, 4, 5, 1, 2)
-    findMin(arr).print()
+    findMin(arr)
 }
 
 // Extension funciton

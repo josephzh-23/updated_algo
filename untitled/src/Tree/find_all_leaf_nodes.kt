@@ -1,7 +1,6 @@
 package Tree
 
 import TreeNode
-import print
 
 
 fun main(args: Array<String>) {

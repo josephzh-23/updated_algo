@@ -42,7 +42,7 @@ class restore_ip_addresses {
 
             // Convert it to number here
             val value = sb.toString().toInt()
-            println(sb)
+//            println(sb)
 
             // Basically take care of invalid cases here
             //take care of invalid cases of leading 0s and all that
@@ -65,6 +65,7 @@ class restore_ip_addresses {
             // Each time it comes here either 1 combination has bee found or
             // no compbination has been found
             // reset our current string for the next backtracking here
+            println(temp)
             str = temp
         }
     }

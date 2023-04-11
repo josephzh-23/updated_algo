@@ -1,6 +1,5 @@
 package Hard
 
-import print
 
 class number_of_ways_slicing_pizza() {
 
@@ -79,5 +78,5 @@ class number_of_ways_slicing_pizza() {
 fun main() {
     var s = number_of_ways_slicing_pizza()
     var s2 = arrayOf("A..", "AAA", "...")
-    s.ways(s2, 3).print()
+    s.ways(s2, 3)
 }

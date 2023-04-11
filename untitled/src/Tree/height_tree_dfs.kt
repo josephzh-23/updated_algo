@@ -2,7 +2,7 @@ package Tree
 
 
 import TreeNode
-import print
+
 
 
 /*
@@ -41,7 +41,7 @@ fun main() {
     r.left!!.right = TreeNode(5)
     r.right!!.left = TreeNode(6)
     r.right!!.right = TreeNode(7)
-    s.count(r, 3).print()
+    s.count(r, 3)
 
 //    val r = TreeNode(1)
 //    r.left = TreeNode(2)

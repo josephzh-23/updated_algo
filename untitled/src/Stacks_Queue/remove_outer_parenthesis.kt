@@ -1,7 +1,7 @@
 package Stacks_Queue
 
 
-import print
+
 import java.util.*
 
 
@@ -16,7 +16,7 @@ import java.util.*
 fun main() {
 
     var s = "(()())(())"
-    solution(s).print()
+    solution(s)
 }
 
 fun solution(str: String) {

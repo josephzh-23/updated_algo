@@ -1,12 +1,12 @@
 package tricks
 
-import print
+
 
 fun main() {
     // This will let you know when it's done
     var arr = arrayOf(intArrayOf(1, 1, 1, 1),
             intArrayOf(0, 0, 0,1), intArrayOf(0, 0, 1, 1))
-    uniquePathsIII(arr).print()
+    uniquePathsIII(arr)
 }
 // 1 is accessible, 0: blocked here
 fun uniquePathsIII(grid: Array<IntArray>): Int {

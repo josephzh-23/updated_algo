@@ -1,6 +1,5 @@
 package Hard
 
-import print
 import java.util.*
 
 
@@ -8,7 +7,7 @@ import java.util.*
 fun main() {
     var s = Solution33()
     var s3 = "1+(1+1)"
-    s.calculate(s3).print()
+    s.calculate(s3)
 }
 
 /*

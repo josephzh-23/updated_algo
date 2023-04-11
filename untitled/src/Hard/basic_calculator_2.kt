@@ -3,7 +3,7 @@ package Hard
 import java.util.*
 
 
-internal class Solution {
+internal class Solution32 {
     fun calculate(s: String?): Int {
         if (s == null || s.isEmpty()) return 0
         val len = s.length
