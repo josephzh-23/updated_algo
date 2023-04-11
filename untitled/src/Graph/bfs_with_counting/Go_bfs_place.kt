@@ -46,6 +46,8 @@ fun solveGo(board: Array<CharArray>, r: Int, c:Int):Int{
     visited[r][c] = true
 
     var count = 0
+
+
     for (dir in directions) {
         count += bfs(board, visited, r + dir[0], c + dir[1])
         println(" # of times comes here")

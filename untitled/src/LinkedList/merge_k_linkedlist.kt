@@ -30,6 +30,8 @@ internal class Solution13 {
         // this is used
         var l1 = l1
         var l2 = l2
+
+        // Curr is a dummy node first
         val result = ListNode(-1)
         var curr: ListNode? = result
         while (l1 != null || l2 != null) {

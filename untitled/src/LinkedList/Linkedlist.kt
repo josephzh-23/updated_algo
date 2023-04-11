@@ -34,6 +34,7 @@ class SinglyLinkedList {
 
     fun insertFirst(value: Int) {
         val newNode = ListNode(value)
+        // Update the header here
         newNode.next = head
         head = newNode
     }

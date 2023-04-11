@@ -2,7 +2,7 @@ package String_manipulation
 
 import java.util.*
 import kotlin.collections.HashMap
-
+// Rearrange the letter based on the length here
 //https://leetcode.com/problems/rearrange-words-in-a-sentence/
 // Problem: rearrange words in a sentence
 // brute force approach using q

@@ -4,7 +4,7 @@ import java.util.*
 import kotlin.collections.HashMap
 
 /*
-
+https://leetcode.com/problems/reorganize-string/
 TC: O(nlogn)
 
 Use a max heap-> b/c most frequent item here

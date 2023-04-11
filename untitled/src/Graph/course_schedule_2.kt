@@ -2,7 +2,10 @@ package Graph
 
 import java.util.*
 
-
+/*
+For example, the pair [0, 1],
+indicates that to take course 0 you have to first take course 1.
+ */
 // We have an indegree order, topological order
 internal class Solution13 {
     fun findOrder(numCourses: Int, prerequisites: Array<IntArray>): IntArray {
@@ -21,6 +24,10 @@ internal class Solution13 {
 
         // Create the adjacency list representation of the graph
         for (i in prerequisites.indices) {
+
+            /*
+             So here : [0, 1]       [0]     [1] take 1 before you take 0 over here
+             */
             val dest = prerequisites[i][0]
             val src = prerequisites[i][1]
 
@@ -35,6 +42,8 @@ internal class Solution13 {
         // Add all vertices with 0 in-degree to the queue
         val q: Queue<Int> = LinkedList()
         for (i in 0 until numCourses) {
+
+            //No more indegrees here
             if (indegree[i] == 0) {
                 q.add(i)
             }

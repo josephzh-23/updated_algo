@@ -1,5 +1,13 @@
 package String
 
+
+fun main() {
+
+
+    var coo = null
+    var res = coo as? String
+    println(res)
+}
 // this way we go towards the middle from the back
 // and the start
 internal class Solution {

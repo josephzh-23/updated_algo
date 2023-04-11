@@ -1,44 +1,59 @@
-package Array
+import java.util.*
 
+fun main(){
 
-import java.util.*;
-/*
-Time Complexity: O(nlog(n))
-Auxiliary Space: O(1)
-*/
-// Sort so all same elem right next to each other
-// Check for consecutive occurences
+    val list = intArrayOf(3, 6, 5, 9, 4)
+    val results = sortZigzagList(list)
 
-fun mostFrequent(arr: IntArray){
-
-    Arrays.sort(arr)
-    var max_count = 1
-    var curCount = 1
-    var res = arr[0]
-    // All same elem next to each other
-
-    for(i in 1 until arr.size){
-        // Check if same as the one before
-        if(arr[i] == arr[i-1]){
-            curCount++
-
-            // The first time here
-        }else{
-            curCount =1
-        }
-
-        if (curCount > max_count) {
-           max_count = curCount
-            res = arr[i - 1];
-            println(res)
-        }
-    }
+    // results.forEach{
+    //   println(it)
+    // }
 }
 
+fun swap(cArray:IntArray, i: Int, j: Int): IntArray{
 
-// Driver program
-fun main(args: Array<String>) {
-    val arr = intArrayOf(40, 50, 30, 40, 50, 30, 30)
-    val n = arr.size
-    System.out.println(mostFrequent(arr))
+    // Swap the first one
+    var temp = cArray[i]
+    cArray[i] = cArray[j]
+    cArray[j] = temp
+    return cArray
+
+}
+
+fun sortZigzagList(arr: IntArray):IntArray{
+
+
+    var big  =0
+    Arrays.sort(arr)
+    big = arr.last()
+    for(i in  0 until arr.size-1){
+
+
+        //
+
+        if(arr[i] >arr[i+1]&& i%2 ==0){
+            swap(arr, i , i+1)
+        }
+        println("$arr[i] , $arr[i+1]")
+        // else if (arr[i] < arr[i+1]&& i%2 !=0){
+        //   swap(arr, i , i+1)
+        // }
+
+
+    }
+
+
+    // arr[1] = arr.last
+    //   swap(arr, arr.size-1, 1)
+    //   for(i in  2 until arr.size-1){
+
+    //   if(arr[i] >arr[i+1]&& i%2 ==0){
+    //       swap(arr, i , i+1)
+    //   }else if (arr[i] < arr[i+1]&& i%2 !=0){
+    //     swap(arr, i , i+1)
+    //   }
+    //   }
+
+    return arr
+
 }

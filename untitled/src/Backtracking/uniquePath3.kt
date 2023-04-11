@@ -30,6 +30,8 @@ fun uniquePathsIII(grid: Array<IntArray>): Int {
 fun dfs(grid: Array<IntArray>, x: Int, y: Int, zero: Int): Int {
     // Base Condition
     var zero = zero
+
+    println("num of zeros $zero")
     if (x < 0 || y < 0 || x >= grid.size || y >= grid[0].size || grid[x][y] == -1) {
         return 0
     }
@@ -48,6 +50,7 @@ fun dfs(grid: Array<IntArray>, x: Int, y: Int, zero: Int): Int {
     // that means we have failed so we need to backtrack and add zero count
     grid[x][y] = 0
     zero++
+    println("# of path is $totalPaths")
     return totalPaths // if we get all the paths, simply return it.
 }
 
