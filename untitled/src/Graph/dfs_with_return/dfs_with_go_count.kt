@@ -18,11 +18,13 @@ import Graph.bfs_with_counting.w
 
 // count the # of white stones surrounded
 fun main() {
-    var goBoard2 = arrayOf(charArrayOf(w, b, b, e, b, b, b),
-            charArrayOf(b, b, e, b, w, w, b),
-            charArrayOf(e, e, e, e, b, b, b),
-            charArrayOf(e, e, e, e, e, e, e))
-   println(countNumWhite2(goBoard2))
+    var goBoard2 = arrayOf(
+        charArrayOf(w, b, b, e, b, b, b),
+        charArrayOf(b, b, e, b, w, w, b),
+        charArrayOf(e, e, e, e, b, b, b),
+        charArrayOf(e, e, e, e, e, e, e)
+    )
+    println(countNumWhite2(goBoard2))
 }
 
 // Here we check the number of whites captured by black
@@ -35,19 +37,23 @@ fun countNumWhite2(grid: Array<CharArray>): Int {
     val nc = grid[0].size
     for (r in 0 until nr) {
         for (c in 0 until nc) {
+
+            // When you see a white start counting
             if (grid[r][c] == 'w') {
 //               if(dfs(grid, r, c)){
-              totalCount +=  (countNumCaptured2(grid, r, c, seen,0))
-                }
-
+                totalCount += (countNumCaptured2(grid, r, c, seen, 0))
             }
+
         }
-   return totalCount
+    }
+    return totalCount
 }
 
 // By using this we can tell if captured on all sides
-fun countNumCaptured2(grid: Array<CharArray>, r: Int, c: Int, seen: Array<BooleanArray>,
-count:Int):Int{
+fun countNumCaptured2(
+    grid: Array<CharArray>, r: Int, c: Int, seen: Array<BooleanArray>,
+    count: Int
+): Int {
     // visited already
     var count = count
     if (r < 0 || c < 0 || r >= grid.size || c >= grid[0].size || seen[r][c]) {
@@ -70,7 +76,8 @@ count:Int):Int{
     seen[r][c] = true
 
     for (d in directions) {
-        count+=countNumCaptured2(grid, r + d[0], c + d[1], seen, count)
+        // Because it's in all 4 direcitons like said
+        count += countNumCaptured2(grid, r + d[0], c + d[1], seen, count)
     }
     return count
 }

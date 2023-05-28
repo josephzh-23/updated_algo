@@ -17,7 +17,7 @@ fun bfsGraph(data: Array<IntArray>?, start: Int): Int {
     val times1 = arrayOf(
             intArrayOf(2, 1),
             intArrayOf(2, 3),
-            intArrayOf(3, 4),
+            intArrayOf(3, 4)
     );
     val graph: MutableMap<Int, MutableList<Int>> = HashMap()
 

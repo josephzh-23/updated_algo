@@ -35,3 +35,14 @@ fun dfs(board: Array<CharArray>, i: Int, j: Int): Boolean {
     board[i][j] = '1'
     return dfs(board, i - 1, j) && dfs(board, i + 1, j) && dfs(board, i, j - 1) && dfs(board, i, j + 1)
 }
+
+
+
+
+
+
+
+
+
+
+

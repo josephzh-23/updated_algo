@@ -44,14 +44,15 @@ fun networkDelayTime(times: Array<IntArray>, n: Int, k: Int): Int {
     val visited: MutableSet<Int> = HashSet()
 
     var min = 0
-    minHeap.add(intArrayOf(k  , 0))
+    minHeap.add(intArrayOf(k, 0))
     // Step 2 use a queue and visited set
     while (!minHeap.isEmpty()) {
 
         // The one with the smallest distance
         // [3, 1]
         val node = minHeap.poll()
-        val src = node[0] ; val srcDist = node[1]
+        val src = node[0];
+        val srcDist = node[1]
 
         if (visited.contains(src)) continue
         min = srcDist
@@ -69,16 +70,18 @@ fun networkDelayTime(times: Array<IntArray>, n: Int, k: Int): Int {
     print(min)
     return if (visited.size == n) min else -1
 }
-    fun main() {
-        val times1 = arrayOf(
-                intArrayOf(2, 1, 1),
-                intArrayOf(2, 3, 1),
-                intArrayOf(3, 4, 1),
-        );
-        val times2 = arrayOf(
-                intArrayOf(1, 2, 1)
-        );
-        val n = 4; val k = 2
-        networkDelayTime(times2, 2, 1)
 
-    }
+fun main() {
+    val times1 = arrayOf(
+        intArrayOf(2, 1, 1),
+        intArrayOf(2, 3, 1),
+        intArrayOf(3, 4, 1)
+    );
+    val times2 = arrayOf(
+        intArrayOf(1, 2, 1)
+    );
+    val n = 4;
+    val k = 2
+    networkDelayTime(times2, 2, 1)
+
+}
