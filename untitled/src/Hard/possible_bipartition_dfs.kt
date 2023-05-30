@@ -35,4 +35,3 @@ fun validColor(g: Array<IntArray>, colors: IntArray, color: Int, node: Int): Boo
     return true
 
 }
-}

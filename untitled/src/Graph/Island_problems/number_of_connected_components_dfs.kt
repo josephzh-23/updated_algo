@@ -45,8 +45,8 @@ fun dfs(adj: Array<ArrayList<Int>>, isVisited: BooleanArray, vertex: Int) {
    }
     isVisited[vertex] = true
     // loop throgh the node
-    for(j in 0 until adj[vertex].size){
-        dfs(adj,isVisited, adj.get(vertex).get(j))
+    for(neigh in adj[vertex]){
+        dfs(adj,isVisited, neigh)
     }
 }
 

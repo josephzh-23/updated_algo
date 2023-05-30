@@ -1,9 +1,9 @@
-package Graph.dijkstra
-
 import java.util.*
 
-internal class Solution {
+internal class Solution3 {
     var dirs = arrayOf(intArrayOf(-1, 0), intArrayOf(1, 0), intArrayOf(0, 1), intArrayOf(0, -1))
+
+    var sDirections = arrayOf("u", "d", "r" , "l")
     fun shortestDistance(maze: Array<IntArray>, start: IntArray, destination: IntArray): Int {
         val n = maze.size
         val m = maze[0].size
@@ -12,11 +12,18 @@ internal class Solution {
             Arrays.fill(dist[i], Int.MAX_VALUE)
         }
         dist[start[0]][start[1]] = 0
-        dijkstra(maze, start, destination, dist)
+        var s = StringBuilder()
+        dijkstra(maze, start, destination, dist, s)
         return if (dist[destination[0]][destination[1]] == Int.MAX_VALUE) -1 else dist[destination[0]][destination[1]]
     }
 
-    fun dijkstra(maze: Array<IntArray>, start: IntArray?, destination: IntArray, dist: Array<IntArray>) {
+    fun dijkstra(
+        maze: Array<IntArray>,
+        start: IntArray?,
+        destination: IntArray,
+        dist: Array<IntArray>,
+        s: StringBuilder
+    ) {
         val pq = PriorityQueue { a: IntArray, b: IntArray ->
             a[2] - b[2]
         }

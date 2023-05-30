@@ -1,13 +1,8 @@
-package Graph
 
-// Rework on the surrounded region problem here
 
-// And then using that problem here we coudl have
+fun dfs(adj: Array<ArrayList<Int>>, visited: BooleanArray, i: Int){
 
-fun solve(board: Array<CharArray>) {
-
-    // how would you solve this here
-    // Check if on the boundary first
-
+    val neighbors = adj.get(i)
+    for(neigh in neighbors){
+    }
 }
-

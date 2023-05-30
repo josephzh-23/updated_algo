@@ -43,6 +43,8 @@ internal class Solution {
         val down = dfs(curRow + 1, curCol, curIndex + 1)
         val left = dfs(curRow, curCol - 1, curIndex + 1)
         val right = dfs(curRow, curCol + 1, curIndex + 1)
+
+        // Then we need to return
         val ans = top || down || left || right
 
         // This is where we backtrack basically we change the visited
