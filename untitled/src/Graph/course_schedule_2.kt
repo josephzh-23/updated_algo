@@ -31,10 +31,14 @@ internal class Solution13 {
             val dest = prerequisites[i][0]
             val src = prerequisites[i][1]
 
-            val lst = adjList.getOrDefault(src, ArrayList())
-            lst.add(dest)
-            adjList[src] = lst
+//            val lst = adjList.getOrDefault(src, ArrayList())
+//            lst.add(dest)
+//            adjList[src] = lst
 
+
+            // Need to add this otherwise if absent
+            adjList.putIfAbsent(src, ArrayList())
+            adjList[src]?.add(dest)
             // Record in-degree of each vertex
             indegree[dest] += 1
         }

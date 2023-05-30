@@ -1,15 +1,17 @@
-
-
 // https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
 fun main() {
-    var edges = arrayOf(intArrayOf(0,1),
-    intArrayOf(1, 2),
-    intArrayOf(3, 4))
+    var edges = arrayOf(
+        intArrayOf(0, 1),
+        intArrayOf(1, 2),
+        intArrayOf(3, 4)
+    )
 
-    var edges2 = arrayOf(intArrayOf(0,1),
-            intArrayOf(1, 2),
-            intArrayOf(2, 3),
-            intArrayOf(3, 4))
+    var edges2 = arrayOf(
+        intArrayOf(0, 1),
+        intArrayOf(1, 2),
+        intArrayOf(2, 3),
+        intArrayOf(3, 4)
+    )
     /*
     Here the answer should give 2, since 0 - 1 - 2 connected
     and 3-4 connected here.
@@ -26,15 +28,15 @@ n = num of nodes given   m = num of edges we have
 
 
 fun countComponents(n: Int, edges: Array<IntArray>): Int {
-    var u = UnionFind(n)
+    var u = UnionFind22(n)
     for (edge in edges) {
         u.union(edge[0], edge[1])
     }
-        print(u.numOfComponets)
+    print(u.numOfComponets)
     return u.numOfComponets
 }
 
-class UnionFind(n: Int) {
+class UnionFind22(n: Int) {
     private val parents: IntArray
     private val ranks: IntArray
 
@@ -97,6 +99,7 @@ class UnionFind(n: Int) {
             return
         }
 
+        // And in the else case it would just keep going
         if (ranks[node1Parent] > ranks[node2Parent]) {
             parents[node2Parent] = node1Parent
             ranks[node1Parent] += ranks[node2Parent]

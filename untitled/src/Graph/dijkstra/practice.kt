@@ -1,43 +1,72 @@
-package Graph.dijkstra
+import January_3rd.print
 
-import java.util.*
+// This will not actually work since you would have to
+// iterate over the adjacent node which works by the theory
 
-// WOrk on the network delay time here
+// of bfs( adjacent)
 
-// Given the [u, v, w] w =the time it takes from u to v
+// Using union find
 
-fun findCheapestPrice(n: Int, flights: Array<IntArray>, src: Int, dst: Int, k: Int): Int {
-    val adj: MutableMap<Int, MutableList<IntArray>?> = HashMap()
-    for (i in flights)  // The 2nd value is the price
-        adj.computeIfAbsent(
-            i[0]
-        ) { value: Int? -> ArrayList() }!!
-            .add(intArrayOf(i[1], i[2]))
-    val stops = IntArray(n)
-    Arrays.fill(stops, Int.MAX_VALUE)
+// Using unino find code here
+// Using union find code here
 
-    // When you poll
-    val pq = PriorityQueue { a: IntArray, b: IntArray ->
-        a[0] - b[0]
+
+fun main() {
+    var s = arrayOf(intArrayOf(1, 2), intArrayOf(1, 3),
+        intArrayOf(2, 3))
+
+    Solution1().isGraphbipartite(s).print()
+}
+
+internal class Solution23 {
+    lateinit var parent: IntArray
+    fun isGraphbipartite(g: Array<IntArray>): Boolean {
+        val n = g.size
+        parent = IntArray(n + 1)
+
+        //make each node the parent of itself
+        for (i in 0..n) parent[i] = i
+
+        //Loop on all edges
+        for (i in 0 until g.size) {
+
+            // all the negihbors
+            var adj = g[i]
+            for(j in 0 until adj.size){
+
+                // Have to check if you same parent first?
+                if(find(i) == find(adj[j])){
+                    return false
+                }
+                union(i, adj[j])
+            }
+        }
+        return true
     }
 
+    fun find(node: Int): Int {
+        var node = node
+        while (parent[node] != node) {
+            node = parent[node]
+        }
+        return node
+    }
 
-    // {the price here , node, number_of_stops_from_src_node}
-    pq.offer(intArrayOf(0, src, 0))
-    while (!pq.isEmpty()) {
-        val temp = pq.poll()
-        val price = temp[0]
-        val node = temp[1]
-        val steps = temp[2]
-        // We have already encountered a path with a lower cost and fewer stops,
-        // or the number of stops exceeds the limit.
-        if (steps > stops[node] || steps > k + 1) continue
-        stops[node] = steps
-        if (node == dst) return price
-        if (!adj.containsKey(node)) continue
-        for (neigh in adj[node]!!) {
-            pq.offer(intArrayOf(price + neigh[1], neigh[0], steps + 1))
+    // No path compression here
+    fun union(i: Int, j: Int) {
+        val iRoot = find(i)
+        val jRoot = find(j)
+        if (iRoot != jRoot) {
+            parent[jRoot] = iRoot
         }
     }
-    return -1
 }
+
+
+
+
+
+
+
+
+

@@ -1,51 +1,61 @@
-package Graph
+internal class UnionFind(size: Int) {
+    var parent: IntArray
+    var rank: IntArray
 
-import java.util.*
-
-/*
-dfs adjacency list is best for dealing with edges, add them to a list
-would be a lot simpler as said
-This would look like the following
-    0
-  1   2
-    3
-  4   5
-     ->   3 1 0 ->   4 3  1 0  ->   pop 4
-    5 3  1  0 ->   pop 5 ->
-       3  1  0  ->   2 3  1  0 -> pop 2
-       3 1 0 -> pop 3       1 0
- */
-fun main() {
-    // this below forms 0 1 2
-    var edges =  arrayOf(intArrayOf(0, 1),
-            intArrayOf(1, 2))
-    // the passed in n is very important
-    posPartition(3, edges)
-}
-fun posPartition(n: Int, edges: Array<IntArray>){
-
-    val adj = Array<ArrayList<Int>>(n){ ArrayList() }
-    // For the boolean array we need to know # of vertices usually given
-    // in the questions
-    val visited = BooleanArray(n)
-    edges.forEach{edge->
-        adj[edge[0]].add(edge[1])
-        adj[edge[1]].add(edge[0])
+    init {
+        parent = IntArray(size)
+        for (i in 0 until size) parent[i] = i
+        rank = IntArray(size)
     }
-    for(i in 0 until n){
-        if(!visited[i]){
-            dfsc(adj, visited, i)
+
+    fun find(x: Int): Int {
+        if (parent[x] != x) parent[x] = find(parent[x])
+        return parent[x]
+    }
+
+    fun union(x: Int, y: Int) {
+        val xset = find(x)
+        val yset = find(y)
+        if (xset == yset) {
+            return
+        } else if (rank[xset] < rank[yset]) {
+            parent[xset] = yset
+        } else if (rank[xset] > rank[yset]) {
+            parent[yset] = xset
+        } else {
+            parent[yset] = xset
+            rank[xset]++
         }
     }
 }
 
-fun dfsc(adj: Array<ArrayList<Int>>, isVisited: BooleanArray, vertex: Int) {
-    if(isVisited[vertex]){
-        return
+fun possibleBipartition(n: Int, dislikes: Array<IntArray>): Boolean {
+
+
+    val adj: MutableMap<Int, MutableList<Int>?> = HashMap()
+    for (edge in dislikes) {
+        val a = edge[0]
+        val b = edge[1]
+        adj.computeIfAbsent(
+            a
+        ) { ArrayList() }!!
+            .add(b)
+        adj.computeIfAbsent(
+            b
+        ) { ArrayList() }!!
+            .add(a)
     }
-    isVisited[vertex] = true
-    // loop throgh the node same as verticies
-    for(i in 0 until adj[vertex].size){
-        dfsc(adj,isVisited, adj[vertex].get(i))
+    val dsu = UnionFind(n + 1)
+    for (node in 1..n) {
+        if (!adj.containsKey(node)) continue
+
+        // Go through each node in the list
+        for (neighbor in adj[node]!!) {
+            // Check if the node and its neighbor is in the same set.
+            if (dsu.find(node) == dsu.find(neighbor)) return false
+            // Move all the neighbours into same set as the first neighbour.
+            dsu.union(adj[node]!![0], neighbor)
+        }
     }
+    return true
 }

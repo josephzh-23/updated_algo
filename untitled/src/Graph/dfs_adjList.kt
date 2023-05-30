@@ -20,7 +20,7 @@ fun main() {
     var edges =  arrayOf(intArrayOf(0, 1),
             intArrayOf(1, 2))
     // the passed in n is very important
-    posPartition(3, edges)
+    dfsTraversal(3, edges)
 }
 fun dfsTraversal(n: Int, edges: Array<IntArray>){
 
@@ -34,7 +34,7 @@ fun dfsTraversal(n: Int, edges: Array<IntArray>){
     }
     for(i in 0 until n){
         if(!visited[i]){
-            dfsc(adj, visited, i)
+            dfs(adj, visited, i)
         }
     }
 }
@@ -46,6 +46,6 @@ fun dfs(adj: Array<ArrayList<Int>>, isVisited: BooleanArray, vertex: Int) {
     isVisited[vertex] = true
     // loop throgh the node same as verticies
     for(i in 0 until adj[vertex].size){
-        dfsc(adj,isVisited, adj[vertex].get(i))
+        dfs(adj,isVisited, adj[vertex].get(i))
     }
 }

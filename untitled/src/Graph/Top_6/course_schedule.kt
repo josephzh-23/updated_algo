@@ -1,73 +1,59 @@
-
-// Course schedule is for a directed graph
-//https://www.youtube.com/watch?v=CL4NZAoOdpM&t=483s
-
-// This is using the dfs problem
-package Graph.Top_6
+import java.util.*
 
 
-internal class Course_Schedule3 {
-    lateinit var adj: Array<MutableList<Int>>
-    lateinit var visited: BooleanArray
-    lateinit var explored: BooleanArray
-    fun canFinish(numCourses: Int, prerequisites: Array<IntArray>): Boolean {
-        adj = Array(numCourses){mutableListOf(numCourses)}
-
-        // Initialize a new list for each node here
-        for (i in 0 until numCourses) {
-            adj[i] = ArrayList()
+internal class Solution515 {
+    fun isPossible(V: Int, prerequisites: Array<IntArray>): Boolean {
+        // Form a graph
+        val adj = ArrayList<ArrayList<Int>>()
+        for (i in 0 until V) {
+            adj.add(ArrayList())
         }
-        visited = BooleanArray(numCourses)
-
-        /*
-        When do you mark explored as true ?
-
-        All it's neighbor has been visited!
-        when go from 2 -> 3         visited[3] = true
-        explored[3] = true
-         */
-        explored = BooleanArray(numCourses)
-
-        // [1, 2]   ->    1: [2]
-        for (i in prerequisites.indices) {
+        val m = prerequisites.size
+        for (i in 0 until m) {
             adj[prerequisites[i][0]].add(prerequisites[i][1])
         }
-        for (i in 0 until numCourses) {
-            if (!visited[i]) {
-                if (isCyclic(i)) {
-                    return false
-                }
+        val indegree = IntArray(V)
+        for (i in 0 until V) {
+            for (it in adj[i]) {
+                indegree[it]++
             }
         }
-        return true
-    }
-
-    fun isCyclic(node: Int): Boolean {
-        visited[node] = true
-        for (neigh in adj[node]) {
-            if (!visited[neigh]) {
-                if (isCyclic(neigh)) {
-                    return true
-                }
-            } else if (!explored[neigh]) {
-                println(explored[neigh])
-                return true
+        val q: Queue<Int> = LinkedList()
+        for (i in 0 until V) {
+            if (indegree[i] == 0) {
+                q.add(i)
             }
         }
-        explored[node] = true
-        return false
+        val topo: MutableList<Int> = ArrayList()
+        // o(v + e)
+        while (!q.isEmpty()) {
+            val node = q.peek()
+            q.remove()
+            topo.add(node)
+            // node is in your topo sort
+            // so please remove it from the indegree
+            for (it in adj[node]) {
+                indegree[it]--
+                if (indegree[it] == 0) q.add(it)
+            }
+        }
+        return if (topo.size == V) true else false
     }
 }
 
-fun main(){
-
-    val times1 = arrayOf(
-            intArrayOf(1, 0),
-            intArrayOf(0, 1),
-    );
-    var c = Course_Schedule3()
-    // This is 3 because of the 2 before
-    println(c.canFinish(3, times1))
-
-    // And then using this we could have
+object tUf {
+    @JvmStatic
+    fun main(args: Array<String>) {
+        val N = 4
+        val prerequisites = Array(3) { IntArray(2) }
+        prerequisites[0][0] = 1
+        prerequisites[0][1] = 0
+        prerequisites[1][0] = 2
+        prerequisites[1][1] = 1
+        prerequisites[2][0] = 3
+        prerequisites[2][1] = 2
+        val obj = Solution515()
+        val ans: Boolean = obj.isPossible(N, prerequisites)
+        if (ans) println("YES") else println("NO")
+    }
 }

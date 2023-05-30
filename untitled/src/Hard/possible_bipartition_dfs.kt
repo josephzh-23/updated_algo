@@ -1,48 +1,38 @@
-package Hard
-
-
-// THis is simliar to the redundant connection edge problem
-
-
-
-
-//For each edge (u, v), traverse the graph with a depth-first search
-// to see if we can connect u to v. If we can, then it must be the duplicate edge.
-
-var MAX_EDGE_VAL = 1000
+import java.util.*
 
 fun main() {
-    var edges = arrayOf(intArrayOf(1, 2),
-            intArrayOf(1, 3), intArrayOf(2, 4))
-    findRedundantConnection(edges)
-}
-fun findRedundantConnection(edges: Array<IntArray>): Boolean {
-    var seen: MutableSet<Int> = HashSet()
 
-    val graph: Array<ArrayList<Int>> = Array(MAX_EDGE_VAL + 1) { ArrayList<Int>() }
-    for (i in 0..MAX_EDGE_VAL) {
-        graph[i] = ArrayList()
-    }
-    for (edge in edges) {
-        seen.clear()
-        if (!graph[edge[0]].isEmpty() && !graph[edge[1]].isEmpty() &&
-                dfs(graph, edge[0], edge[1], seen)) {
+
+}
+
+fun isBiparitie(g: Array<IntArray>) : Boolean {
+
+    var colors = IntArray(g.size)
+    Arrays.fill(colors, 0)
+
+    // Fill this with 0 here
+
+    for (i in 0 until g.size) {
+        if (colors[i] == 0 && !validColor(g, colors, 1, i))
             return false
-        }
-        graph[edge[0]].add(edge[1])
-        graph[edge[1]].add(edge[0])
     }
     return true
 }
 
-fun dfs(graph: Array<ArrayList<Int>>, source: Int, target: Int,
-        seen:MutableSet<Int>): Boolean {
-    if (!seen.contains(source)) {
-        seen.add(source)
-        if (source == target) return true
-        for (nei in graph[source]) {
-            if (dfs(graph, nei, target, seen)) return true
+fun validColor(g: Array<IntArray>, colors: IntArray, color: Int, node: Int): Boolean {
+    // Step 1: set the color
+
+    // If color already set then check to see if it's 0 or not
+    if (colors[node] != 0) {
+        return colors[node] == color;
+    }
+    for (neigh in g.get(node)) {
+        // Will pass in the opposite here
+        if (!validColor(g, colors, -color, neigh)) {
+            return false
         }
     }
-    return false
+    return true
+
+}
 }
