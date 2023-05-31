@@ -1,15 +1,15 @@
-package Graph
+package Graph.maze_3
+
 
 import Graph.bfs_with_counting.directions
 import java.util.*
 
 
 var matrix = arrayOf(
-    intArrayOf(1, 1, 1, 1),
-    intArrayOf(1, 0, 0, 0),
-    intArrayOf(1, 0, 0, 0),
-    intArrayOf(1, 0, 0, 0)
-
+        intArrayOf(1, 1, 1, 1),
+        intArrayOf(1, 0, 0, 0),
+        intArrayOf(1, 0, 0, 0),
+        intArrayOf(1, 0, 0, 0)
 );
 
 
@@ -22,6 +22,7 @@ fun searchMatrix(matrix: Array<IntArray>): Boolean {
     // 1 and 1 are the starting point for this
     var visited = Array(matrix.size) { BooleanArray(matrix[0].size) }
     var start = intArrayOf(0, 0)
+
     var q: Queue<IntArray> = LinkedList()
     q.add(start)
 
@@ -54,7 +55,6 @@ fun searchMatrix(matrix: Array<IntArray>): Boolean {
 
 fun main() {
     searchMatrix(matrix)
-    println("$")
 }
 
 // This makes sure no array out of bound exception here

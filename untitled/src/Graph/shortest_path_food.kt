@@ -52,7 +52,8 @@ fun getFood(grid: Array<CharArray>): Int {
             for (direction in directions) {
                 val newRow = row + direction[0]
                 val newColumn = column + direction[1]
-                if (newRow >= 0 && newRow < rows && newColumn >= 0 && newColumn < columns && grid[newRow][newColumn] != 'X' && !visited[newRow][newColumn]) {
+                if (newRow >= 0 && newRow < rows && newColumn >= 0 &&
+                        newColumn < columns && grid[newRow][newColumn] != 'X' && !visited[newRow][newColumn]) {
                     visited[newRow][newColumn] = true
                     queue.offer(intArrayOf(newRow, newColumn))
                 }
