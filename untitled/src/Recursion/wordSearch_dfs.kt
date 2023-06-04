@@ -14,7 +14,7 @@ fun wordSearch(board: Array<CharArray>, word: String): Boolean {
     for (c in word.toCharArray()) {
         arr.add(c)
     }
-    // do a dfs on this
+    // do a Graph.Edges_question.dfs on this
 
     var seen = Array(board.size) { BooleanArray(board[0].size) }
 

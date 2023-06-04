@@ -8,7 +8,7 @@ check if the tree rooted at node is = to the subroot,
 check takes O (m) time M = # of nodes in the subroot
 
 SC: O( m + n)  There will be at most NN recursive call to
-dfs ( or isSubtree).
+Graph.Edges_question.dfs ( or isSubtree).
 Now, each of these calls will have MM recursive
 calls to isIdentical.
  */

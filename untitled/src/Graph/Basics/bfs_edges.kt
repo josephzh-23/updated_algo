@@ -1,9 +1,11 @@
-package Graph
+package Graph.Basics
 
 import java.util.*
 
 
-// Remember in the dfs case, we used a list here
+// Remember in the Graph.Edges_question.dfs case, we used a list here
+
+// O(V + E)
 fun main() {
 
     bfsGraph(null, 2)
@@ -17,7 +19,7 @@ fun bfsGraph(data: Array<IntArray>?, start: Int): Int {
     val times1 = arrayOf(
             intArrayOf(2, 1),
             intArrayOf(2, 3),
-            intArrayOf(3, 4),
+            intArrayOf(3, 4)
     );
     val graph: MutableMap<Int, MutableList<Int>> = HashMap()
 

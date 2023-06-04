@@ -1,9 +1,13 @@
-package Graph
+package Graph.Basics
 
 import java.util.*
 
+
+
+// This is very effective when given a bunch of edges and then a list of list
+// and then you see what would happen here
 /*
-dfs adjacency list is best for dealing with edges, add them to a list
+Graph.Edges_question.dfs adjacency list is best for dealing with edges, add them to a list
 would be a lot simpler as said
 This would look like the following
     0
@@ -15,6 +19,8 @@ This would look like the following
        3  1  0  ->   2 3  1  0 -> pop 2
        3 1 0 -> pop 3       1 0
  */
+
+var arr = intArrayOf(0, 1, 1, 2)
 fun main() {
     // this below forms 0 1 2
     var edges =  arrayOf(intArrayOf(0, 1),

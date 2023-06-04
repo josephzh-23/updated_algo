@@ -3,9 +3,9 @@
 ///*
 //
 //What we can do
-//1. Every time see gate run a dfs from it and then this
+//1. Every time see gate run a Graph.Edges_question.dfs from it and then this
 //2. This will reach all the cells in the range
-//3. Pass a count in the dfs 1 and make sure it has the shortest distance
+//3. Pass a count in the Graph.Edges_question.dfs 1 and make sure it has the shortest distance
 // */
 //
 //
@@ -72,7 +72,7 @@
 //    }
 //    return true
 //}
-//fun main() {
+//fun Graph.Edges_question.main() {
 //    wallGates(matrix2)
 //
 //}

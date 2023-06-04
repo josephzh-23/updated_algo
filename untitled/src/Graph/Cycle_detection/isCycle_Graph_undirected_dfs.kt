@@ -1,6 +1,6 @@
 package Graph.Cycle_detection
 
-// Perform a dfs from 1 to # of nodes
+// Perform a Graph.Edges_question.dfs from 1 to # of nodes
 // And check if cycle is formed here
 
 // WHen see node:  mark as visited, traverse

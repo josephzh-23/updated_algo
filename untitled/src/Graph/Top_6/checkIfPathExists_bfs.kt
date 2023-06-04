@@ -11,10 +11,10 @@ n nodes and m eedges in this problem
 
 /*
 
-Here will implement the bfs or dfs approach here
+Here will implement the bfs or Graph.Edges_question.dfs approach here
 
 Check if path exists here between 2 nodes
-can be solved using bfs or dfs
+can be solved using bfs or Graph.Edges_question.dfs
  */
 fun checkIfPathExists(n: Int, edges: Array<IntArray>, source: Int, destination: Int): Boolean {
 

@@ -3,7 +3,7 @@ package Graph.Cycle_detection
 /*
 
 https://www.youtube.com/watch?v=uzVUw90ZFIg&t=432s
-The dfs for the undirected grpah would not work here
+The Graph.Edges_question.dfs for the undirected grpah would not work here
 Directed means for the below:
  3  - 4 - 5
 3-  6 -5        there is no cycle here

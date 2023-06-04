@@ -38,7 +38,7 @@ internal class Solution {
 
         // All conditions fulfilled
         visited[curRow][curCol] = true
-        //dfs for all 4 dirctions
+        //Graph.Edges_question.dfs for all 4 dirctions
         val top = dfs(curRow - 1, curCol, curIndex + 1)
         val down = dfs(curRow + 1, curCol, curIndex + 1)
         val left = dfs(curRow, curCol - 1, curIndex + 1)

@@ -66,7 +66,7 @@ internal class Solution15 {
          */
         if (matrix[i][j] < prev || ocean[i][j]) return
         ocean[i][j] = true
-        // call dfs on all 4 direcions this is amazing wow really fast
+        // call Graph.Edges_question.dfs on all 4 direcions this is amazing wow really fast
 
         for (d in dir) {
             dfs(matrix, i + d[0], j + d[1], matrix[i][j], ocean)

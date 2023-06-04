@@ -10,7 +10,7 @@ import java.util.*
 
 fun main() {
     var pts = arrayOf(intArrayOf(0, 0),
-    intArrayOf(2, 2,), intArrayOf(3, 10), intArrayOf(5, 2),
+    intArrayOf(2, 2), intArrayOf(3, 10), intArrayOf(5, 2),
     intArrayOf(7,0))
     minCostConnections(pts).also { println(it) }
 }

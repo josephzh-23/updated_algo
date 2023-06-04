@@ -26,6 +26,8 @@ public class connect_cities_with_minimum {
         int[] parent = new int[n+1];
 
         int[] rank = new int[n+1];
+
+        // Make each one its own parent here
         for(int i = 1; i<=n; ++i)
             parent[i] = i;
         int cost = 0;
@@ -38,6 +40,7 @@ public class connect_cities_with_minimum {
         // For each connection union them
         for(int [] connection: connections){
             // If can join them in the same union then can do
+            // If you can do a union meaning what
             if(union(parent, rank, connection[0], connection[1])){
                 cost += connection[2];
                 ++num_edges;

@@ -44,7 +44,7 @@ class Solution {
         // The case where grid[r][c] =='1' basically, to mark it as visited
         //mark it
         seen[r][c] = true
-        // Then call dfs on each direction
+        // Then call Graph.Edges_question.dfs on each direction
         return (1 + area(r+1, c) + area(r-1, c)
                 + area(r, c-1) + area(r, c+1));
     }
