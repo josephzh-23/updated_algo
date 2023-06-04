@@ -22,7 +22,7 @@ internal class Solution133 {
         for (word in words) {
             insertAWord(word)
         }
-        //For each character in board contains in trie, we dfs
+        //For each character in board contains in trie, we Graph.Edges_question.dfs
         m = board.size
         n = board[0].size
         this.board = board

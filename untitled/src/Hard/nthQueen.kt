@@ -3,6 +3,7 @@ package Hard
 import java.util.*
 
 
+// N-th queen probability
 internal class Solution13 {
     var res: MutableList<List<String>> = LinkedList()
     fun solveNQueens(n: Int): List<List<String>> {
@@ -26,12 +27,14 @@ internal class Solution13 {
             row++
         }
 
+        // When you traverse to end need to have 4 queens
+
         // n is 0 then add to the res
         if (n == 0) {
             res.add(toString(board))
             return
         }
-        // Row out of bound
+        // You ahve reached the last row here
         if (row == board.size) return
 
         // Place queen here if valid
@@ -69,12 +72,14 @@ internal class Solution13 {
         val N = board.size
 
         // TOP AND DOWN
+        // because queen move in vertical directions
         // Here iterating top and down see if anything not
         // emtpy
         for (i in 0 until N) {
             if (board[i][col] != '.') return false
             if (board[row][i] != '.') return false
         }
+
         // Top left + top right + down left + down right
         var i = row
         var j = col

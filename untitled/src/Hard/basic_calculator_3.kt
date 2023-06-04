@@ -11,7 +11,7 @@ fun main() {
 }
 
 /*
-Basically as soon as we see a (, call the dfs function to calculate the number
+Basically as soon as we see a (, call the Graph.Edges_question.dfs function to calculate the number
   1 + ( 1 + 2 * 3) ) + 3
  */
 internal class Solution33 {
@@ -62,7 +62,7 @@ internal class Solution33 {
                     // since we are returning from above here
 
                     // Once we hit a close bracket ), it will come here
-                    // since returning the dfs above
+                    // since returning the Graph.Edges_question.dfs above
                     // Why optor needed here?
                     insertElement(stack, curNum, operator)
 

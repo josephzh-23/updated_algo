@@ -10,7 +10,7 @@
 //
 //}
 //
-//fun main() {
+//fun Graph.Edges_question.main() {
 //    var sd : HashMap<Char, Int> = HashMap()
 //    println
 //    for((i, j) in sd){

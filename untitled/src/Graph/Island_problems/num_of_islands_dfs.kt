@@ -3,7 +3,7 @@ package Graph.Island_problems
 /*
 
 DFS
-If node =1 trigger the dfs search
+If node =1 trigger the Graph.Edges_question.dfs search
 set all node as 0 to mark visited, then counter the
 # of 1s
  */

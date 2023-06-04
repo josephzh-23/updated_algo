@@ -3,7 +3,7 @@
 //import java.lang.Integer.max
 //
 //
-//fun Tree.Hard.main() {
+//fun Tree.Hard.Graph.Edges_question.main() {
 //    var colors = "abaca"
 //
 //    largestPathValue(colors, arrayOf(intArrayOf(0, 1),
@@ -36,13 +36,13 @@
 //    // store the current results
 //    var resList = ArrayList<Int>()
 //
-//    // build a dfs to capture all the arraylist here
+//    // build a Graph.Edges_question.dfs to capture all the arraylist here
 //    for (i in 0 until n) {
 //        if (!visited[i]) {
 //            //0, 1
 //            tempList = resList
 //            // 0, 2, 3, 4
-//            resList = dfs(adj, visited, i, ArrayList())
+//            resList = Graph.Edges_question.dfs(adj, visited, i, ArrayList())
 //            print(resList)
 //            if (tempList.size > resList.size) {
 //                resList = tempList
@@ -61,7 +61,7 @@
 //    return 0
 //}
 //
-//fun dfs(adj: Array<ArrayList<Int>>, isVisited: BooleanArray, vertex: Int,
+//fun Graph.Edges_question.dfs(adj: Array<ArrayList<Int>>, isVisited: BooleanArray, vertex: Int,
 //        resList: ArrayList<Int>): ArrayList<Int> {
 //    if (isVisited[vertex]) {
 //        return ArrayList()
@@ -70,7 +70,7 @@
 //    isVisited[vertex] = true
 //    // loop throgh the node
 //    for (j in 0 until adj[vertex].size) {
-//        dfs(adj, isVisited, adj.get(vertex).get(j), resList)
+//        Graph.Edges_question.dfs(adj, isVisited, adj.get(vertex).get(j), resList)
 //    }
 //    return resList
 //}

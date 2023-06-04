@@ -21,7 +21,7 @@
 //        if (n == 0) {
 //            return res
 //        }
-//        dfs(StringBuilder(), s)
+//        Graph.Edges_question.dfs(StringBuilder(), s)
 ////        print(res)
 //        return res
 //    }
@@ -32,7 +32,7 @@
 //    /*
 //    s: string here would gradually get smaller
 //     */
-//    private fun dfs(str: StringBuilder, s: String) {
+//    private fun Graph.Edges_question.dfs(str: StringBuilder, s: String) {
 //        println(s)
 //        var str = str
 //        val n = s.length
@@ -63,7 +63,7 @@
 //
 //            println(str)
 //            // And then here is the
-//            dfs(str, s.substring(i + 1, s.length))
+//            Graph.Edges_question.dfs(str, s.substring(i + 1, s.length))
 //
 //            // reset our current string for the next backtracking here
 //            str = temp
@@ -71,7 +71,7 @@
 //    }
 //}
 //
-//fun main() {
+//fun Graph.Edges_question.main() {
 //    var s = restore_ip_addresses2()
 //    s.restoreIpAddresses("1010").print()
 //}

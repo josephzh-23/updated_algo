@@ -89,6 +89,8 @@ class UnionFind22(n: Int) {
 //        return ranks[parent]
 //    }
 
+
+    // With each successful union, the number of componeent decreases
     fun union(node1: Int, node2: Int) {
         val node1Parent = find(node1)
         val node2Parent = find(node2)

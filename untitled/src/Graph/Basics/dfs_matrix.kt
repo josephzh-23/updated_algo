@@ -9,7 +9,7 @@ fun main() {
     dfsmmatrix()
 }
 
-
+// O(v + e) complexity here
 fun dfsMatrix() {
     // and that's it
     var grid = arrayOf(intArrayOf(0, 0, 1, 0),

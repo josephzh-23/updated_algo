@@ -7,12 +7,15 @@ import Graph.bfs_with_counting.w
 
 // Here we check the number of whites captured by black
 /*
-1. if w is found, then start a dfs
-2. Continue the dfs if w is seen and don't stop until the
+1. if w is found, then start a Graph.Edges_question.dfs
+2. Continue the Graph.Edges_question.dfs if w is seen and don't stop until the
 
 2. if w is found, but its neighbor has e, set result to 0 and return
 3. Change
  */
+
+
+//
 
 
 // count the # of white stones surrounded
@@ -36,7 +39,7 @@ fun countNumWhite(grid: Array<CharArray>): Int {
     for (r in 0 until nr) {
         for (c in 0 until nc) {
             if (grid[r][c] == 'w') {
-//               if(dfs(grid, r, c)){
+//               if(Graph.Edges_question.dfs(grid, r, c)){
                 (countNumCaptured(grid, r, c, seen))
                 }
 

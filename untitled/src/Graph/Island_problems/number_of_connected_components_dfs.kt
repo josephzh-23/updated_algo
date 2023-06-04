@@ -46,6 +46,8 @@ fun dfs(adj: Array<ArrayList<Int>>, isVisited: BooleanArray, vertex: Int) {
     isVisited[vertex] = true
     // loop throgh the node
     for(neigh in adj[vertex]){
+        println("$vertex with $neigh")
+
         dfs(adj,isVisited, neigh)
     }
 }

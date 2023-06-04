@@ -2,7 +2,7 @@
 //
 //
 //// If using this and then we are given the following code
-//fun main() {
+//fun Graph.Edges_question.main() {
 //    var arr = arrayOf(
 //        intArrayOf(1, 2, 3), intArrayOf(0, 2),
 //        intArrayOf(0, 1, 3), intArrayOf(0, 2)
@@ -10,7 +10,7 @@
 //
 //    isBipartite(arr).print()
 //}
-//// If using this we are given, we can try to do the dfs of this approach
+//// If using this we are given, we can try to do the Graph.Edges_question.dfs of this approach
 //// and then
 //
 ///*
@@ -18,7 +18,7 @@
 //blue means 1        red means -1        no color = 0
 //This prob can be done using the s solution here
 // */
-//fun main() {
+//fun Graph.Edges_question.main() {
 //    var s = arrayOf(
 //        intArrayOf(1, 2, 3), intArrayOf(0, 2),
 //        intArrayOf(0, 1, 3), intArrayOf(0, 2)

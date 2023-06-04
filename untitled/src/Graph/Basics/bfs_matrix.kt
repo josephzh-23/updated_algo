@@ -50,7 +50,7 @@
 //    return true
 //}
 //
-//fun main() {
+//fun Graph.Edges_question.main() {
 //    searchMatrix(matrix)
 //}
 //

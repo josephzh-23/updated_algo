@@ -3,14 +3,14 @@ package Graph
 // What to do in this case
 
 // Surrounded region
-//dfs ->
+//Graph.Edges_question.dfs ->
 
 
 /*
 Eric programming
 The steps
 1. Start with teh boundary first
-When you see an o, start a dfs in all directions
+When you see an o, start a Graph.Edges_question.dfs in all directions
 
 2. We can traverse all the borders first, and find the os
 and turn it into #s as said
@@ -26,7 +26,7 @@ Conditions
 2. SO if a bunch of 'o's connected to a boundary o, can't be
 surrounded by x
 
-3. Apply a dfs and then check if anything to boundary, start from the
+3. Apply a Graph.Edges_question.dfs and then check if anything to boundary, start from the
 boudnary 'o's and convert if can or not
  */
 
@@ -83,7 +83,7 @@ internal class Solution {
         // For turning into # if we see O, otherwise
         // simply just return right
         board[row][col] = temp
-        //dfs all directions
+        //Graph.Edges_question.dfs all directions
         dfs(row + 1, col)
         dfs(row - 1, col)
         dfs(row, col + 1)
@@ -109,7 +109,7 @@ fun surroundedRegion(board: Array<CharArray>){
     //The bottom 'O' is on the border, so it is not flipped.
     //The other three 'O' form a surrounded region, so they are flipped.
 
-    // dfs
+    // Graph.Edges_question.dfs
 
     // Using the solve and go problem
     // and that's it
@@ -121,7 +121,7 @@ fun surroundedRegion(board: Array<CharArray>){
     for (r in 0 until nr) {
         for (c in 0 until nc) {
             if (board[r][c] == 'o') {
-//               if(dfs(board, r, c)){
+//               if(Graph.Edges_question.dfs(board, r, c)){
                 (flip(board, r, c, seen))
             }
 

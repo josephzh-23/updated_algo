@@ -18,10 +18,10 @@ fun dfs(grid: Array<CharArray>, r: Int, c: Int) {
     // once visited have to do this
     grid[r][c] = '0'
 
-//    dfs(grid, r - 1, c)
-//    dfs(grid, r + 1, c)
-//    dfs(grid, r, c + 1)
-//    dfs(grid, r, c - 1)
+//    Graph.Edges_question.dfs(grid, r - 1, c)
+//    Graph.Edges_question.dfs(grid, r + 1, c)
+//    Graph.Edges_question.dfs(grid, r, c + 1)
+//    Graph.Edges_question.dfs(grid, r, c - 1)
 
 
     directions.forEach {

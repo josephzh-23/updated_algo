@@ -15,10 +15,10 @@ private var edges = arrayOf(intArrayOf(0,1),
         intArrayOf(2, 0))
 /*
 
-Here will implement the bfs or dfs approach here
+Here will implement the bfs or Graph.Edges_question.dfs approach here
 
 Check if path exists here between 2 nodes
-can be solved using bfs or dfs
+can be solved using bfs or Graph.Edges_question.dfs
  */
 fun countNumPath(n: Int, edges: Array<IntArray>, source: Int, destination: Int): Boolean {
 
