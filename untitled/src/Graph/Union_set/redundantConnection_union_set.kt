@@ -1,4 +1,4 @@
-package Graph.Edges_question
+package Graph.Union_set
 
 
 /*
@@ -8,7 +8,7 @@ then put this into [2, 3]
 s1: [1, 2, 3 , 4]
 and both 1-4 are in the same set, this would result in cycle
 
-//https://leetcode.com/problems/redundant-connection/
+
  */
 
 // This is for undirected graph so the need to do for both
@@ -17,6 +17,8 @@ internal class Solution13 {
     lateinit var parent: IntArray
     fun findRedundantConnection(edges: Array<IntArray>): IntArray? {
         val n = edges.size
+
+
         parent = IntArray(n + 1)
 
         //make each node the parent of itself
@@ -24,8 +26,8 @@ internal class Solution13 {
 
         //Loop on all edges
         for (edge in edges) {
-            // Redundant connection
             // Ancestors are same then that's the edge to return
+            // It can'be the same
             if (find(edge[0]) == find(edge[1])) return edge
             // else in the other case you just keep them together in the same boat
             union(edge[0], edge[1])

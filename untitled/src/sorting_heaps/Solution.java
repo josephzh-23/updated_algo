@@ -5,7 +5,7 @@ import java.util.PriorityQueue;
 
 
 // This is the solution right here very interesting development here
-class Solution33 {
+class Solution333 {
     public int mostBooked(int n, int[][] meetings) {
         // sort rooms by start time
         Arrays.sort(meetings, (m1, m2) -> m1[0] - m2[0]);

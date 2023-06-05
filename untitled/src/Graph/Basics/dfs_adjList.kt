@@ -26,9 +26,9 @@ fun main() {
     var edges =  arrayOf(intArrayOf(0, 1),
             intArrayOf(1, 2))
     // the passed in n is very important
-    dfsTraversal(3, edges)
+    dfsTraversal2(3, edges)
 }
-fun dfsTraversal(n: Int, edges: Array<IntArray>){
+fun dfsTraversal2(n: Int, edges: Array<IntArray>){
 
     val adj = Array<ArrayList<Int>>(n){ ArrayList() }
     // For the boolean array we need to know # of vertices usually given

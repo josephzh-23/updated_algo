@@ -3,7 +3,6 @@ package Graph.Basics
 import java.util.*
 
 
-
 // This is very effective when given a bunch of edges and then a list of list
 // and then you see what would happen here
 /*
@@ -20,38 +19,43 @@ This would look like the following
        3 1 0 -> pop 3       1 0
  */
 
-var arr = intArrayOf(0, 1, 1, 2)
+//var arr = intArrayOf(0, 1, 1, 2)
 fun main() {
     // this below forms 0 1 2
-    var edges =  arrayOf(intArrayOf(0, 1),
-            intArrayOf(1, 2))
+    var edges = arrayOf(intArrayOf(0, 1),
+            intArrayOf(1, 2),
+            intArrayOf(2, 3))
     // the passed in n is very important
-    dfsTraversal(3, edges)
+    dfsTraversal(4, edges)
 }
-fun dfsTraversal(n: Int, edges: Array<IntArray>){
 
-    val adj = Array<ArrayList<Int>>(n){ ArrayList() }
+fun dfsTraversal(n: Int, edges: Array<IntArray>) {
+
+    val adj = Array<ArrayList<Int>>(n) { ArrayList() }
     // For the boolean array we need to know # of vertices usually given
     // in the questions
     val visited = BooleanArray(n)
-    edges.forEach{edge->
+    edges.forEach { edge ->
         adj[edge[0]].add(edge[1])
         adj[edge[1]].add(edge[0])
     }
-    for(i in 0 until n){
-        if(!visited[i]){
-            dfs(adj, visited, i)
+    for (i in 0 until n) {
+        if (!visited[i]) {
+            dfs2(adj, visited, i)
         }
     }
 }
 
-fun dfs(adj: Array<ArrayList<Int>>, isVisited: BooleanArray, vertex: Int) {
-    if(isVisited[vertex]){
+fun dfs2(adj: Array<ArrayList<Int>>, isVisited: BooleanArray, vertex: Int) {
+//    println(adj)
+    if (isVisited[vertex]) {
         return
     }
     isVisited[vertex] = true
     // loop throgh the node same as verticies
-    for(i in 0 until adj[vertex].size){
-        dfs(adj,isVisited, adj[vertex].get(i))
+    for (neigh in adj.get(vertex)) {
+
+        println("the popped node is ${neigh})}")
+        dfs2(adj, isVisited, neigh)
     }
 }
