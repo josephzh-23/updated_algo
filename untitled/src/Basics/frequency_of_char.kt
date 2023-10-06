@@ -2,7 +2,7 @@ package Util
 
 fun frequencyOfCharacters(s: String) {
     var deletion = 0
-    var map: MutableMap<Char, Int> = HashMap()
+    var map= mutableMapOf<Char, Int>()
 
 
     // another way to store

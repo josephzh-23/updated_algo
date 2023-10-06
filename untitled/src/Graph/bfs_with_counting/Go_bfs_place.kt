@@ -1,5 +1,6 @@
 package Graph.bfs_with_counting
 
+import Graph.isInBoundsChar
 import java.util.*
 
 /*
@@ -21,9 +22,9 @@ The graph here is
 var w = 'w'
 var b = 'b'
 var e = 'e'
-var goBoard = arrayOf(charArrayOf(e, e, e, e, b, b, b),
-                    charArrayOf(e, e, e, b,  w, w, b),
-                     charArrayOf(e, e, e, e, b, e, b),
+var goBoard = arrayOf(charArrayOf(w, b, b, b, b, b, b),
+                    charArrayOf(w, b, b, w,  w, w, b),
+                     charArrayOf(b, e, b, b, b, b, b),
                     charArrayOf(e, e, e, e, e, e, e))
 
 /*
@@ -37,57 +38,38 @@ val directions = arrayOf(intArrayOf(1, 0), intArrayOf(0, 1), intArrayOf(-1, 0), 
 // r and c where you palce the stone
 fun solveGo(board: Array<CharArray>, r: Int, c:Int):Int{
 
-    // and to work on this problem here
-    val m = board.size
-    val n = board[0].size
-    val visited = Array(m) { BooleanArray(n) }
 
-    // Mark spot as visited
-    visited[r][c] = true
-
-    var count = 0
+    var (r , c, count) = listOf(2, 5, 0)
 
 
-    for (dir in directions) {
-        count += bfs(board, visited, r + dir[0], c + dir[1])
-        println(" # of times comes here")
+    var visited = Array(goBoard.size) { BooleanArray(goBoard[0].size) }
+    var q = LinkedList<IntArray>()
+//    q.add(intArray)
+
+    directions.forEach {
+        q.add(intArrayOf(r + it[0], c + it[1]))
     }
-    return count
-}
-fun bfs(board: Array<CharArray>,visited: Array<BooleanArray>,  r: Int, c:Int):Int{
-
-    var count = 0
-    // valid is needed to check if you can capture sth
-    var surrounded = true
-    // Move in 4 directions
-    val directions = arrayOf(intArrayOf(1, 0), intArrayOf(0, 1), intArrayOf(-1, 0), intArrayOf(0, -1))
-    val q: Queue<IntArray> = LinkedList()
-
-    q.offer(intArrayOf(r, c))
     while(!q.isEmpty()){
-        var node = q.poll()
-        var x= node[0]; var y = node[1]
-        if(isOutOfBounds(board, x, y) || visited[x][y] ||
-                board[x][y] == 'b')continue
 
-        // This means you have run into an empty stone
-        // spot so no count returned
-        if (board[x][y] == 'e') {
-            surrounded = false
-        } else {
-            // Here a white stone is encountered
-            visited[x][y] = true
+        var (x, y) = q.pop()
 
-            // If white encountered then we need to basically do another traverseal
-            // But add a 1 count for each white encountered
-            directions.forEach { dir ->
-                q.offer(intArrayOf(x + dir[0], y + dir[1]))
+        print(goBoard[x][y])
+        if(!isInBoundsChar(goBoard,x, y) || visited[x][y] || goBoard[x][y] == 'b' || goBoard[x][y] == 'e'){
+            continue
+
+        }else{
+            if(goBoard[x][y] == 'w'){
+                visited[x][y] = true
+                count++
+
+                directions.forEach{
+                    q.add(intArrayOf(x + it[0], y+it[1]))
+                }
             }
-            count++
         }
     }
 
-    return if (surrounded) count else 0
+    return count
 }
 fun isOutOfBounds( board: Array<CharArray>, x: Int, y:Int): Boolean {
     return (x< 0|| y< 0 || x> board.size - 1|| y> board[0].size -1)

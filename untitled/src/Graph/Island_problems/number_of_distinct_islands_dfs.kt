@@ -8,7 +8,7 @@ fun main() {
     var s = arrayOf(intArrayOf(1,1, 0,1, 1),
     intArrayOf(1, 0, 0,0,0),
     intArrayOf(0, 0,0, 0,1), intArrayOf(1,1,0,1,1))
-    sol.numIslands(s)
+    print(sol.numIslands(s))
 //    s.
 //    s.numIslands()
 }

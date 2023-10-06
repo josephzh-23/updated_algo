@@ -43,6 +43,9 @@ fun findAnagrams(s:String, p:String): List<Int>{
     // So start at the right index
     right-=1
     // N
+
+
+    // THe key butter here
     /*
     and with each iteration
     1. dec count for leftMost char, inc left pt
@@ -58,12 +61,12 @@ fun findAnagrams(s:String, p:String): List<Int>{
         }
 
         right++
-        // So this is when not at the end yet
-
+        // Increase the counter for the character at the right
         if(right!= sLen){
             shash[s[right]-'a']++
         }
 
+        // decrease counter for elem atht left
         shash[s[left]-'a'] --
         left++
     }

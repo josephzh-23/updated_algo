@@ -1,32 +1,49 @@
-package sorting_heaps
+package sorting
 
-import January_3rd.print
+
 import java.util.*
 
-// Given an arrya of time intervals where intervals[i] = [start, end]
+
+var intervals = arrayOf(
+        Interval(0, 30),
+        Interval(5, 10),
+        Interval(15, 20)
+)
+
+class Interval(val start: Int, var end:Int)
+
 fun main() {
-    var meet = arrayOf(
-        intArrayOf(0, 30), intArrayOf(5, 10),
-        intArrayOf(15, 20)
-    )
-    canAttendMeetings2(meet).print()
-}
 
-fun canAttendMeetings2(intervals: Array<IntArray>): Boolean {
-    // Chekc if you can attend all the meetigngs
+    // 1. sort meeting by the startring time
+    Arrays.sort(intervals) { a, b -> a.start - b.start }
 
+    //Initialize a new min-heap and add the first meeting's ending time
+    // to the heap. We simply need to keep track of the ending times as that tells us
+    // when a meeting room will get free.
+    val minHeap = PriorityQueue<Interval> { a, b->
+        a.end - b.end
+    }
 
-    var count = 0
-    Arrays.sort(intervals) { a, b -> a[0] - b[0] }
+    minHeap.add(intervals[0])
+    for(i in 1 until intervals.size){
 
-    for (i in 0 until intervals.size) {
-
-        // End of the first one bigger than end of the 2nd here
-        if (intervals[i][1] <  intervals[i + 1][1]) {
-            count++
+        // get the current one and check for conflict here
+        val cur = intervals[i]
+        val earliest = minHeap.poll()
+        // No conflict here case
+        if(cur.start >= earliest.end){
+            earliest.end = cur.start
+            // Conflict here
+        }else{
+            minHeap.add(cur)
         }
 
+        // Readd it at the end
+        minHeap.add(earliest)
+
+        // Re add the
     }
-    println(count)
-    return true
+
+    print(minHeap.size)
+
 }

@@ -1,8 +1,9 @@
 package LinkedList
 
-fun printLinkedList(r: ListNode?){
-    var temp = r
-    while(temp?.next!=null){
+fun printLinkedList(head: ListNode?){
+    var temp = head
+
+    while(temp!=null){
         println(temp.value)
         temp= temp.next
     }

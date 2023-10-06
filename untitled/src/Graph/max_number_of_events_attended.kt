@@ -14,7 +14,7 @@ fun maxEvents(es: Array<IntArray>): Int {
 
     // Storing the end time
     val pq: Queue<Int> = PriorityQueue()
-    Arrays.sort(es) { a: IntArray, b: IntArray -> a[0] - b[0] }
+    Arrays.sort<IntArray>(es) { a, b-> a[0] - b[0] }
     var i = 0
     var res = 0
     val n = es.size

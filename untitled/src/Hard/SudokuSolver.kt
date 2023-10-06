@@ -6,7 +6,7 @@ import java.util.HashMap
 fun isValidSudoku(board: Array<CharArray>): Boolean {
 
     var rows: MutableMap<Int, MutableList<Char>> = HashMap<Int, MutableList<Char>>()
-    var cols: MutableMap<Int, MutableList<Char>> = HashMap<Int, MutableList<Char>>()
+    var cols: MutableMap<Int, MutableList<Char>> = HashMap()
 
     /*
      will have the key key = (r/3 , c/3), using the code here then can figure out
