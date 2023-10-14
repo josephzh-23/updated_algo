@@ -6,7 +6,7 @@
 //
 //
 //// How to count variables in a grid
-//fun Graph.Edges_question.main() {
+//fun Graph.Edges_question.String.main() {
 //
 //    dfsMatrix()
 //}

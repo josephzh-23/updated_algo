@@ -4,7 +4,7 @@
 //
 //
 //// Remember in the dfs case, we used a list here
-//fun main() {
+//fun String.main() {
 //
 //    bfsGraph(null, 2)
 //

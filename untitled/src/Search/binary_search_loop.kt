@@ -10,7 +10,7 @@ fun binarySearch(
         if (arr[mid] < target) {
             start = mid + 1
         } else if (arr[mid] > target) {
-            end = mid - 1
+            end = mid
         } else if (arr[mid] == target) {
             index = mid
             break

@@ -64,4 +64,4 @@ fun isValid(maze: Array<IntArray>, row: Int, col: Int): Boolean {
     return if (row < 0 || row >= maze.size || col < 0 || col >= maze[0].size || maze[row][col] == 1) false else true
 }
 
-class Point(var row: Int, var col: Int, var distance: Int, var movement: String)
+private class Point(var row: Int, var col: Int, var distance: Int, var movement: String)

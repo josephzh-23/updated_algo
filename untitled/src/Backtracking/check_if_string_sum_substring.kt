@@ -71,7 +71,7 @@
 //    }
 //}
 //
-//fun Graph.Edges_question.main() {
+//fun Graph.Edges_question.String.main() {
 //    var s = restore_ip_addresses2()
 //    s.restoreIpAddresses("1010").print()
 //}

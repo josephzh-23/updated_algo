@@ -32,6 +32,6 @@
 //    return deletion
 //}
 //
-//fun Backtracking.Tree.Hard.Graph.Edges_question.main() {
+//fun Backtracking.Tree.Hard.Graph.Edges_question.String.main() {
 //    minDeletionsAdvanced("aaabbbcc")
 //}

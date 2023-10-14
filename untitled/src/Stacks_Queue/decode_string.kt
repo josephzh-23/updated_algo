@@ -17,7 +17,7 @@
 //    fun get(): Iterable<T>
 //}
 //
-//fun Graph.Edges_question.main() {
+//fun Graph.Edges_question.String.main() {
 //    var course1 = Course(0, "english", true)
 //    var course2 = Course(0, "math", true)
 //    var course3 = Course(0, "biology", false)

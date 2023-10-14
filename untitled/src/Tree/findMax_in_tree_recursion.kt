@@ -10,8 +10,8 @@ internal class BinaryTre23e {
         fun findMax(node: TreeNode?): Int {
             if (node == null) return Int.MIN_VALUE
             var res: Int = node.value
-            val lres: Int = Companion.findMax(node.left)
-            val rres: Int = Companion.findMax(node.right)
+            val lres: Int = findMax(node.left)
+            val rres: Int = findMax(node.right)
             if (lres > res) res = lres
             if (rres > res) res = rres
             return res

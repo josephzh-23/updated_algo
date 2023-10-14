@@ -10,7 +10,7 @@
 //        charArrayOf(e, e, e, e, b, e, b),
 //        charArrayOf(e, e, e, e, e, e, e))
 //
-//fun Graph.Edges_question.main() {
+//fun Graph.Edges_question.String.main() {
 //    println(solveGodfs(goBoard2))
 //}
 //// use this in a Graph.Edges_question.dfs problem here

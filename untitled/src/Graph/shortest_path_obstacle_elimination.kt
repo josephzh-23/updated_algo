@@ -5,7 +5,7 @@ import java.util.*
 
 //https://www.youtube.com/watch?v=ID9YJXy3OJk
 fun main() {
-    // using the Backtracking.Tree.Hard.Graph.Edges_question.main functino here
+    // using the Backtracking.Tree.Hard.Graph.Edges_question.String.main functino here
     var grid = arrayOf(
         intArrayOf(0, 0, 0),
         intArrayOf(1, 1, 0),

@@ -15,7 +15,7 @@ This would look like the following
  */
 
 
-internal class Graph( //number of nodes
+private class Graph2( //number of nodes
         private val V: Int) {
     private val adj: Array<LinkedList<Int>?> //adjacency list
 
@@ -55,7 +55,7 @@ internal class Graph( //number of nodes
     companion object {
         @JvmStatic
         fun main(args: Array<String>) {
-            val g = Graph(6)
+            val g = Graph2(6)
             g.addEdge(0, 1)
             g.addEdge(0, 2)
             g.addEdge(1, 0)

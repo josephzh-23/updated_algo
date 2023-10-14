@@ -73,7 +73,7 @@ internal class Solution333 {
     }
 }
 
-internal class Point : Comparable<Point?> {
+private class Point : Comparable<Point?> {
     var x = 0
     var y = 0
 

@@ -7,8 +7,9 @@ import Util.printList
 // Delete an item in linekdlist
 // O(1)
 
-var i = ListNode(1)
 fun main() {
+    var i = ListNode(1)
+
     append(i, 4)
     append(i, 5)
     append(i, 6)

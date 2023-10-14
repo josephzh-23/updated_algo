@@ -1,11 +1,12 @@
 package tricks
 
-fun alphabetLoop(){
 
-    var k = 'a'.code
-    while(k <='z'.code){
+fun main() {
+    var k = 'a'.hashCode()
+    while(k <='z'.hashCode()){
         println(k)
         k++
     }
 
 }
+

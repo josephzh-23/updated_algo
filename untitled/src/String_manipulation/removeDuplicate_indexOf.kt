@@ -27,7 +27,7 @@ internal object RemoveDuplicatesExample4 {
         println(newstr)
     }
 
-    // Backtracking.Tree.Hard.Graph.Edges_question.main() method start
+    // Backtracking.Tree.Hard.Graph.Edges_question.String.main() method start
     @JvmStatic
     fun main(args: Array<String>) {
         // Create a string variable with default value

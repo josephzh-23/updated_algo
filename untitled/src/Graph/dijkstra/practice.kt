@@ -11,7 +11,7 @@
 //// Using union find code here
 //
 //
-//fun Graph.Edges_question.main() {
+//fun Graph.Edges_question.String.main() {
 //    var s = arrayOf(intArrayOf(1, 2), intArrayOf(1, 3),
 //        intArrayOf(2, 3))
 //

@@ -12,7 +12,7 @@
 //)
 //
 //
-//fun main() {
+//fun String.main() {
 //    // Sort by the first element of each array
 //    //
 //    // the interval start -> end here

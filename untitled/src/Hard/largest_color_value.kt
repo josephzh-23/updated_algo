@@ -3,7 +3,7 @@
 //import java.lang.Integer.max
 //
 //
-//fun Tree.Hard.Graph.Edges_question.main() {
+//fun Tree.Hard.Graph.Edges_question.String.main() {
 //    var colors = "abaca"
 //
 //    largestPathValue(colors, arrayOf(intArrayOf(0, 1),

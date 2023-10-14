@@ -6,7 +6,7 @@
 //
 //public class ReadWordDocumentInJava {
 //
-//	public static void main(String[] args) throws Exception {// Main function to read Word file in Java
+//	public static void String.main(String[] args) throws Exception {// Main function to read Word file in Java
 //
 //
 ////		var words = ("why", "how", "what")
