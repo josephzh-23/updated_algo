@@ -20,6 +20,8 @@ fun swap(cArray:IntArray, i: Int, j: Int): IntArray{
 
 }
 
+
+
 fun sortZigzagList(arr: IntArray):IntArray{
 
 

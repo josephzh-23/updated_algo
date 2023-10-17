@@ -6,6 +6,13 @@ import java.util.*
 
 // A very elegant solutino here and passes all types of tests here
 
+/*
+Here the data is given as
+flights = [[0, 1, 100], [1, 2, 100], [2, 0, 100], [1, 3, 600]]
+
+the price is already included @ the end
+
+ */
 
 // The solution then becomes
 
@@ -20,6 +27,8 @@ fun main() {
 }
 
 fun findCheapestPrice2(n: Int, flights: Array<IntArray>, src: Int, dst: Int, k: Int): Int {
+
+   // To process the edges first turn them into graph?
     val adj: MutableMap<Int, MutableList<IntArray>?> = HashMap()
     for (i in flights)  // The 2nd value is the price
         adj.computeIfAbsent(
@@ -53,6 +62,8 @@ fun findCheapestPrice2(n: Int, flights: Array<IntArray>, src: Int, dst: Int, k: 
         stops[node] = steps
         if (node == dst) return price
         if (!adj.containsKey(node)) continue
+
+        // We can iterate throught the neighbor here
         for (neigh in adj[node]!!) {
 
             // So basically here you have the node

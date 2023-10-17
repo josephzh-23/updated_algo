@@ -17,7 +17,6 @@ internal object Main {
         // if the current node is null and the stack is also empty, we are done
         while (!stack.empty() || curr != null) {
 
-            // Left first and then right
             if (curr != null) {
                 stack.push(curr)
                 curr = curr.left
