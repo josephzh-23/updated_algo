@@ -6,8 +6,6 @@ import java.util.*
 /*
 
 
-
-
 What we need to do: find the 2 closest elemsents (from the 2nd
 array) to the picked elem of 1st array.
     - sort 2nd array and use bs search

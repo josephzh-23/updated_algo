@@ -50,7 +50,7 @@ fun searchMatrix(matrix: Array<IntArray>): Boolean {
     return true
 }
 
-//fun Graph.Edges_question.String.main() {
+//fun Graph.Edges_question.Sliding_window.maining_window.Sliding_window.main() {
 //    searchMatrix(matrix)
 //}
 

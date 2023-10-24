@@ -5,6 +5,7 @@ import java.util.*
 /*
 The question here is that the value at index i must be the max element
 in the contiguous array
+// 12321        3 being the maximum in the middle here
 - the contiguous subarray must start or end on index i
 
  */

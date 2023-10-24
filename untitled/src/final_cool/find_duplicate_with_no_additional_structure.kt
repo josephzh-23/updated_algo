@@ -4,7 +4,7 @@ package final_cool
 
 // Practice here
 
-// practice here
+// Sliding_window.practice here
 
 fun findDuplicateNoAdditional(){
 

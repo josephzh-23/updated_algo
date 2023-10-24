@@ -1,9 +1,19 @@
-//package sorting_heaps;
+package sorting;//package sorting_heaps;
 //
+//import java.util.Arrays;
+//
+//
+//public class Interval{
+//    int start;
+//    int end;
+//    Interval (int s, int e) { start = s; end = e;}
+//}
 //class Solution{
 //
-//    public int search(int[] nums, int target){
 //
+//    public int search(Interval[] intervals, int[] nums, int target){
+//
+//        Arrays.sort(intervals,(a, b)-> a.start - b.start );
 //        int start = 0;
 //        int end = nums.length -1;
 //        while (start< end){

@@ -86,7 +86,7 @@
 //	public ArrayList<Project2> getChildren() {	return children;	}
 //	public int getNumberDependencies() {	return dependencies;	}
 //
-//	public static void String.main(String[] args) {
+//	public static void Sliding_window.maining_window.Sliding_window.main(String[] args) {
 ////		String[] arr0=new String[]{"Apple","Banana","Orange"};
 ////		findBuildOrder()
 //

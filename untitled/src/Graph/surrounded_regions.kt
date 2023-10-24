@@ -92,7 +92,7 @@ internal class Solution {
 }
 
 
-// The practice section here
+// The Sliding_window.practice section here
 fun main(){
 
     var goBoard2 = arrayOf(charArrayOf('x','x', 'x', 'x'),
