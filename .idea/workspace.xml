@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="254301f6-f4df-492e-8f91-067e64c9bb84" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/untitled/src/Array/Array_sum/contiguous_subarray_sum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Array/Array_sum/subarray_sum_equals_k.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Graph/Distance/01_matrix.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Graph/Distance/amazon_2.kt" afterDir="false" />
+    <list default="true" id="f416e209-d1fb-426e-b2ed-4ac1e97387a6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/untitled/src/Array/Array_sum/subarray_sum_divisible_by_k.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Array/Interval/interval_list_intersection.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Array/Pair/find_pair_with_sum_k.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Array/two_pointer/interval_list_intersection.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Array/RotateArray_bfKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Array/RotateArray_bfKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Array/RotateImageKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Array/RotateImageKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Array/SellBuyStock_bforceKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Array/SellBuyStock_bforceKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/ArrayKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/ArrayKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Backtracking/CombinationSum_3Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Backtracking/CombinationSum_3Kt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Backtracking/Letter_combination_phone_numberKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Backtracking/Letter_combination_phone_numberKt.class" afterDir="false" />
@@ -22,13 +19,13 @@
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Backtracking/Restore_ip_addressKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Backtracking/Restore_ip_addressKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Backtracking/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Backtracking/Solution.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Backtracking/UniquePath3Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Backtracking/UniquePath3Kt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Backtracking/UniquePath_1_backtrackingKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Backtracking/UniquePath_1_backtrackingKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Backtracking/Valid_squareKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Backtracking/Valid_squareKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Backtracking/WordSearch_backtrackingKt.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Backtracking/WordSearch_dfsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Backtracking/WordSearch_dfsKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Backtracking/restore_ip_addresses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Backtracking/restore_ip_addresses.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Binary_tree_path_recursionKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Binary_tree_path_recursionKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/CheckTimeOverlapKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/CheckTimeOverlapKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Coding_Challenges/Find_distance_between_2_arraysKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Coding_Challenges/Find_distance_between_2_arraysKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Cool.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Cool.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Count_good_nodesKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Count_good_nodesKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/DictKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/DictKt.class" afterDir="false" />
@@ -46,66 +43,33 @@
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Graph/Surrounded_regionsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Graph/Surrounded_regionsKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Graph/Top_6/Max_area_of_islandKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Graph/Top_6/Max_area_of_islandKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Graph/Top_6/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Graph/Top_6/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Graph/dijkstra/Graph$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Graph/dijkstra/Graph$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Graph/dijkstra/Graph$Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Graph/dijkstra/Graph$Edge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Graph/dijkstra/Graph$subset.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Graph/dijkstra/Graph$subset.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Graph/dijkstra/Graph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Graph/dijkstra/Graph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Graph/traversal_with_steps/Shortest_path_get_foodKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Graph/traversal_with_steps/Shortest_path_get_foodKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Hard/Basic_calculator_3Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Hard/Basic_calculator_3Kt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Hard/Solution33.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Hard/Solution33.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Longest_common_substring_bfKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Longest_common_substring_bfKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/META-INF/updated_algo2.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/META-INF/updated_algo2.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Max_sum_pathKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Max_sum_pathKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Maximimum_swap_efficientKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Maximimum_swap_efficientKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/PracticeKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/PracticeKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/PrintCounterClockTreeKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/PrintCounterClockTreeKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/RunKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/RunKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/SetKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/SetKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/SizeKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/SizeKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Sliding_window/Maximum_consec_onesKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Sliding_window/Maximum_consec_onesKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Sliding_window/Sliding_window_max_brute_forceKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Sliding_window/Sliding_window_max_brute_forceKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Sliding_window/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Sliding_window/Solution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Sliding_window/TUF.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Sliding_window/TUF.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Sliding_window/TUF33.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Sliding_window/TUF33.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Sol.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Sol.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Sole.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Sole.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/String/AnagramKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/String/AnagramKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/String/IsPalindromeKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/String/IsPalindromeKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/String/Top_k_most_freq_wordKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/String/Top_k_most_freq_wordKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/String/Top_k_most_frequent_number2Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/String/Top_k_most_frequent_number2Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/String_manipulation/RemoveDuplicatesExample4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/String_manipulation/RemoveDuplicatesExample4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/SubsetKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/SubsetKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/SudokuSolverKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/SudokuSolverKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Tree/BfsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Tree/BfsKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Tree/Bottom_view_of_treeKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Tree/Bottom_view_of_treeKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Tree/DataKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Tree/DataKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Tree/Find_all_leaf_nodesKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Tree/Find_all_leaf_nodesKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Tree/Find_max_in_matrixKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Tree/Find_max_in_matrixKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Tree/Hard/Number_of_good_pair_nodesKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Tree/Hard/Number_of_good_pair_nodesKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Tree/Hard/Path_sumKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Tree/Hard/Path_sumKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Tree/Hard/Path_sum_2_backtrackingKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Tree/Hard/Path_sum_2_backtrackingKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Tree/Hard/Path_sum_2_recursionKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Tree/Hard/Path_sum_2_recursionKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Tree/Hard/Solution133.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Tree/Hard/Solution133.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Tree/Height_tree_dfsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Tree/Height_tree_dfsKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Tree/Inorder_recurKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Tree/Inorder_recurKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Tree/Preoder_traversal_listKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Tree/Preoder_traversal_listKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Tree/Preorder_traversalKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Tree/Preorder_traversalKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Tree/PrintPathKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Tree/PrintPathKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Tree/Right_side_viewKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Tree/Right_side_viewKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Tree/Solution12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Tree/Solution12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Tree/Top6/Populate_next_node_O_1_Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Tree/Top6/Populate_next_node_O_1_Kt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/UniquePath_2Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/UniquePath_2Kt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/_33Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/_33Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/final_cool/Find_duplicate_with_no_additional_structureKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/final_cool/Find_duplicate_with_no_additional_structureKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/final_cool/Move_all_zeros_in_arrayKt.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/final_cool/Two_sum_2Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/final_cool/Two_sum_2Kt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/sorting/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Backtracking/wordSearch_backtracking.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Backtracking/word_search.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Graph/Advanced/amazon_2.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Graph/Advanced/find_all_suitable_houses.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Graph/Distance/find_all_suitable_houses.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Graph/Advanced/minimum_permutation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Graph/Distance/minimum_permutation.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/sorting/meeting_room2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/sorting/meeting_room2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/tricks/two_pointer/container_with_most_water.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/tricks/two_pointer/container_with_most_water.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Array/two_sum_2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Array/two_sum_2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Backtracking/wordSearch_backtracking.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Backtracking/wordSearch_backtracking.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Graph/Advanced/find_all_suitable_houses.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Graph/Advanced/find_all_suitable_houses.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/tricks/two_pointer/container_most_water_brute_force.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Array/two_pointer/container_most_water_brute_force.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/tricks/two_pointer/container_most_water_good.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Array/two_pointer/container_most_water_good.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/tricks/two_pointer/container_with_most_water.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Array/two_pointer/container_with_most_water.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,30 +104,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/josephzhou/IdeaProjects/updated_algo/untitled/src/Array/two_pointer",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Graph" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/untitled/src/Array/two_pointer" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/untitled/src/Sliding_window" />
+      <recent name="$PROJECT_DIR$/untitled/src/Array/two_pointer" />
       <recent name="$PROJECT_DIR$/untitled/src/Array" />
+      <recent name="$PROJECT_DIR$/untitled/src/Sliding_window" />
       <recent name="$PROJECT_DIR$/untitled/src/Graph" />
       <recent name="$PROJECT_DIR$/untitled/src/Sliding_window/Basic" />
-      <recent name="$PROJECT_DIR$/untitled/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Subarray_sum_equals_kKt">
+  <component name="RunManager" selected="Kotlin.Subarray_sum_divisible_by_kKt">
     <configuration name="Find_shortest_that_sumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sliding_window.Basic.Find_shortest_that_sumKt" />
       <module name="updated_algo2" />
@@ -178,8 +146,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PracticeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.PracticeKt" />
+    <configuration name="Subarray_sum_divisible_by_kKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.Array_sum.Subarray_sum_divisible_by_kKt" />
       <module name="updated_algo2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -201,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Subarray_sum_divisible_by_kKt" />
         <item itemvalue="Kotlin.Subarray_sum_equals_kKt" />
         <item itemvalue="Kotlin._01_matrixKt" />
         <item itemvalue="Kotlin.Find_shortest_that_sumKt" />
         <item itemvalue="Kotlin.Group_shifted_stringKt" />
-        <item itemvalue="Kotlin.PracticeKt" />
       </list>
     </recent_temporary>
   </component>

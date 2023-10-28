@@ -20,7 +20,7 @@ fun main() {
     sol(nums, 9).print()
 }
 fun sol(num: IntArray, target:Int) : Pair<Int, Int>{
-
+    // Can use a 2 input solutinos
     var l = 0
     var r = num.size - 1
     for(i in 0 until num.size){
