@@ -1,6 +1,6 @@
 package Tree.Top6
 
-import TreeNode
+import Tree.Basic.TreeNode
 
 // this will get you the nodes with the highest frequency here
 internal class Solution10 {

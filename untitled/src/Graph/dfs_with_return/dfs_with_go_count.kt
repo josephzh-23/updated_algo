@@ -28,6 +28,8 @@ fun main() {
     println(countNumWhite2(goBoard2))
 }
 
+
+// Notice this is very simliar to dfs with jumping game 5
 // Here we check the number of whites captured by black
 fun countNumWhite2(grid: Array<CharArray>): Int {
     // and that's it

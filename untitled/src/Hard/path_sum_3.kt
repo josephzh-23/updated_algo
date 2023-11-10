@@ -1,6 +1,6 @@
 package Hard
 
-import TreeNode
+import Tree.Basic.TreeNode
 
 internal class Solution333 {
     var count = 0

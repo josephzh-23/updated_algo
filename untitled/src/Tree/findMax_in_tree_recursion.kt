@@ -1,6 +1,6 @@
 package Tree
 
-import TreeNode
+import Tree.Basic.TreeNode
 
 internal class BinaryTre23e {
     var root: Node? = null

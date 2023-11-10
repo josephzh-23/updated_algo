@@ -1,13 +1,5 @@
 package Tree.Top6
 
-import Tree.insert
-import Tree.levelOrder
-
-
-import TreeNode
-import java.util.*
-import kotlin.collections.ArrayList
-
 
 /*
 O(n)    o(n)

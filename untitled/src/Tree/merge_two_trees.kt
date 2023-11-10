@@ -1,6 +1,6 @@
-package Tree
+ package Tree
 
-import TreeNode
+import Tree.Basic.TreeNode
 
 // The TC will then be Time: O(n) and O(h)
 fun mergeTrees(t1: TreeNode?, t2: TreeNode?): TreeNode?{

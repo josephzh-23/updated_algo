@@ -2,7 +2,7 @@
 //import java.util.*
 //
 //// We tweaked this so the ball would only traverse 1 step at a time
-//fun Sliding_window.Basic.Sliding_window.main() {
+//fun Sliding_window.Basic.Sliding_window.Graph.Hard.main() {
 //    var arr = arrayOf(intArrayOf(0, 0, 0, 0, 0), intArrayOf(1, 1, 0, 0, 1), intArrayOf(0, 0, 0, 0, 0), intArrayOf(0, 1, 0, 0, 1), intArrayOf(0, 1, 0, 0, 0))
 //
 //    var ball = intArrayOf(4, 3)

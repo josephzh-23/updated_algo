@@ -1,9 +1,10 @@
 package Backtracking
 
 
-import TreeNode
+import Tree.Basic.TreeNode
 
 // This can be linked to binary tree path problem
+//https://leetcode.com/problems/path-sum-ii/description/
 fun main() {
     var r = TreeNode(5)
     r.left = TreeNode(4)

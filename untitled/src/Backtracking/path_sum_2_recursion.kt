@@ -1,6 +1,6 @@
 package Backtracking
 
-import TreeNode
+import Tree.Basic.TreeNode
 
 
 fun main() {

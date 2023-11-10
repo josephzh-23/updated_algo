@@ -1,6 +1,6 @@
 package Tree.Top6
 
-import TreeNode
+import Tree.Basic.TreeNode
 
 // Find lowest common ancestor
 

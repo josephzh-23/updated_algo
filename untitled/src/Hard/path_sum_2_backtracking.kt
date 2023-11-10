@@ -1,7 +1,7 @@
 package Hard
 
 
-import TreeNode
+import Tree.Basic.TreeNode
 
 // This can be linked to binary tree path problem
 fun main() {

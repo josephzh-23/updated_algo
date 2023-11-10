@@ -8,7 +8,7 @@
 //// Return the minimum cost to make all points connected. All points are connected
 //// if there is exactly one simple path between any two points
 //
-//fun Graph.Edges_question.Sliding_window.maining_window.Sliding_window.main() {
+//fun Graph.Edges_question.Sliding_window.maining_window.Sliding_window.Graph.Hard.main() {
 //    var pts = arrayOf(intArrayOf(0, 0),
 //    intArrayOf(2, 2,), intArrayOf(3, 10), intArrayOf(5, 2),
 //    intArrayOf(7,0))

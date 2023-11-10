@@ -74,7 +74,7 @@
 //    }
 //}
 //
-//fun Graph.Edges_question.Sliding_window.maining_window.Sliding_window.main() {
+//fun Graph.Edges_question.Sliding_window.maining_window.Sliding_window.Graph.Hard.main() {
 //    var s = restore_ip_addresses2()
 //    s.restoreIpAddresses("1010").print()
 //}

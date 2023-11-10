@@ -1,3 +1,5 @@
+import Tree.Basic.TreeNode
+
 /*
 Use the preorder approach, center -> left tree and right tree
 

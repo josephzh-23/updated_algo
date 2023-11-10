@@ -1,6 +1,6 @@
 package Tree
 
-import TreeNode
+import Tree.Basic.TreeNode
 
 /*
 TC: O(m * n)    for every n node in the tree

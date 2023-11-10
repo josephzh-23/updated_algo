@@ -57,7 +57,7 @@ class Graph internal constructor(var V: Int, // V-> no. of vertices & E->no.of e
         }
     }
 
-    // The Backtracking.Tree.Hard.Graph.Edges_question.Sliding_window.maining_window.Sliding_window.main function to construct MST using Kruskal's
+    // The Backtracking.Tree.Hard.Graph.Edges_question.Sliding_window.maining_window.Sliding_window.Graph.Hard.main function to construct MST using Kruskal's
     // algorithm
     fun KruskalMST() {
         // This will store the resultant MST

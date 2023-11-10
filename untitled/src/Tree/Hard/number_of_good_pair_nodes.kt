@@ -1,9 +1,15 @@
 package Tree.Hard
 
-import TreeNode
+import Tree.Basic.TreeNode
 
 
 
+/*
+
+You are given the root of a binary tree and an integer distance.
+ A pair of two different leaf nodes of a binary tree is said to be good if the
+ length of the shortest path between them is less than or equal to distance.
+ */
 /*
 Please see notes, need to use a post order approach here
  */
@@ -68,9 +74,9 @@ fun main() {
     r.right!!.right = TreeNode(7)
     s.countPairs(r, 3)
 
-//    val r = TreeNode(1)
-//    r.left = TreeNode(2)
-//    r.right = TreeNode(3)
-//    r.left!!.right = TreeNode(4)
+//    val r = Tree.Basic.TreeNode(1)
+//    r.left = Tree.Basic.TreeNode(2)
+//    r.right = Tree.Basic.TreeNode(3)
+//    r.left!!.right = Tree.Basic.TreeNode(4)
 //    s.countPairs(r, 3).print()
 }

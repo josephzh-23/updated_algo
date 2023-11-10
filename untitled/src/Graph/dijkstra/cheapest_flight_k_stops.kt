@@ -33,7 +33,7 @@ fun findCheapestPrice2(n: Int, flights: Array<IntArray>, src: Int, dst: Int, k: 
     for (i in flights)  // The 2nd value is the price
         adj.computeIfAbsent(
             i[0]
-        ) { value: Int? -> ArrayList() }!!
+        ) { ArrayList() }!!
             .add(intArrayOf(i[1], i[2]))
     val stops = IntArray(n)
     Arrays.fill(stops, Int.MAX_VALUE)

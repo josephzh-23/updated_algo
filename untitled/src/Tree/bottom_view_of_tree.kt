@@ -1,6 +1,6 @@
 package Tree
 
-import TreeNode
+import Tree.Basic.TreeNode
 import java.util.*
 import kotlin.collections.ArrayList
 

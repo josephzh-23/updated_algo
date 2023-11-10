@@ -1,18 +1,18 @@
 //package Tree.Top6;
 //
-//import javax.swing.tree.TreeNode;
+//import javax.swing.tree.Tree.Basic.TreeNode;
 //
 //class Solution3{
 //
-//    public TreeNode buildTree(int[] preorder, int[] inorder){
+//    public Tree.Basic.TreeNode buildTree(int[] preorder, int[] inorder){
 //        return helper(0, 0, inorder.length-1, preorder, inorder);
 //    }
-//    public TreeNode helper(int preStart, int inStart, int inEnd,
+//    public Tree.Basic.TreeNode helper(int preStart, int inStart, int inEnd,
 //                           int[] preorder, int[] inorder){
 //
 //        if(preStart > preorder.length -1 || inStart > inEnd) return null;
 //
-//        TreeNode root = new TreeNode(preorder[preStart]);
+//        Tree.Basic.TreeNode root = new Tree.Basic.TreeNode(preorder[preStart]);
 //
 //        int inIndex = 0;
 //        // Used to find the inorder root index from the preorder [] as explained

@@ -32,7 +32,7 @@ fun restoreArray(ap: Array<IntArray>): IntArray {
     return ans
 }
 
-fun dfs(
+private fun dfs(
     hm: HashMap<Int, MutableList<Int>>, start: Int,
     index: Int, seen: HashSet<Int>, ans: IntArray
 ) {

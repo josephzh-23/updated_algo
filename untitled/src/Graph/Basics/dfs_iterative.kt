@@ -1,34 +1,97 @@
-package Graph.Basics
+package com.hubberspot.dsalgo.graph
 
 import java.util.*
 
+class AdjListGraph( // number of vertices
+    private val V: Int
+) {
+    private val adj = arrayOfNulls<LinkedList<Int>>(V)
+    private var E // number of edges
+            = 0
 
-fun main() {
 
-    var arr = listOf(listOf(1), listOf(2), listOf(3), listOf())
+    fun dfsIterative(visited: BooleanArray, s: Int) {
+        val stack = Stack<Int>()
+        stack.push(s)
+        while (!stack.isEmpty()) {
+            val node = stack.pop()
+            if (!visited[node]) {
+                visited[node] = true
+                print("$node ")
+                for (neighbor in adj[node]!!) {
 
-    canVisitAllRooms(arr)
-}
-fun canVisitAllRooms(rooms: List<List<Int>>): Boolean {
-    val seen = BooleanArray(rooms.size)
-    seen[0] = true
-    val stack: Stack<Int> = Stack()
-    stack.push(0)
+                    if (!visited[neighbor]) {
 
-    //At the beginning, we have a todo list "stack" of keys to use.
-    //'seen' represents at some point we have entered this room.
-    while (!stack.isEmpty()) { // While we have keys...
-        val node = stack.pop() // Get the next key 'node'
-
-        // Here is a little different
-        for (nei in rooms[node])  // For every key in room # 'node'...
-            if (!seen[nei]) { // ...that hasn't been used yet
-                seen[nei] = true // mark that we've entered the room
-                stack.push(nei) // add the key to the todo list
+                        // Do not need to check true again here
+                        stack.push(neighbor)
+                    }
+                }
             }
+        }
     }
-    for (v in seen)  // if any room hasn't been visited, return false
-        if (!v) return false
-    return true
-    return false
+
+    init {
+        for (v in 0 until V) {
+            adj[v] = LinkedList()
+        }
+    }
+
+    fun addEdge(u: Int, v: Int) {
+        adj[u]?.add(v)
+        adj[v]?.add(u)
+        E++
+    }
+
+    override fun toString(): String {
+        val sb = StringBuilder()
+        sb.append("$V vertices, $E edges \n")
+        for (v in 0 until V) {
+            sb.append("$v: ")
+            for (w in adj[v]!!) {
+                sb.append("$w ")
+            }
+            sb.append("\n")
+        }
+        return sb.toString()
+    }
+
+    fun bfs(s: Int) {
+        val visited = BooleanArray(V)
+        val q: Queue<Int> = LinkedList()
+        visited[s] = true
+        q.offer(s)
+        while (!q.isEmpty()) {
+            val u = q.poll()
+            print("$u ")
+            for (v in adj[u]!!) {
+                if (!visited[v]) {
+                    visited[v] = true
+                    q.offer(v)
+                }
+            }
+        }
+    }
+
+    companion object {
+        @JvmStatic
+        fun main(args: Array<String>) {
+            val size = 5
+            val g = AdjListGraph(size)
+            g.addEdge(0, 1)
+            g.addEdge(1, 2)
+            g.addEdge(2, 3)
+            g.addEdge(3, 0)
+            // 4
+            println(g)
+
+            // Better to pass in a visited array
+            var visited = BooleanArray(size)
+            // Another way to do this is like in edges before
+            for (i in 0 until 5) {
+                if (!visited[i]) {
+                    g.dfsIterative(visited, i)
+                }
+            }
+        }
+    }
 }

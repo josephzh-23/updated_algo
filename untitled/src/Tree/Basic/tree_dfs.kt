@@ -1,6 +1,6 @@
 package Tree
 
-import TreeNode
+import Tree.Basic.TreeNode
 
 // in order left, r, right
 // preOrder: r, left and right

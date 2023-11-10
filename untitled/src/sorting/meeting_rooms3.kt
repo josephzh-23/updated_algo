@@ -2,7 +2,20 @@ package sorting
 
 import java.util.*
 
-// This is the solution right here very interesting development here
+
+/*
+Return the number of the room that held the most meetings.
+ If there are multiple rooms, return the room with the lowest number.
+
+Solution 2:
+If there are no available rooms, the meeting will be delayed until a room becomes free.
+ The delayed meeting should have the same duration as the original meeting.
+
+Solution 3:
+ 1. When a room becomes unused, meetings that have an earlier origina
+ l start time should be given the room.
+ */
+
 
 // The TC here is O(n) + O(log n)
 internal class Solution33 {
@@ -13,8 +26,7 @@ internal class Solution33 {
         // key: int[end time, room number]
         // sort by end time, if the same end time - sort by lowest room number
         val busyRoomWithTime = PriorityQueue { m1: IntArray, m2: IntArray ->
-            if (m1[0] == m2[0]
-            ) m1[1] - m2[1] else m1[0] - m2[0]
+            if (m1[0] == m2[0]) m1[1] - m2[1] else m1[0] - m2[0]
         }
         val availableRooms = PriorityQueue<Int>()
         for (i in 0 until n) {

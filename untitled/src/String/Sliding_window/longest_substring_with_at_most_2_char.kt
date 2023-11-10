@@ -48,6 +48,6 @@
 //    return 0
 //}
 //
-//fun main() {
+//fun Graph.Hard.main() {
 //    longestSubstringTwoMostCharacters("eceba")
 //}

@@ -3,7 +3,7 @@ package Array//package Stacks_Queue
 //import java.lang.Integer.min
 //import java.util.*
 //
-//fun Sliding_window.Basic.Sliding_window.main() {
+//fun Sliding_window.Basic.Sliding_window.Graph.Hard.main() {
 //    var s = minStack()
 //    s.push(-1);
 //    s.push(10);

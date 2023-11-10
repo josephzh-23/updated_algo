@@ -1,6 +1,6 @@
 package Tree
 
-import TreeNode
+import Tree.Basic.TreeNode
 
 // There is also an easier time to do this
 class BSTTreeIterator(var treeNode: TreeNode){
@@ -10,7 +10,7 @@ class BSTTreeIterator(var treeNode: TreeNode){
     init{
 
     }
-    fun inOrder(root:TreeNode?){
+    fun inOrder(root: TreeNode?){
         if(root == null){
             return
         }

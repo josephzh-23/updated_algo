@@ -1,6 +1,6 @@
 package Tree.Top6
 
-import TreeNode
+import Tree.Basic.TreeNode
 
 /*
 Trav in reverse inorder right, r, left as indicated

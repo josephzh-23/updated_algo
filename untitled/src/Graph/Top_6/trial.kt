@@ -1,7 +1,7 @@
 //import java.util.*
 //
 //
-//internal class Tree.Hard.Solution {
+//internal class Tree.Count.Solution {
 //    fun minKnightMoves(x: Int, y: Int): Int {
 //        // the offsets in the eight directions
 //        val offsets = arrayOf(intArrayOf(1, 2), intArrayOf(2, 1), intArrayOf(2, -1), intArrayOf(1, -2), intArrayOf(-1, -2), intArrayOf(-2, -1), intArrayOf(-2, 1), intArrayOf(-1, 2))

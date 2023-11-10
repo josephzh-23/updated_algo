@@ -14,7 +14,7 @@ fun frequencyOfCharacters(s: String) {
     // a-> 3    b-> 2    c-> 2
     val freq = IntArray(26)
     for (c in s.toCharArray()) {
-        freq[c.code - 'a'.code]++
+        freq[c - 'a']++
     }
     map
 }

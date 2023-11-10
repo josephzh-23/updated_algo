@@ -62,7 +62,7 @@ fun isOutofBounds(board: Array<CharArray>, x: Int, y:Int): Boolean {
 }
 
 fun main() {
-    // using the Backtracking.Tree.Hard.Graph.Edges_question.Sliding_window.maining_window.Sliding_window.main functino here
+    // using the Backtracking.Tree.Hard.Graph.Edges_question.Sliding_window.maining_window.Sliding_window.Graph.Hard.main functino here
     var grid = arrayOf(charArrayOf('x', 'x', 'x','x', 'x', 'x'),
             charArrayOf('x', '*', 'o','o', 'o', 'x') ,
             charArrayOf('x', 'o', 'o','#', 'o', 'x'),

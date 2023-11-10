@@ -30,6 +30,9 @@ fun countComponentsdfs(n: Int, edges: Array<IntArray>): Int {
         adj[edge[0]].add(edge[1])
         adj[edge[1]].add(edge[0])
     }
+
+    // edges -> can have 0: [1, 2]
+    // second one 3: [4]
     for(i in 0 until n){
         if(!visited[i]){
             res++

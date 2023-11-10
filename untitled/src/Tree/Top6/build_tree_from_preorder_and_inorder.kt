@@ -1,6 +1,6 @@
 package Tree.Top6
 
-import TreeNode
+import Tree.Basic.TreeNode
 
 
 // Whatever inorder you have preorder

@@ -1,7 +1,7 @@
 //import java.util.*;
 //
 //public class Main {
-//    public static void Backtracking.Tree.Hard.Graph.Edges_question.String.main(String[] args) {
+//    public static void Backtracking.Tree.Hard.Graph.Edges_question.String.Graph.Hard.main(String[] args) {
 //
 //        int newPx = 3;
 //        int newPy = 4;
@@ -47,10 +47,10 @@
 //    }
 //
 //
-//    public List<Integer> preorderTraversal(TreeNode root){
+//    public List<Integer> preorderTraversal(Tree.Basic.TreeNode root){
 //        return Graph.Edges_question.dfs(root, new ArrayList());
 //    }
-//    private List<Integer> Graph.Edges_question.dfs(TreeNode root, List<Integer> list){
+//    private List<Integer> Graph.Edges_question.dfs(Tree.Basic.TreeNode root, List<Integer> list){
 //
 //        if(root==null){
 //            return list;

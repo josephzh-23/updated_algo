@@ -2,7 +2,7 @@
 //
 //
 //// If using this and then we are given the following code
-//fun Graph.Edges_question.Sliding_window.maining_window.Sliding_window.main() {
+//fun Graph.Edges_question.Sliding_window.maining_window.Sliding_window.Graph.Hard.main() {
 //    var arr = arrayOf(
 //        intArrayOf(1, 2, 3), intArrayOf(0, 2),
 //        intArrayOf(0, 1, 3), intArrayOf(0, 2)
@@ -18,7 +18,7 @@
 //blue means 1        red means -1        no color = 0
 //This prob can be done using the s solution here
 // */
-//fun Graph.Edges_question.Sliding_window.maining_window.Sliding_window.main() {
+//fun Graph.Edges_question.Sliding_window.maining_window.Sliding_window.Graph.Hard.main() {
 //    var s = arrayOf(
 //        intArrayOf(1, 2, 3), intArrayOf(0, 2),
 //        intArrayOf(0, 1, 3), intArrayOf(0, 2)

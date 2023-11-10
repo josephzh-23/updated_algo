@@ -1,6 +1,6 @@
 package Tree
 
-import TreeNode
+import Tree.Basic.TreeNode
 
 
 fun main(args: Array<String>) {
@@ -25,7 +25,7 @@ fun main(args: Array<String>) {
         println(it.value)
     }
 }
-fun printAllLeafNodes(r:TreeNode?, list: MutableList<TreeNode>):
+fun printAllLeafNodes(r: TreeNode?, list: MutableList<TreeNode>):
 MutableList<TreeNode>{
 
     if(r==null){

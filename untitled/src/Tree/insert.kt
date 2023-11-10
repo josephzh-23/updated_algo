@@ -1,6 +1,6 @@
 package Tree
 
-import TreeNode
+import Tree.Basic.TreeNode
 
 fun insert(root: TreeNode?, key: Int): TreeNode {
 

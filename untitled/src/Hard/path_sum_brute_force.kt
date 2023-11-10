@@ -1,6 +1,6 @@
 package Hard
 
-import TreeNode
+import Tree.Basic.TreeNode
 //https://leetcode.com/problems/path-sum-iii/
 //Will work on path 3 problem leetcode
 

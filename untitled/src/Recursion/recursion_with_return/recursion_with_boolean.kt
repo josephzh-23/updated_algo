@@ -1,8 +1,8 @@
 package Recursion.recursion_with_return
 
-import TreeNode
+import Tree.Basic.TreeNode
 
-fun isSameTree(p: TreeNode, q:TreeNode):Boolean{
+fun isSameTree(p: TreeNode, q: TreeNode):Boolean{
     //If both trees are empty then return true
     if(p==null && q==null) {
         return true

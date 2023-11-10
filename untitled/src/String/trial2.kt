@@ -37,7 +37,7 @@
 //}
 //
 //
-//fun Sliding_window.Basic.Sliding_window.main(args: Array<String>) {
+//fun Sliding_window.Basic.Sliding_window.Graph.Hard.main(args: Array<String>) {
 //    var s = "amazon"
 //
 //    var ac = "zam"

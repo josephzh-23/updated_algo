@@ -1,7 +1,7 @@
 package Tree
 
 
-import TreeNode
+import Tree.Basic.TreeNode
 
 
 
@@ -43,9 +43,9 @@ fun main() {
     r.right!!.right = TreeNode(7)
     s.count(r, 3)
 
-//    val r = TreeNode(1)
-//    r.left = TreeNode(2)
-//    r.right = TreeNode(3)
-//    r.left!!.right = TreeNode(4)
+//    val r = Tree.Basic.TreeNode(1)
+//    r.left = Tree.Basic.TreeNode(2)
+//    r.right = Tree.Basic.TreeNode(3)
+//    r.left!!.right = Tree.Basic.TreeNode(4)
 //    s.countPairs(r, 3).print()
 }

@@ -1,6 +1,6 @@
+import Tree.Basic.TreeNode
 
-
-//fun pathSum(root: TreeNode?, targetSum: Int): List<List<Int>> {
+//fun pathSum(root: Tree.Basic.TreeNode?, targetSum: Int): List<List<Int>> {
 //
 //
 //
@@ -26,7 +26,7 @@ fun main() {
 }
 
 var result = mutableListOf<MutableList<Int>>()
-fun inorderTraverse(root: TreeNode?,sum: Int): List<Int> {
+fun inorderTraverse(root: TreeNode?, sum: Int): List<Int> {
     val res: MutableList<Int> = ArrayList()
     helper2(root, res, sum )
 //    res.forEach {

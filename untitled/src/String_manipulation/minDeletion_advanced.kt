@@ -1,5 +1,6 @@
 //package String_manipulation
 //
+////https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/description/
 //
 //// Return the string with the deleted characters
 ////
@@ -32,6 +33,6 @@
 //    return deletion
 //}
 //
-//fun Backtracking.Tree.Hard.Graph.Edges_question.Sliding_window.maining_window.Sliding_window.main() {
+//fun Backtracking.Tree.Hard.Graph.Edges_question.Sliding_window.maining_window.Sliding_window.Graph.Hard.main() {
 //    minDeletionsAdvanced("aaabbbcc")
 //}

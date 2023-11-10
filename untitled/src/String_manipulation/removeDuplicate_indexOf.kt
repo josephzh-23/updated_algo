@@ -27,7 +27,7 @@ internal object RemoveDuplicatesExample4 {
         println(newstr)
     }
 
-    // Backtracking.Tree.Hard.Graph.Edges_question.Sliding_window.maining_window.Sliding_window.main() method start
+    // Backtracking.Tree.Hard.Graph.Edges_question.Sliding_window.maining_window.Sliding_window.Graph.Hard.main() method start
     @JvmStatic
     fun main(args: Array<String>) {
         // Create a string variable with default value

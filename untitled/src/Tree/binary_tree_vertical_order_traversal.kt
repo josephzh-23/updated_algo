@@ -10,15 +10,15 @@ import kotlin.collections.ArrayList
 
 
 // So when you have a list of here
-class TreeNode(var value: Int,var y: Int,
-        var left: TreeNode, var right: TreeNode){
+private class TreeNode(var value: Int,var y: Int,
+        var left: TreeNode?, var right: TreeNode?){
 
 
 }
 
 
 // The level order traversal here
-fun levelOrder(r: TreeNode?): List<List<Int>> {
+private fun levelOrder(r: TreeNode?): List<List<Int>> {
 
     val columnTable = mutableMapOf<Int, ArrayList<Int>>()
     val q :Queue<Pair<TreeNode?, Int>> = LinkedList()
@@ -44,6 +44,8 @@ fun levelOrder(r: TreeNode?): List<List<Int>> {
             columnTable.putIfAbsent(column, ArrayList())
             columnTable[column]?.add(root.value)
 
+            // The column before the one on the right
+            // And then the next column the one on the right
             q.offer(Pair(root.left, column -1))
             q.offer(Pair(root.right, column +1))
         }

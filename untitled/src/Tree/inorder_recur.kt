@@ -1,6 +1,6 @@
 package Tree
 
-import TreeNode
+import Tree.Basic.TreeNode
 
 // in order left, r, right
 // preOrder: r, left and right
@@ -28,10 +28,10 @@ fun inorderTraversal(root: TreeNode?): List<Int> {
 
 }
 
-fun helper(root: TreeNode?, res: MutableList<Int>) {
+fun inOrder(root: TreeNode?) {
     if (root != null) {
-        helper2(root.left, res)
-        res.add(root.value)
-        helper2(root.right, res)
+        inOrder(root.left)
+        println(root.value)
+        inOrder(root.right)
     }
 }

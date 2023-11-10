@@ -28,7 +28,7 @@ fun countNumWays(s: String, k: Int): Int {
 
         var afterSwap = swapChar2(original, 0, k-1)
         var originalString = StringBuilder().append(original).toString().reversed()
-        if (afterSwap.compareTo(originalString) < 0) {
+        if (afterSwap < originalString) {
             results++
         }
     }

@@ -1,6 +1,6 @@
 package Recursion.recursion_with_return
 
-import TreeNode
+import Tree.Basic.TreeNode
 
 // Root comes first, then left subtree
 // right subtree

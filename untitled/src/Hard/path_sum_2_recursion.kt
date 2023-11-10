@@ -1,6 +1,6 @@
 package Hard
 
-import TreeNode
+import Tree.Basic.TreeNode
 
 
 fun main() {

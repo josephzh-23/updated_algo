@@ -1,12 +1,12 @@
 package Tree
 
-import TreeNode
-
+import Tree.Basic.TreeNode
+import Tree.Basic.preorder
 
 
 // A fxn that constructs a bst tree from a node tree
 
-fun sortedArrayToBST(arr: IntArray, start: Int, end:Int):TreeNode?{
+fun sortedArrayToBST(arr: IntArray, start: Int, end:Int): TreeNode?{
 
     if(start > end){
         return null

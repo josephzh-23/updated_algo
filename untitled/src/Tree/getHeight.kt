@@ -1,6 +1,6 @@
 package Tree
 
-import TreeNode
+import Tree.Basic.TreeNode
 
 /*
 TC: O(n)    n : total num of the ndoes in the tree

@@ -1,7 +1,9 @@
 package Backtracking
 
-import TreeNode
+import Tree.Basic.TreeNode
 
+// Path sum leetcode problem
+// https://leetcode.com/problems/path-sum/description/
 fun main() {
     var r = TreeNode(1)
     r.left = TreeNode(2)

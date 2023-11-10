@@ -1,9 +1,13 @@
 package Backtracking
 
-import TreeNode
+import Tree.Basic.TreeNode
 
+
+// https://leetcode.com/problems/path-sum-iii/
 internal class Solution33 {
     var count = 0
+
+    // k is the target sum here
     var k = 0
     var h: HashMap<Int?, Int?> = HashMap()
     fun preorder(node: TreeNode?, currSum: Int) {
