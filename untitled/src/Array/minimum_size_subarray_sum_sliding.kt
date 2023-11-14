@@ -1,6 +1,5 @@
 import January_3rd.print
 
-// Do this using slindign widnow here
 // Another sliding window here
 
 /*
@@ -20,6 +19,7 @@ fun main() {
     answer4(nums, target).print()
 }
 
+//
 fun answer4(nums: IntArray, target: Int): Int {
     var window = Integer.MAX_VALUE
     var size = nums.size
