@@ -1,6 +1,6 @@
 package Graph
 
-import Graph.bfs_with_counting.directions
+import Graph.Islands.directions
 
 //https://structy.net/problems/minimum-island
 fun main() {

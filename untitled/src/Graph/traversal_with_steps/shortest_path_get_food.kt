@@ -1,6 +1,6 @@
 package Graph.traversal_with_steps
 
-import Graph.bfs_with_counting.directions
+import Graph.Islands.directions
 import java.util.*
 //https://leetcode.com/problems/shortest-path-to-get-food/description/
 // Need to add both i, j and the # of step for the q here

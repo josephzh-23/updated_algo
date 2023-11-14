@@ -1,8 +1,8 @@
 package Graph.dfs_with_return
 
-import Graph.bfs_with_counting.b
-import Graph.bfs_with_counting.e
-import Graph.bfs_with_counting.w
+import Graph.Islands.b
+import Graph.Islands.e
+import Graph.Islands.w
 
 
 // Here we check the number of whites captured by black

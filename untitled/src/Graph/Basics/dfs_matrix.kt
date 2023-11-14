@@ -1,6 +1,6 @@
 package Graph.Basics
 
-import Graph.bfs_with_counting.directions
+import Graph.Islands.directions
 import Graph.dfsmmatrix
 
 

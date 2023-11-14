@@ -1,6 +1,6 @@
 package Graph.Island_problems
 
-import Graph.bfs_with_counting.directions
+import Graph.Islands.directions
 import January_3rd.print
 
 

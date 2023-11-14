@@ -81,7 +81,8 @@ fun accountsMerge(accounts: List<List<String>>): List<List<String>?> {
    joe_b@mail.com: 2
    joe_b@mail2.com: 2
      */
-    // prepare a hash with unique email address as key and index in accouts as value
+    // prepare a hash with unique email address as key and
+    // index/position in accouts list as value
     val emailToId = HashMap<String, Int?>()
     for (i in 0 until size) {
         val details = accounts[i]

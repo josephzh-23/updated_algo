@@ -1,5 +1,5 @@
 import java.util.*
-
+//https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/description/
 fun main() {
     var n = 4
     var edges = arrayOf(
@@ -25,6 +25,8 @@ internal class FindCityWithSmallestNeighbors {
     // Keep track of distances at each node
     // Example : from 0-> 1     the distance would be updated at the index 1
     // consistently here only over here and that's it
+
+   // Use this to keep track here
     private lateinit var dist: IntArray
     private var seen: MutableSet<Int?>? = null
     var ans = Int.MAX_VALUE
@@ -40,6 +42,8 @@ internal class FindCityWithSmallestNeighbors {
 
             graph.computeIfAbsent(v) { mutableListOf() }.add(intArrayOf(u, weight))
         }
+
+        // # of edges here in code
         for (i in 0 until n) {
             init()
             dijkstra(i, distanceThreshold)

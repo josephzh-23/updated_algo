@@ -1,6 +1,6 @@
 package Graph.multi_source_bfs
 
-import Graph.bfs_with_counting.directions
+import Graph.Islands.directions
 import java.util.*
 
 /*

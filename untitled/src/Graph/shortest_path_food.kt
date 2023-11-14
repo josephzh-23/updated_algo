@@ -44,6 +44,11 @@ fun getFood(grid: Array<CharArray>): Int {
     var steps = 0
     while (!queue.isEmpty()) {
         val size = queue.size
+        /*
+        The reason for traversing level if you can end up at the
+        same place but having taken different number of steps
+
+         */
         for (i in 0 until size) {
             val cell = queue.poll()
             val row = cell[0]

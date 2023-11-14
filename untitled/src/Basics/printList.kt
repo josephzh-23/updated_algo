@@ -2,7 +2,16 @@ package Util
 
 fun printList(list: List<*>) {
     list.forEach {
-        print(it)
+        println(it)
+    }
+
+}
+
+fun printNestedList(list: List<List<*>>) {
+    list.forEach {
+        it.forEach {
+            println(it)
+        }
     }
 
 }

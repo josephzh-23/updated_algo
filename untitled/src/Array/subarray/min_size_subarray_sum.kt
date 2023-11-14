@@ -15,6 +15,9 @@ The 2 window that sums to 7
   When curSum >= target, we do curSum -= num[start]
   when curSum < target, we keep adding curSum += num[end]
  */
+/*
+https://leetcode.com/problems/minimum-size-subarray-sum/description/
+ */
 
 fun main() {
     var nums = intArrayOf(2, 3, 1, 2, 4, 3)

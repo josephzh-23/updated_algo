@@ -1,8 +1,7 @@
 package Graph
 
-import Graph.bfs_with_counting.directions
+import Graph.Islands.directions
 import January_3rd.print
-import java.util.ArrayList
 
 
 // Distinct islands things

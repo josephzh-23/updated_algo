@@ -1,4 +1,4 @@
-import Graph.bfs_with_counting.directions
+import Graph.Islands.directions
 import java.util.*
 
 /*
@@ -89,9 +89,7 @@ class Solution4(houseGrid: Array<IntArray>) {
 
     fun bfsSearch(matrix: Array<IntArray>, i: Int, j: Int, k: Int): Boolean {
 
-        // given a start point here
-//    var start = intArrayOf(1,1)
-        // 1 and 1 are the starting point for this
+
         var visited = Array(matrix.size) { BooleanArray(matrix[0].size) }
         // everywhere when it starts ti will start with k here
         var start = intArrayOf(i, j, k)

@@ -1,7 +1,11 @@
 package Array.Interval
 
-// Like a more advanced version of meeting room here
-// A two pointer solution
+
+// https://leetcode.com/problems/interval-list-intersections/description/
+
+/*
+You are basically combining the 2 lists here
+ */
 fun main() {
     // val start list and the end list here
     var firstList = arrayOf(

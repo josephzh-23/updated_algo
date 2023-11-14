@@ -6,6 +6,8 @@ Leetcode solutino       -> TC: O (R *c)
 SC: O( R* C) -> the seen 2d boolean that we created + space by callstack
  */
 // When it traverses in all direction
+
+
 class Solution {
     lateinit var grid:Array<IntArray>
     lateinit var seen: Array<BooleanArray>
@@ -41,6 +43,9 @@ class Solution {
             return 0
         }
 
+        /*
+        Max area of island here
+         */
         // The case where grid[r][c] =='1' basically, to mark it as visited
         //mark it
         seen[r][c] = true

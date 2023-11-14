@@ -6,6 +6,8 @@ import java.util.*
 // This is the solution from the bfs one
 
 
+
+
 fun main() {
     var arr = arrayOf(
         intArrayOf(1, 2), intArrayOf(3), intArrayOf(3), intArrayOf()
@@ -13,7 +15,11 @@ fun main() {
 
     allPathSourceTarget23(arr)
 }
-
+/*
+Input: graph = [[1,2],[3],[3],[]]
+Output: [[0,1,3],[0,2,3]]
+Explanation: There are two paths: 0 -> 1 -> 3 and 0 -> 2 -> 3.
+ */
 fun allPathSourceTarget23(graph: Array<IntArray>): List<List<Int>> {
     val result: MutableList<List<Int>> = ArrayList()
     val queue: Queue<List<Int>> = LinkedList()

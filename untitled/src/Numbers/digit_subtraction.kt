@@ -1,6 +1,0 @@
-package Numbers
-
-
-fun main() {
-
-}

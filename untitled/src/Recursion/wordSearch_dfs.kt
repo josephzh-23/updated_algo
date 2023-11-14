@@ -1,6 +1,6 @@
 package Backtracking
 
-import Graph.bfs_with_counting.directions
+import Graph.Islands.directions
 
 var exists = false
 
