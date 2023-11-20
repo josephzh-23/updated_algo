@@ -42,6 +42,7 @@ fun subarraySum(nums: IntArray, k: Int): Int {
                 count += it
             }
         }
+
         // The case 2 where if already seen the sum 14
         if (dict.contains(s)) {
             dict[s] = dict[s]!! + 1

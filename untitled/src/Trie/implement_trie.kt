@@ -3,7 +3,7 @@ package Trie
 import Recursion.Trie.ALPHABET_SIZE
 
 
-internal class TrieNode {
+private class TrieNode {
     var children = arrayOfNulls<TrieNode>(ALPHABET_SIZE)
 
     // isEndOfWord is true if the node

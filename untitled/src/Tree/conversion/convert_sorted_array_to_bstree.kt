@@ -9,12 +9,12 @@ internal class Solution {
         if (left > right) return null
 
         // always choose left middle node as a root
-        val p = (left + right) / 2
+        val mid = (left + right) / 2
 
         // preorder traversal: node -> left -> right
-        val root = TreeNode(nums[p])
-        root.left = helper(left, p - 1)
-        root.right = helper(p + 1, right)
+        val root = TreeNode(nums[mid])
+        root.left = helper(left, mid - 1)
+        root.right = helper(mid + 1, right)
         return root
     }
 

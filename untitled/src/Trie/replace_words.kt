@@ -1,4 +1,3 @@
-import Trie.TrieNode
 
 
 /*
@@ -10,40 +9,52 @@ Output: "the cat was rat by the bat"
 fun main() {
     var l = listOf("cat", "bat", "rat")
     val sentence = "the cattle was rattled by the battery"
-    replaceWords(l, sentence)
+    println(replaceWords(l, sentence))
 }
+
+
 fun replaceWords(roots: List<String>, sentence: String): String {
     val trie = TrieNode()
-
-    // All the roots will be in there
     for (root in roots) {
-        var cur: TrieNode = trie
+        var cur = trie
 
-        // Go through each letter in the roo cat
+        /*
+In other words this trie here is sort of like the dummy node
+it will have 3 paths
+" c -  a  -  t"   with word "cat"
+* -   " b -  a  -  t"   with word "bat"
+" r  - a  -  t"
+*/
+        // All the roots will be in there
         for (letter in root.toCharArray()) {
-            if (cur.children[letter - 'a'] == null)
-                cur.children[letter - 'a'] = TrieNode()
-            cur = cur.children[letter - 'a']!!
+            if (cur.children[letter.toInt() - 'a'.toInt()] == null) cur.children[letter.toInt() - 'a'.toInt()] =
+                TrieNode()
+            cur = cur.children[letter.toInt() - 'a'.toInt()]!!
         }
-        // Each cur node will have a word
-        // c.word = cat
-
-        println("the root is " + root + "with the cur $cur")
         cur.word = root
     }
-
-
     val ans = StringBuilder()
     for (word in sentence.split("\\s+".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()) {
         if (ans.length > 0) ans.append(" ")
-        var cur: TrieNode = trie
+        var cur = trie
         for (letter in word.toCharArray()) {
-            if (cur.children[letter - 'a'] == null || cur.word != null) break
-
-            // This is the same as search in trie
-            cur = cur.children[letter - 'a']!!
+            if (cur.children[letter.toInt() - 'a'.toInt()] == null || cur.word != null) break
+            cur = cur.children[letter.toInt() - 'a'.toInt()]!!
         }
+        /*
+        Basically when cur gets to TrieNode() with "cat"
+        the word will be "cat" which is why we return cat here
+         */
         ans.append(if (cur.word != null) cur.word else word)
     }
     return ans.toString()
+}
+
+internal class TrieNode {
+    var children: Array<TrieNode?>
+    var word: String? = null
+
+    init {
+        children = arrayOfNulls(26)
+    }
 }

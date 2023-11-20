@@ -29,6 +29,7 @@ fun subArraySumByK(nums: IntArray, k: Int){
         if(dict.contains(prefixSum % k)){
             count += dict[prefixSum %k]!!
         }
+
         dict.putIfAbsent(prefixSum%k, 0)
         dict[prefixSum % k] = dict[prefixSum % k]!! + 1
     }

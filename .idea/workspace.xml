@@ -5,11 +5,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f416e209-d1fb-426e-b2ed-4ac1e97387a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/untitled/src/Array/trapping_rain_water.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Numbers/Bit_manipuation/add_binary.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Numbers/Bit_manipuation/binary_string.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Numbers/Bit_manipuation/plus_one.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Numbers/power.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Prefix_Sum/prefix_sum_array.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Prefix_Sum/range_sum_query_immutable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Prefix_Sum/range_sum_query_mutable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/String/Match/match_wildcard.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/String/Match/sign.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/String/Match/word_pattern.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/String/Match/word_pattern_2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/String/decode_ways.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/String/decode_ways_with_memoization.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/String/string_compression_leetcode.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/String/substring/isSubsequence.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/String/substring/repeated_substring_pattern.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/String/substring/shortest_common_subsequence.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/String/Basic/string_addition.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/String/Sliding_window/minimum_size_subarray_sum_sliding.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Array/minimum_size_subarray_sum_sliding.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/String/longest_string_with_repeating_char.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/META-INF/updated_algo2.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/META-INF/updated_algo2.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/String/longest_string_with_repeating_char.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Array/subarray/subarray_sum_divisible_by_k.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Array/subarray/subarray_sum_divisible_by_k.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Array/subarray/subarray_sum_equals_k.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Array/subarray/subarray_sum_equals_k.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Graph/Union_set/number_of_operations_to_make_dfs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Graph/Union_set/number_of_operations_to_make_dfs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Graph/dfs_string/word_ladder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Graph/dfs_string/word_ladder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/Basics/keep_dividing.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Numbers/Basics/keep_dividing.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/Basics/use_carry.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Numbers/Basics/use_carry.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/add_string.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Numbers/add_string.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/digit_subtraction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Numbers/digit_subtraction.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/divider.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Numbers/divider.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/get_remainder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Numbers/get_remainder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/integer_to_english_words.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Numbers/integer_to_english_words.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/integer_to_romans.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Numbers/integer_to_romans.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/keep_dividing.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Numbers/keep_dividing.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/maximimum_swap_efficient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Numbers/maximimum_swap_efficient.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/multiply_strings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Numbers/multiply_strings.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/string_to_integer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Numbers/string_to_integer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/tester.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Numbers/tester.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/the_numbers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Numbers/the_numbers.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Tree/conversion/convert_sorted_array_to_bstree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Tree/conversion/convert_sorted_array_to_bstree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Trie/implement_trie.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Trie/implement_trie.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Trie/replace_words.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Trie/replace_words.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/sorting_heaps/Interval.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Heap/Interval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/sorting_heaps/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Heap/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/sorting_heaps/duplicate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Heap/duplicate.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/sorting_heaps/meeting_room.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Heap/meeting_room.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/sorting_heaps/meeting_room2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Heap/meeting_room2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/sorting_heaps/meeting_rooms3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Heap/meeting_rooms3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/sorting_heaps/minMeetingRooms.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Heap/minMeetingRooms.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +76,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/1.7.10/kotlin-stdlib-1.7.10-sources.jar!/kotlin/text/StringsJVM.kt" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-17.0.5/Contents/Home/lib/src.zip!/java.base/java/lang/Character.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-17.0.5/Contents/Home/lib/src.zip!/java.base/java/lang/Integer.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-17.0.5/Contents/Home/lib/src.zip!/java.base/java/text/DateFormat.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-17.0.5/Contents/Home/lib/src.zip!/java.base/java/util/Date.java" root0="SKIP_INSPECTION" />
   </component>
@@ -48,12 +93,13 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "/Users/josephzh/Desktop/updated_algo/untitled/src/String/Hard",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie"
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -68,47 +114,47 @@
       <recent name="$PROJECT_DIR$/untitled/src/Graph/dfs_with_return" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/untitled/src/String/Match" />
+      <recent name="$PROJECT_DIR$/untitled/src/Heap" />
       <recent name="$PROJECT_DIR$/untitled/src/Array" />
       <recent name="$PROJECT_DIR$/untitled/src/Tree/conversion" />
       <recent name="$PROJECT_DIR$/untitled/src/Tree/Basic" />
-      <recent name="$PROJECT_DIR$/untitled/src/Sliding_window/Basic" />
-      <recent name="$PROJECT_DIR$/untitled/src/Graph/multi_source_bfs" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="Tree.Basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Multiply_stringsKt (1)">
-    <configuration name="DividerKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.Numbers.DividerKt" />
+  <component name="RunManager" selected="Kotlin.Shortest_common_subsequenceKt">
+    <configuration name="Add_binaryKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Numbers.Bit_manipuation.Add_binaryKt" />
       <module name="updated_algo2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Multiply_stringsKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Multiply_stringsKt" />
+    <configuration name="Plus_oneKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Numbers.Bit_manipuation.Plus_oneKt" />
       <module name="updated_algo2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Multiply_stringsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.Numbers.Multiply_stringsKt" />
+    <configuration name="Repeated_substring_patternKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.substring.Repeated_substring_patternKt" />
       <module name="updated_algo2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrdinanceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Util.OrdinanceKt" />
+    <configuration name="Shortest_common_subsequenceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.substring.Shortest_common_subsequenceKt" />
       <module name="updated_algo2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Use_carryKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.Numbers.Basics.Use_carryKt" />
+    <configuration name="String_compression_leetcodeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.String_compression_leetcodeKt" />
       <module name="updated_algo2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Multiply_stringsKt (1)" />
-        <item itemvalue="Kotlin.DividerKt" />
-        <item itemvalue="Kotlin.Use_carryKt" />
-        <item itemvalue="Kotlin.Multiply_stringsKt" />
-        <item itemvalue="Kotlin.OrdinanceKt" />
+        <item itemvalue="Kotlin.Shortest_common_subsequenceKt" />
+        <item itemvalue="Kotlin.Repeated_substring_patternKt" />
+        <item itemvalue="Kotlin.Plus_oneKt" />
+        <item itemvalue="Kotlin.Add_binaryKt" />
+        <item itemvalue="Kotlin.String_compression_leetcodeKt" />
       </list>
     </recent_temporary>
   </component>
@@ -423,6 +469,131 @@
           <line>41</line>
           <option name="timeStamp" value="92" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/String/Match/match_wildcard.kt</url>
+          <line>26</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/String/Match/match_wildcard.kt</url>
+          <line>28</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/String/Match/match_wildcard.kt</url>
+          <line>30</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/String/Match/match_wildcard.kt</url>
+          <line>31</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Trie/replace_words.kt</url>
+          <line>39</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Trie/replace_words.kt</url>
+          <line>40</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Trie/replace_words.kt</url>
+          <line>41</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Trie/replace_words.kt</url>
+          <line>47</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/String/string_compression_leetcode.kt</url>
+          <line>33</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/String/string_compression_leetcode.kt</url>
+          <line>34</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/String/string_compression_leetcode.kt</url>
+          <line>32</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/String/string_compression_leetcode.kt</url>
+          <line>31</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/String/string_compression_leetcode.kt</url>
+          <line>30</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Numbers/Bit_manipuation/plus_one.kt</url>
+          <line>17</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Numbers/Bit_manipuation/plus_one.kt</url>
+          <line>18</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Numbers/Bit_manipuation/plus_one.kt</url>
+          <line>13</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Numbers/Bit_manipuation/plus_one.kt</url>
+          <line>14</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Numbers/Bit_manipuation/plus_one.kt</url>
+          <line>24</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Numbers/Bit_manipuation/plus_one.kt</url>
+          <line>12</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/String/substring/repeated_substring_pattern.kt</url>
+          <line>31</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/String/substring/repeated_substring_pattern.kt</url>
+          <line>30</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/String/substring/repeated_substring_pattern.kt</url>
+          <line>33</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/String/substring/repeated_substring_pattern.kt</url>
+          <line>34</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/String/substring/repeated_substring_pattern.kt</url>
+          <line>38</line>
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/String/substring/repeated_substring_pattern.kt</url>
+          <line>19</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -431,6 +602,7 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/updated_algo$Basic_calculator_2Kt.ic" NAME="Basic_calculator_2Kt Coverage Results" MODIFIED="1699803206053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/updated_algo$PracticeKt.ic" NAME="PracticeKt Coverage Results" MODIFIED="1673571027880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
