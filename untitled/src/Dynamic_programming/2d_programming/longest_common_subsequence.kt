@@ -2,7 +2,7 @@ package Dynamic_programming.`2d_programming`
 
 import java.lang.Integer.max
 
-// A common substring between 2 strings
+// A common subsequence between 2 strings
 // text 1 = "abcde" and text2= "ace"
 // longest common = "ace"
 

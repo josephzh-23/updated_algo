@@ -17,6 +17,10 @@ Basically there is a subsequence relationship here
 2 conditions for the newLength
 1. newLength = previousLengh + 1
 2.
+
+Input: words = ["a","b","ba","bca","bda","bdca"]
+Output: 4
+Explanation: One of the longest word chains is ["a","ba","bda","bdca"].
  */
 
 

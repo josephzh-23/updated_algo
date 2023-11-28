@@ -5,55 +5,115 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f416e209-d1fb-426e-b2ed-4ac1e97387a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Numbers/Bit_manipuation/add_binary.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Numbers/Bit_manipuation/binary_string.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Numbers/Bit_manipuation/plus_one.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Numbers/power.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Prefix_Sum/prefix_sum_array.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Prefix_Sum/range_sum_query_immutable.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Prefix_Sum/range_sum_query_mutable.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/String/Match/match_wildcard.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/String/Match/sign.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/String/Match/word_pattern.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/String/Match/word_pattern_2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/String/decode_ways.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/String/decode_ways_with_memoization.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/String/string_compression_leetcode.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/String/substring/isSubsequence.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/String/substring/repeated_substring_pattern.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/String/substring/shortest_common_subsequence.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Array/Basic/duplicate_zero.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Array/Basic/remove_duplicates_from_sorted_array.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Array/Basic/remove_duplicates_from_sorted_array_ii.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Array/Basic/remove_element.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Array/Basic/stack_increase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Array/Hard/largerst_rectangle_histogram.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Array/Hard/largest_rectangle_histogram_stack.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Array/Two_array/gas_station.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Array/next_permutation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Array/subarray/ways_to_split_array_into_three_subarrays.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Array/two_dimension/minimum_path_sum.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Array/two_dimension/rotate_image.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_search/contains_duplicate.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_search/find_duplicate_number.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_search/find_first_last_index.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_search/find_k_closest_elements.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_search/find_peak_element.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_search/guess_number_higher_lower.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_search/koko_eat_banana.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_search/kokos_eating_banana.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_search/time_key_value_store.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Graph/Advanced/time_needed_to_reach_all_employees.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Numbers/Basics/using_xor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Numbers/Bit_manipuation/single_number.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Numbers/Bit_manipuation/single_number_optimal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Numbers/single_number_optimal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Pairs/minimize_max.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Partition/number_of_good_ways_to_split_good_string.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Prefix_Sum/ways_to_split_array_into_three_subarrays.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Sliding_window/subarray_average_greater_then_other.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Stacks_Queue/next_greater_element.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/String/Basic/single_number.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/String/Basic/single_number_optimal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/String/Easy/isomorphic_string.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/String/Hard/find_missing_positive_integer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/String/Hard/longest_happy_string.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/String/Hard/text_justification.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/String/Sliding_window/permutation_in_string.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/String/longest_happy_string.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/String/permutation_in_string.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/String_manipulation/delete_operations_for_2_strings.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/String_manipulation/edit_distance.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Tree/Array/serialize_and_desrialize_tree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Tree/Basic/max_depth_of_tree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Tree/Hard/time_needed_to_reach_all_employees.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Tree/max_depth_of_tree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Tree/max_depth_of_tree_bfs.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Tree/max_depth_of_tree_recursion.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Hard/Longest_string_chainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Hard/Longest_string_chainKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/META-INF/updated_algo2.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/META-INF/updated_algo2.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Search/Binary_search_loopKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Search/Binary_search_loopKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Search/FirstAndLastPositionOfElementInSortedArray.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/String/longest_string_with_repeating_char.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Array/subarray/subarray_sum_divisible_by_k.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Array/subarray/subarray_sum_divisible_by_k.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Array/subarray/subarray_sum_equals_k.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Array/subarray/subarray_sum_equals_k.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Graph/Union_set/number_of_operations_to_make_dfs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Graph/Union_set/number_of_operations_to_make_dfs.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Graph/dfs_string/word_ladder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Graph/dfs_string/word_ladder.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/Basics/keep_dividing.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Numbers/Basics/keep_dividing.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/Basics/use_carry.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Numbers/Basics/use_carry.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/add_string.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Numbers/add_string.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/digit_subtraction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Numbers/digit_subtraction.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/divider.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Numbers/divider.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/get_remainder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Numbers/get_remainder.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/integer_to_english_words.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Numbers/integer_to_english_words.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/integer_to_romans.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Numbers/integer_to_romans.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/keep_dividing.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Numbers/keep_dividing.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/maximimum_swap_efficient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Numbers/maximimum_swap_efficient.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/multiply_strings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Numbers/multiply_strings.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/string_to_integer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Numbers/string_to_integer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/tester.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Numbers/tester.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/the_numbers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Numbers/the_numbers.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Tree/conversion/convert_sorted_array_to_bstree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Tree/conversion/convert_sorted_array_to_bstree.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Trie/implement_trie.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Trie/implement_trie.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Trie/replace_words.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Trie/replace_words.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/sorting_heaps/Interval.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Heap/Interval.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/sorting_heaps/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Heap/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/sorting_heaps/duplicate.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Heap/duplicate.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/sorting_heaps/meeting_room.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Heap/meeting_room.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/sorting_heaps/meeting_room2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Heap/meeting_room2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/sorting_heaps/meeting_rooms3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Heap/meeting_rooms3.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/sorting_heaps/minMeetingRooms.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Heap/minMeetingRooms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Util/PrintListKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Util/PrintListKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Array/Intersection_of_two_arrays.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Array/Two_array/Intersection_of_two_arrays.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Array/Interval/interval_list_intersection.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Interval/interval_list_intersection.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Array/Interval/meeting_planner.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Interval/meeting_planner.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Array/k_closest_points.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Pairs/k_closest_points.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Array/search_in_rotated_aray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Array/search_in_rotated_aray.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Array/subarray/maximum_subarray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Array/subarray/maximum_subarray.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Array/subarray/subarray_average_greater_then_other.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Array/subarray/subarray_average_greater_then_other.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Basics/printList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Basics/printList.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Dynamic_programming/2d_programming/longest_common_subsequence.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Dynamic_programming/2d_programming/longest_common_subsequence.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Hard/longest_string_chain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Hard/longest_string_chain.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Numbers/Bit_manipuation/add_binary.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Numbers/Bit_manipuation/add_binary.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Numbers/string_to_integer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Numbers/string_to_integer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Search/1_billion_users.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Binary_search/1_billion_users.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Search/binary_search_loop.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Binary_search/binary_search_loop.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Search/binary_search_recursion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Binary_search/binary_search_recursion.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Search/find_ceiling.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Binary_search/find_ceiling.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Search/find_first_last_index.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Search/find_min_in_rotated.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Binary_search/find_min_in_rotated.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Search/find_peak_element.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Search/search_2d_matrix_2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Binary_search/search_2d_matrix_2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Search/search_in_rotated.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Binary_search/search_in_rotated.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Search/search_in_rotated.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Binary_search/search_in_rotated.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Search/trial.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Binary_search/trial.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/Basics/keep_dividing.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/Basics/use_carry.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/add_string.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/digit_subtraction.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/divider.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/get_remainder.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/integer_to_english_words.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/integer_to_romans.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/keep_dividing.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/maximimum_swap_efficient.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/multiply_strings.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/string_to_integer.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/tester.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/String/Numbers/the_numbers.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/String/minimum_window_substring.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/String/Hard/minimum_window_substring.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/String_manipulation/min_deletion_eric_programming.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/String_manipulation/deletion_distance.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Tree/Basic/find_largest_subtree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Tree/Subtree/find_largest_subtree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Tree/Top6/build_tree_from_preorder_and_inorder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Tree/Array/build_tree_from_preorder_and_inorder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Tree/Top6/build_tree_from_preorder_and_inorder_easy.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Tree/Array/build_tree_from_preorder_and_inorder_easy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Tree/Top6/build_tree_from_sorted_array.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Tree/Array/build_tree_from_sorted_array.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Tree/conversion/convert_sorted_array_to_bstree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Tree/Array/convert_sorted_array_to_bstree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Tree/conversion/convert_sorted_list_to_bstree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Tree/Array/convert_sorted_list_to_bstree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Tree/inorder_iter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Tree/Basic/inorder_iter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Tree/inorder_recur.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Tree/Basic/inorder_recur.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/sorting_heaps/Interval.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/sorting_heaps/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/sorting_heaps/duplicate.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/sorting_heaps/meeting_room.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/sorting_heaps/meeting_room2.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/sorting_heaps/meeting_rooms3.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/sorting_heaps/minMeetingRooms.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,11 +155,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/josephzh/Desktop/updated_algo/untitled/src/String/Hard",
+    "last_opened_file_path": "/Users/josephzhou/IdeaProjects/updated_algo/untitled/src/Numbers/Bit_manipuation",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -107,54 +168,54 @@
       <recent name="Graph" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/untitled/src/Numbers/Bit_manipuation" />
+      <recent name="$PROJECT_DIR$/untitled/src/Graph/Advanced" />
+      <recent name="$PROJECT_DIR$/untitled/src/Numbers" />
       <recent name="$PROJECT_DIR$/untitled/src/String/Hard" />
-      <recent name="$PROJECT_DIR$/untitled/src/Tree" />
-      <recent name="$PROJECT_DIR$/untitled/src/String" />
-      <recent name="$PROJECT_DIR$/untitled/src/String/Sliding_window" />
-      <recent name="$PROJECT_DIR$/untitled/src/Graph/dfs_with_return" />
+      <recent name="$PROJECT_DIR$/untitled/src/Prefix_Sum" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/untitled/src/String/Match" />
-      <recent name="$PROJECT_DIR$/untitled/src/Heap" />
-      <recent name="$PROJECT_DIR$/untitled/src/Array" />
+      <recent name="$PROJECT_DIR$/untitled/src/Tree/Array" />
+      <recent name="$PROJECT_DIR$/untitled/src/Tree/Subtree" />
       <recent name="$PROJECT_DIR$/untitled/src/Tree/conversion" />
       <recent name="$PROJECT_DIR$/untitled/src/Tree/Basic" />
+      <recent name="$PROJECT_DIR$/untitled/src/Pairs" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="Tree.Basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Shortest_common_subsequenceKt">
-    <configuration name="Add_binaryKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Numbers.Bit_manipuation.Add_binaryKt" />
+  <component name="RunManager" selected="Kotlin.Largerst_rectangle_histogramKt">
+    <configuration name="Largerst_rectangle_histogramKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.Hard.Largerst_rectangle_histogramKt" />
       <module name="updated_algo2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Plus_oneKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Numbers.Bit_manipuation.Plus_oneKt" />
+    <configuration name="Remove_duplicates_from_sorted_arrayKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.Basic.Remove_duplicates_from_sorted_arrayKt" />
       <module name="updated_algo2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Repeated_substring_patternKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.substring.Repeated_substring_patternKt" />
+    <configuration name="Remove_elementKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.Basic.Remove_elementKt" />
       <module name="updated_algo2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Shortest_common_subsequenceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.substring.Shortest_common_subsequenceKt" />
+    <configuration name="Single_number_optimalKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="String.Basic.Single_number_optimalKt" />
       <module name="updated_algo2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="String_compression_leetcodeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String.String_compression_leetcodeKt" />
+    <configuration name="Using_xorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Numbers.Basics.Using_xorKt" />
       <module name="updated_algo2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -162,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Shortest_common_subsequenceKt" />
-        <item itemvalue="Kotlin.Repeated_substring_patternKt" />
-        <item itemvalue="Kotlin.Plus_oneKt" />
-        <item itemvalue="Kotlin.Add_binaryKt" />
-        <item itemvalue="Kotlin.String_compression_leetcodeKt" />
+        <item itemvalue="Kotlin.Largerst_rectangle_histogramKt" />
+        <item itemvalue="Kotlin.Remove_duplicates_from_sorted_arrayKt" />
+        <item itemvalue="Kotlin.Remove_elementKt" />
+        <item itemvalue="Kotlin.Using_xorKt" />
+        <item itemvalue="Kotlin.Single_number_optimalKt" />
       </list>
     </recent_temporary>
   </component>
@@ -465,11 +526,6 @@
           <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/untitled/src/Array/subarray/subarray_average_greater_then_other.kt</url>
-          <line>41</line>
-          <option name="timeStamp" value="92" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/untitled/src/String/Match/match_wildcard.kt</url>
           <line>26</line>
           <option name="timeStamp" value="107" />
@@ -593,6 +649,46 @@
           <url>file://$PROJECT_DIR$/untitled/src/String/substring/repeated_substring_pattern.kt</url>
           <line>19</line>
           <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/String_manipulation/deletion_distance.kt</url>
+          <line>34</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/String_manipulation/deletion_distance.kt</url>
+          <line>35</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/String_manipulation/deletion_distance.kt</url>
+          <line>39</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/String_manipulation/deletion_distance.kt</url>
+          <line>40</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/String_manipulation/deletion_distance.kt</url>
+          <line>30</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/String_manipulation/deletion_distance.kt</url>
+          <line>32</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/String_manipulation/deletion_distance.kt</url>
+          <line>37</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/String_manipulation/deletion_distance.kt</url>
+          <line>38</line>
+          <option name="timeStamp" value="158" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

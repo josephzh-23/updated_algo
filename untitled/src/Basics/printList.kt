@@ -7,6 +7,13 @@ fun printList(list: List<*>) {
 
 }
 
+
+fun printArray(list: IntArray) {
+    list.forEach {
+        println(it)
+    }
+
+}
 fun printNestedList(list: List<List<*>>) {
     list.forEach {
         it.forEach {

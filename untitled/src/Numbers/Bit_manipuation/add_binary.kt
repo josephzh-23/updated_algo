@@ -17,6 +17,7 @@ fun addBinary(a: String, b: String): String {
         if (i >= 0) sum += a[i] - '0'
         if (j >= 0) sum += a[i] - '0'
 
+
         // if 1+ 1 = 2 2 %2 = 0 just add 0 then here
         sb.append(sum % 2)
         carry = sum / 2

@@ -2,7 +2,9 @@ package Array.subarray
 
 //https://leetcode.com/problems/maximum-subarray/
 // Can refer to the notes
-
+/*
+Find subarray with biggest sum
+ */
 /*
 TC: O(n)        SC: O(1)
 2 integers here
