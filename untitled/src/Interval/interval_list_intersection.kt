@@ -1,4 +1,3 @@
-package Interval
 
 
 // https://leetcode.com/problems/interval-list-intersections/description/

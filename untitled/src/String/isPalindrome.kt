@@ -10,19 +10,15 @@ fun main() {
 }
 // this way we go towards the middle from the back
 // and the start
-fun isPalindrome(s: String): Boolean {
-    var i = 0
-    var j = s.length - 1
-    while (i < j) {
-        while (i < j && !Character.isLetterOrDigit(s[i])) {
-            i++
+private fun isPalindrome(s: String, start: Int, end: Int): Boolean {
+    var start = start
+    var end = end
+    while(start < end){
+        if(s[start] != s[end]){
+            return false
         }
-        while (i < j && !Character.isLetterOrDigit(s[j])) {
-            j--
-        }
-        if (s[i].lowercaseChar() != s[j].lowercaseChar()) return false
-        i++
-        j--
+        start++
+        end--
     }
     return true
 }
