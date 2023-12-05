@@ -1,7 +1,6 @@
 package Search
 
-fun binarySearch(
-        arr: IntArray, target: Int, l: Int, r: Int): Int {
+fun binarySearch(arr: IntArray, target: Int, l: Int, r: Int): Int {
     var start = l
     var end = r
     var index = Int.MAX_VALUE

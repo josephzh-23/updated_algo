@@ -9,7 +9,7 @@ p = "a*"
  */
 fun isMatch(s: String, p: String): Boolean {
 
-//    dfs()
+ return dfs(s, p, 0, 0)
 }
 
 fun dfs(s: String, p: String, i: Int, j: Int): Boolean {
