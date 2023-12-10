@@ -5,76 +5,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f416e209-d1fb-426e-b2ed-4ac1e97387a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/untitled/src/LinkedList/LFU_cache.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/LinkedList/doubly_linkedlist.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/LinkedList/lru_cache.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Matrix/traverse_back_matrix.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Numbers/Hard/Expression_add_operators.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Prefix_Sum/prefix_sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Split/number_of_ways_to_split_an_array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Split/partition_equal_subset_sum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Split/partition_to_k_equal_sum_subsets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Split/split_array_largest_sum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/String/Basic/change_string_letter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/String/Hard/substring_with_concatenation_of_all_words.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/String/substring/substring_with_concatenation_of_all_words.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/String_manipulation/edit_distance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/String_manipulation/remove_k_digits.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/min_max/maximimum_swap_efficient.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/min_max/min_num_of_operations_to_make_array_continuous.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/min_max/subarray_average_greater_then_other.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Design/Design_twitter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Graph/Real_world/find_all_concatenated_words.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Graph/Real_world/open_lock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Graph_manipulation/shortest_bridge.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Numbers/evaluate_reverse_polish_notation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Python_basics/array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Split/partition_label.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/String/Hard/wordBreak_2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/String/ternary_expression_parser.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Hard/Longest_palindromic_substringKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/META-INF/updated_algo2.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/META-INF/updated_algo2.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Maximimum_swap_efficientKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Maximimum_swap_efficientKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Search/Binary_search_loopKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Search/Binary_search_loopKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Search/Find_peak_elementKt.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Search/FirstAndLastPositionOfElementInSortedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Sliding_window/Maximum_consec_onesKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Sliding_window/Sliding_window_max_brute_forceKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Sliding_window/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Sliding_window/TUF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Sliding_window/TUF33.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Sole.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Sole.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/String/longest_string_with_repeating_char.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Array/Basic/remove_duplicates_from_sorted_array.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Array_manipulation/remove_duplicates_from_sorted_array.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Array/Basic/remove_duplicates_from_sorted_array_ii.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Array_manipulation/remove_duplicates_from_sorted_array_ii.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Array/Basic/remove_element.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Array_manipulation/remove_element.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Array/Manipulation/move_num_in_array.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Array/Manipulation/move_num_in_array.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Array/Manipulation/remove_duplicate_from_arr.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Array/Min_max/max_number_of_events_attended.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/min_max/max_number_of_events_attended.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Array/Min_max/min_round_complete_rounds.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/min_max/min_round_complete_rounds.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Array/Two_array/Intersection_of_two_arrays.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Two_array/Intersection_of_two_arrays.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Array/Two_array/gas_station.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Two_array/gas_station.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Array/two_dimension/minimum_path_sum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Matrix/minimum_path_sum.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Array/two_dimension/rotate_image.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Matrix/rotate_image.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Graph/Advanced/jump_game_v.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Backtracking/subset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Graph/Advanced/num_nodes_with_same_label_dfs.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Graph/Advanced/num_nodes_with_same_labels.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Graph/Facebook/nested_list_weight_sum.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Hard/longest_palindromic_substring.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Partition/number_of_good_ways_to_split_good_string.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Split/number_of_good_ways_to_split_good_string.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Python_basics/2d_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Python_basics/2d_matrix.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Search/binary_search_loop.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Search/binary_search_loop.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/min_max/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/best_time_stock_iii.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/min_max/best_time_stock_iii.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/buy_sell_stock_ii.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/min_max/buy_sell_stock_ii.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/buy_sell_stock_one.py" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/min_max/buy_sell_stock_one.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/contiguous_array.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/min_max/contiguous_array.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/degree_of_array.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/min_max/degree_of_array.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/find_anagram_in_string.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/min_max/find_anagram_in_string.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/find_min_subarray_greater_than_target.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/min_max/find_min_subarray_greater_than_target.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/find_sum_of_subarray.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/min_max/find_sum_of_subarray.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/longest_consecutive_sequence.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/min_max/longest_consecutive_sequence.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/longest_string_with_at_most_k_char.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/min_max/longest_string_with_at_most_k_char.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/longest_string_with_atleast_k_repeating_recur_dict.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/min_max/longest_string_with_atleast_k_repeating_recur_dict.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/longest_string_with_repeating_char.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/min_max/longest_string_with_repeating_char.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/longest_substring.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/min_max/longest_substring.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/longest_substring_with_at_most_2_char.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/min_max/longest_substring_with_at_most_2_char.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/longest_substring_without_repeating.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/min_max/longest_substring_without_repeating.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/longest_substring_without_repeating_char.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/min_max/longest_substring_without_repeating_char.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/maximum_consec_ones.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/min_max/maximum_consec_ones.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/minimum_window_substring.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/min_max/minimum_window_substring.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/sliding_window_leetcode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/min_max/sliding_window_leetcode.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/sliding_window_max_brute_force.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/min_max/sliding_window_max_brute_force.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/sliding_window_max_dlinkedlist.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/min_max/sliding_window_max_dlinkedlist.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/sliding_window_minimum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/min_max/sliding_window_minimum.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/subarray_average_greater_then_other.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Matrix/traverse_back_of_matrix.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/String/Hard/find_missing_positive_integer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/String/Hard/first_missing_positive_integer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/String/Hard/regular_expression_matching.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/String/Hard/regular_expression_matching.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Array/Basic/remove_duplicates_from_sorted_array.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Array/Basic/remove_duplicates_from_sorted_array_ii.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Array/Basic/remove_element.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Array/Min_max/max_number_of_events_attended.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Array/Min_max/min_round_complete_rounds.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Array/Two_array/Intersection_of_two_arrays.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Array/Two_array/gas_station.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Array/two_dimension/minimum_path_sum.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Array/two_dimension/rotate_image.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Graph/Advanced/jump_game_v.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Array/pascal_triangle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Numbers/maximimum_swap_efficient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Numbers/maximimum_swap_efficient.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Partition/number_of_good_ways_to_split_good_string.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Python_basics/2d_array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/best_time_stock_iii.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/buy_sell_stock_ii.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/buy_sell_stock_one.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/contiguous_array.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/degree_of_array.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/find_anagram_in_string.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/find_min_subarray_greater_than_target.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/find_sum_of_subarray.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/longest_consecutive_sequence.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/longest_string_with_at_most_k_char.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/longest_string_with_atleast_k_repeating_recur_dict.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/longest_string_with_repeating_char.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/longest_substring.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/longest_substring_with_at_most_2_char.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/longest_substring_without_repeating.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/longest_substring_without_repeating_char.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/maximum_consec_ones.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/minimum_window_substring.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/sliding_window_leetcode.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/sliding_window_max_brute_force.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/sliding_window_max_dlinkedlist.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/sliding_window_minimum.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/subarray_average_greater_then_other.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Graph/Basics/bfs_matrix_python.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/String/Hard/find_missing_positive_integer.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Tree/Hard/max_path_sum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Tree/Hard/binary_tree_max_path_sum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/min_max/maximimum_swap_efficient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/min_max/maximimum_swap_efficient.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,20 +80,35 @@
       <list>
         <option value="Class" />
         <option value="Kotlin Object" />
-        <option value="Python Script" />
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="dc4debb1-832c-478b-8568-4ce2e06b0b70" />
+        <option name="url" value="https://github.com/josephzh-23/updated_algo" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib-common/1.7.20/kotlin-stdlib-common-1.7.20-sources.jar!/generated/_Collections.kt" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/1.7.20/kotlin-stdlib-1.7.20-sources.jar!/kotlin/text/StringsJVM.kt" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/untitled/src/Basics/2d_matrix.kt" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/untitled/src/Python_basics/2d_array.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/untitled/src/String/Hard/substring_with_concatenation_of_all_words.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/cachetools/cachetools/func.pyi" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-17.0.7/Contents/Home/lib/src.zip!/java.base/java/util/LinkedList.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -110,20 +119,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/josephzh/Desktop/updated_algo/untitled/src/min_max&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.smartKeys&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/josephzh/Desktop/updated_algo/untitled/src/min_max",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Graph" />
@@ -146,8 +155,22 @@
       <recent name="Tree.Basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.remove_k_digits">
-    <configuration name="number_of_ways_to_split_an_array" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.pascal_triangle">
+    <configuration name="Find_all_concatenated_wordsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.Real_world.Find_all_concatenated_wordsKt" />
+      <module name="updated_algo2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Shortest_bridgeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph_manipulation.Shortest_bridgeKt" />
+      <module name="updated_algo2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="array" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="updated_algo2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -155,11 +178,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/untitled/src/Array/Split" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/untitled/src/Python_basics" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untitled/src/Array/Split/number_of_ways_to_split_an_array.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untitled/src/Python_basics/array.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pascal_triangle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="updated_algo2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/untitled/src/Array" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untitled/src/Array/pascal_triangle.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,76 +233,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="subset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="updated_algo2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/untitled/src/Backtracking" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untitled/src/Backtracking/subset.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="substring_with_concatenation_of_all_words" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="updated_algo2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/untitled/src/String/Hard" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untitled/src/String/Hard/substring_with_concatenation_of_all_words.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="top_k_elem" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="updated_algo2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/untitled/src/sorting/top_k_element" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untitled/src/sorting/top_k_element/top_k_elem.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pascal_triangle" />
+        <item itemvalue="Python.array" />
+        <item itemvalue="Kotlin.Find_all_concatenated_wordsKt" />
+        <item itemvalue="Kotlin.Shortest_bridgeKt" />
         <item itemvalue="Python.remove_k_digits" />
-        <item itemvalue="Python.subset" />
-        <item itemvalue="Python.number_of_ways_to_split_an_array" />
-        <item itemvalue="Python.substring_with_concatenation_of_all_words" />
-        <item itemvalue="Python.top_k_elem" />
       </list>
     </recent_temporary>
   </component>
@@ -720,6 +701,11 @@
           <url>file://$PROJECT_DIR$/untitled/src/String_manipulation/deletion_distance.kt</url>
           <line>38</line>
           <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Graph/Real_world/find_all_concatenated_words.kt</url>
+          <line>31</line>
+          <option name="timeStamp" value="162" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/untitled/src/String/Hard/substring_with_concatenation_of_all_words.py</url>
