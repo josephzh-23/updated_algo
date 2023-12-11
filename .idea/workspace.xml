@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f416e209-d1fb-426e-b2ed-4ac1e97387a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/untitled/src/Basics/make_2d_matrix.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Graph/Hard/shortest_distance_to_all_building.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Interval/compareBy.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Interval/employee_free_time.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Interval/employee_free_time_good.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Python_basics/check_key_map.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/String/longest_common_prefix_trie.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Trie/Hard/auto_complete_system.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Trie/design_data_and_search_word_data_structure.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Trie/design_search_autocomplete_system.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Graph/traversal_with_steps/Shortest_path_get_foodKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Graph/traversal_with_steps/Shortest_path_get_foodKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Hard/Longest_palindromic_substringKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/META-INF/updated_algo2.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/META-INF/updated_algo2.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Search/Find_peak_elementKt.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Search/FirstAndLastPositionOfElementInSortedArray.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Sliding_window/Maximum_consec_onesKt.class" beforeDir="false" />
@@ -28,16 +15,8 @@
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Sliding_window/TUF.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Sliding_window/TUF33.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/String/longest_string_with_repeating_char.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Basics/priorityqueue_list.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Basics/priorityqueue_list.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Graph/Advanced/jump_game_v.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Graph/Hard/shortest_distance_to_all_buildings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Graph/Basics/bfs_matrix_python.py" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Graph/Basics/bfs_matrix_python.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Graph/traversal_with_steps/shortest_path_get_food.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Graph/traversal_with_steps/shortest_path_get_food.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/subarray_average_greater_then_other.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Interval/merge_interval.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/String/longest_common_prefix.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/String/longest_common_prefix.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Tree/Hard/max_path_sum.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Tree/binary_tree_vertical_order_traversal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Tree/binary_tree_vertical_order_traversal.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Trie/implement_trie.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Trie/implement_trie.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/sorting/meeting_room2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/sorting/meeting_room2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Graph/Advanced/jump_game_v.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Interval/max_population_year.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/subarray_average_greater_then_other.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
