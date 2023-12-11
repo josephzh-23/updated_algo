@@ -1,16 +1,14 @@
 package Trie
 
-import Recursion.Trie.ALPHABET_SIZE
 
-
-private class TrieNode {
-    var children = arrayOfNulls<TrieNode>(ALPHABET_SIZE)
-
+class TrieNode {
+//    var children = arrayOfNulls<TrieNode>(ALPHABET_SIZE)
+    var children = mutableMapOf<Char, TrieNode>()
     // isEndOfWord is true if the node
     // represents end of a word
     var isEndOfWord = false
-    var word: String = ""
 }
+
 class Tries {
 
     // this is the curnode
@@ -29,15 +27,12 @@ class Tries {
         val arr = word.toCharArray()
         for (curChar in arr) {
 
-            // This would be the index
-            val index = curChar- 'a'
-
-            if (curNode!!.children[index] == null) {
-                curNode.children[index] = TrieNode()
+            if (curNode!!.children.containsKey(curChar)) {
+                curNode.children[curChar] = TrieNode()
             }
 
             // Moving down the chain inside the tree
-            curNode = curNode.children[index]
+            curNode = curNode.children[curChar]
         }
         curNode!!.isEndOfWord = true
     }
@@ -48,11 +43,10 @@ class Tries {
         val arr = word.toCharArray()
         for (curChar in arr) {
 
-            val index = curChar- 'a'
-            if (curNode!!.children[index] == null) {
+            if (curNode!!.children.containsKey(curChar)) {
                 return false
             }
-            curNode = curNode.children[index]
+            curNode = curNode.children[curChar]
         }
         return curNode!!.isEndOfWord
     }
@@ -62,12 +56,11 @@ class Tries {
         var curNode: TrieNode? = root
         val arr = prefix.toCharArray()
         for (curChar in arr) {
-            val index = curChar- 'a'
 
-            if (curNode!!.children[index] == null) {
+            if (curNode!!.children.containsKey(curChar)) {
                 return false
             }
-            curNode = curNode.children[index]
+            curNode = curNode.children[curChar]
         }
         return true
     }

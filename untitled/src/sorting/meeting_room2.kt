@@ -7,6 +7,7 @@ Given an array of meeting time intervals intervals
 where intervals[i] = [starti, endi], return the minimum number of conference rooms required.
 
  */
+import Heap.Interval
 import java.util.*
 
 /*
@@ -22,7 +23,6 @@ var intervals = arrayOf(
 )
 
 // here the answer is 2
-class Interval(val start: Int, var end:Int)
 
 fun main() {
 

@@ -5,21 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f416e209-d1fb-426e-b2ed-4ac1e97387a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/untitled/src/Design/Design_twitter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Graph/Real_world/find_all_concatenated_words.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Graph/Real_world/open_lock.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Graph_manipulation/shortest_bridge.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Numbers/evaluate_reverse_polish_notation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Python_basics/array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Split/partition_label.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/String/Hard/wordBreak_2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/String/ternary_expression_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Basics/make_2d_matrix.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Graph/Hard/shortest_distance_to_all_building.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Interval/compareBy.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Interval/employee_free_time.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Interval/employee_free_time_good.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Python_basics/check_key_map.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/String/longest_common_prefix_trie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Trie/Hard/auto_complete_system.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Trie/design_data_and_search_word_data_structure.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Trie/design_search_autocomplete_system.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Graph/traversal_with_steps/Shortest_path_get_foodKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Graph/traversal_with_steps/Shortest_path_get_foodKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Hard/Longest_palindromic_substringKt.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/META-INF/updated_algo2.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/META-INF/updated_algo2.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Maximimum_swap_efficientKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Maximimum_swap_efficientKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Search/Binary_search_loopKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Search/Binary_search_loopKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Search/Find_peak_elementKt.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Search/FirstAndLastPositionOfElementInSortedArray.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Sliding_window/Maximum_consec_onesKt.class" beforeDir="false" />
@@ -27,48 +27,17 @@
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Sliding_window/Solution.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Sliding_window/TUF.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Sliding_window/TUF33.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Sole.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Sole.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/String/longest_string_with_repeating_char.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Array/Basic/remove_duplicates_from_sorted_array.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Array/Basic/remove_duplicates_from_sorted_array_ii.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Array/Basic/remove_element.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Array/Min_max/max_number_of_events_attended.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Array/Min_max/min_round_complete_rounds.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Array/Two_array/Intersection_of_two_arrays.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Array/Two_array/gas_station.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Array/two_dimension/minimum_path_sum.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Array/two_dimension/rotate_image.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Graph/Advanced/jump_game_v.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Array/pascal_triangle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Numbers/maximimum_swap_efficient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Numbers/maximimum_swap_efficient.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Partition/number_of_good_ways_to_split_good_string.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Python_basics/2d_array.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/best_time_stock_iii.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/buy_sell_stock_ii.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/buy_sell_stock_one.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/contiguous_array.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/degree_of_array.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/find_anagram_in_string.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/find_min_subarray_greater_than_target.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/find_sum_of_subarray.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/longest_consecutive_sequence.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/longest_string_with_at_most_k_char.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/longest_string_with_atleast_k_repeating_recur_dict.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/longest_string_with_repeating_char.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/longest_substring.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/longest_substring_with_at_most_2_char.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/longest_substring_without_repeating.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/longest_substring_without_repeating_char.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/maximum_consec_ones.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/minimum_window_substring.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/sliding_window_leetcode.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/sliding_window_max_brute_force.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/sliding_window_max_dlinkedlist.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/sliding_window_minimum.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/subarray_average_greater_then_other.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Graph/Basics/bfs_matrix_python.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/String/Hard/find_missing_positive_integer.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Tree/Hard/max_path_sum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Tree/Hard/binary_tree_max_path_sum.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/min_max/maximimum_swap_efficient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/min_max/maximimum_swap_efficient.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Basics/priorityqueue_list.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Basics/priorityqueue_list.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Graph/Advanced/jump_game_v.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Graph/Hard/shortest_distance_to_all_buildings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Graph/Basics/bfs_matrix_python.py" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Graph/Basics/bfs_matrix_python.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Graph/traversal_with_steps/shortest_path_get_food.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Graph/traversal_with_steps/shortest_path_get_food.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/subarray_average_greater_then_other.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Interval/merge_interval.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/String/longest_common_prefix.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/String/longest_common_prefix.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Tree/Hard/max_path_sum.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Tree/binary_tree_vertical_order_traversal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Tree/binary_tree_vertical_order_traversal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Trie/implement_trie.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Trie/implement_trie.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/sorting/meeting_room2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/sorting/meeting_room2.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,11 +58,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -104,10 +73,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib-common/1.7.20/kotlin-stdlib-common-1.7.20-sources.jar!/generated/_Collections.kt" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/1.7.20/kotlin-stdlib-1.7.20-sources.jar!/generated/_ArraysJvm.kt" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/1.7.20/kotlin-stdlib-1.7.20-sources.jar!/kotlin/text/StringsJVM.kt" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/untitled/src/Basics/2d_matrix.kt" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/untitled/src/String/Hard/substring_with_concatenation_of_all_words.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/cachetools/cachetools/func.pyi" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/Library/Caches/JetBrains/IdeaIC2023.1/python_stubs/998861331/_collections.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/Library/Caches/JetBrains/IdeaIC2023.1/python_stubs/998861331/builtins.py" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-17.0.7/Contents/Home/lib/src.zip!/java.base/java/util/LinkedList.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -119,20 +91,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/josephzh/Desktop/updated_algo/untitled/src/min_max",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/josephzh/Desktop/updated_algo/untitled/src/min_max&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Kotlin&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Graph" />
@@ -145,74 +117,46 @@
       <recent name="$PROJECT_DIR$/untitled/src/Graph/Distance" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/untitled/src/Trie/Hard" />
       <recent name="$PROJECT_DIR$/untitled/src/String_manipulation" />
       <recent name="$PROJECT_DIR$/untitled/src/Numbers" />
       <recent name="$PROJECT_DIR$/untitled/src/min_max" />
       <recent name="$PROJECT_DIR$/untitled/src/Array_manipulation" />
-      <recent name="$PROJECT_DIR$/untitled/src/Two_array" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="Tree.Basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.pascal_triangle">
-    <configuration name="Find_all_concatenated_wordsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graph.Real_world.Find_all_concatenated_wordsKt" />
+  <component name="RunManager" selected="Python.longest_common_prefix_trie">
+    <configuration name="CompareByKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interval.CompareByKt" />
       <module name="updated_algo2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Shortest_bridgeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Graph_manipulation.Shortest_bridgeKt" />
+    <configuration name="Employee_free_timeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Employee_free_timeKt" />
       <module name="updated_algo2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="array" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Employee_free_time_goodKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Employee_free_time_goodKt" />
       <module name="updated_algo2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/untitled/src/Python_basics" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untitled/src/Python_basics/array.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="pascal_triangle" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interval.SolutionKt" />
       <module name="updated_algo2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/untitled/src/Array" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untitled/src/Array/pascal_triangle.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="remove_k_digits" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="longest_common_prefix_trie" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="updated_algo2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -220,11 +164,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/untitled/src/String_manipulation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/untitled/src/String" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untitled/src/String_manipulation/remove_k_digits.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untitled/src/String/longest_common_prefix_trie.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -235,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.pascal_triangle" />
-        <item itemvalue="Python.array" />
-        <item itemvalue="Kotlin.Find_all_concatenated_wordsKt" />
-        <item itemvalue="Kotlin.Shortest_bridgeKt" />
-        <item itemvalue="Python.remove_k_digits" />
+        <item itemvalue="Python.longest_common_prefix_trie" />
+        <item itemvalue="Kotlin.Employee_free_time_goodKt" />
+        <item itemvalue="Kotlin.SolutionKt" />
+        <item itemvalue="Kotlin.CompareByKt" />
+        <item itemvalue="Kotlin.Employee_free_timeKt" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +214,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-function">
           <url>file://$PROJECT_DIR$/untitled/src/Graph/traversal_with_steps/shortest_path_get_food.kt</url>
-          <line>63</line>
+          <line>64</line>
           <properties method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -306,7 +250,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/untitled/src/Graph/traversal_with_steps/shortest_path_get_food.kt</url>
-          <line>67</line>
+          <line>68</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
@@ -707,6 +651,26 @@
           <line>31</line>
           <option name="timeStamp" value="162" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Basics/make_2d_matrix.kt</url>
+          <line>13</line>
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Trie/design_data_and_search_word_data_structure.kt</url>
+          <line>50</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Interval/employee_free_time.kt</url>
+          <line>70</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Interval/employee_free_time_good.kt</url>
+          <line>22</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/untitled/src/String/Hard/substring_with_concatenation_of_all_words.py</url>
           <line>51</line>
@@ -721,6 +685,11 @@
           <url>file://$PROJECT_DIR$/untitled/src/String/Hard/substring_with_concatenation_of_all_words.py</url>
           <line>31</line>
           <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/untitled/src/String/longest_common_prefix_trie.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="171" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

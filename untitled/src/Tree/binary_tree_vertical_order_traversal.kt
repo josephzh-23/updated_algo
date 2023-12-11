@@ -19,7 +19,7 @@ private class TreeNode(var value: Int,var y: Int,
 
 // The level order traversal here
 private fun levelOrder(r: TreeNode?): List<List<Int>> {
-
+    // Have a column table first here
     val columnTable = mutableMapOf<Int, ArrayList<Int>>()
     val q :Queue<Pair<TreeNode?, Int>> = LinkedList()
 
