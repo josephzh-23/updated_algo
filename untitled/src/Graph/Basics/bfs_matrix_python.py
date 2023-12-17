@@ -43,7 +43,7 @@ def distanceTraversed(lot: List[List[str]]) -> int:
         # 1st : 0, 1
         for direction in directions:
             numRow, numCol = curRow + direction[0], curCol + direction[1]
-            if isValidIndex(lot, numRow, numCol) and (numRow, numCol) not in visited:
+            if areIndexValid(lot, numRow, numCol) and (numRow, numCol) not in visited:
                 q.append([numRow, numCol, curDist + 1])
 
                 # using this is the same as using a pair()
@@ -55,5 +55,5 @@ def distanceTraversed(lot: List[List[str]]) -> int:
 lot = [[1, 0, 0, 0], [1, 0, 0, 0, 0, 0], [1, 0, 1], [1, 0, 1], [1, 0, 1]]
 distanceTraversed(lot)
 
-def isValidIndex(grid, numRow, numCol):
+def areIndexValid(grid, numRow, numCol):
     return (0 <= numRow < len(grid) and 0 <= numCol < len(grid[0]))

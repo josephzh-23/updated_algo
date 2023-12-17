@@ -1,7 +1,7 @@
 from collections import deque
 from typing import List
 
-from Graph.Basics.bfs_matrix_python import isValidIndex
+from Graph.Basics.bfs_matrix_python import areIndexValid
 
 '''
 
@@ -62,7 +62,7 @@ def shortestDistance(grid: List[List[int]])-> int:
                         newRow = curRow + dx
                         newCol = curCol + dy
 
-                        if (isValidIndex(grid, newRow, newCol) and grid[newRow][newCol] == emptyLand):
+                        if (areIndexValid(grid, newRow, newCol) and grid[newRow][newCol] == emptyLand):
                             grid[newRow][newCol] -=1
                             distMatrix[newRow][newCol] += distance +1
 

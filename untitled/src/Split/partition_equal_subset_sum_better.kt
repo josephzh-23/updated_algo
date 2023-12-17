@@ -2,7 +2,7 @@ package Split
 
 //https://leetcode.com/problems/partition-equal-subset-sum/
 
-internal class Solution19 {
+internal class Solution13 {
     fun canPartition(nums: IntArray): Boolean {
         var totalSum = 0
         // find sum of all array elements

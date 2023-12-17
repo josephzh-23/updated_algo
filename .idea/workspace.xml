@@ -5,8 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f416e209-d1fb-426e-b2ed-4ac1e97387a6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/untitled/src/Graph/Distance/Dijkstra's_algo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Graph/Distance/dijkstra's_algo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Graph/Distance/number_of_distinct_shortest_path_from_node1_to_n.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Graph/Distance/priority_queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Graph/Distance/shortest_path.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Parenthesis/remove_invalid_parenthesis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Python_basics/custom_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Python_basics/object_Comparator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Python_basics/put_if_absent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Real_world/optimize_memory_usage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Real_world_graph/num_nodes_with_same_labels.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Real_world_graph/print_all_employee_names_improved.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Real_world_graph/print_all_employee_names_original.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Real_world_graph/print_employee_names.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Real_world_graph/time_needed_to_inform_all_employees_dfs.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Real_world_graph/word_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Search/binary_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Split/partition_equal_subset_sum_better.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Split/partition_equal_subset_sum_bf.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Two_array/find_closest_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Two_array/find_difference_of_two_array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Two_array/find_kth_largest_element_of_two_sorted_array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Two_array/gas_station.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/sorting/boats_to_save_people.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/sorting/boats_to_save_people_count_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/sorting/count_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/sorting/insert_sort_part1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/sorting/insertion_sort.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Graph/Solution13.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Graph/Solution13.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Hard/Longest_palindromic_substringKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/META-INF/updated_algo2.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/META-INF/updated_algo2.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Search/Find_peak_elementKt.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Search/FirstAndLastPositionOfElementInSortedArray.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Sliding_window/Maximum_consec_onesKt.class" beforeDir="false" />
@@ -15,8 +45,23 @@
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Sliding_window/TUF.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Sliding_window/TUF33.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/String/longest_string_with_repeating_char.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Graph/Advanced/jump_game_v.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Interval/max_population_year.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Sliding_window/subarray_average_greater_then_other.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Array/subarray/subarray_average_greater_then_other.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Array/subarray/subarray_average_greater_then_other.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Graph/Advanced/jump_game_v.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Array/Pair/find_pair_for_difference.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Graph/Basics/bfs_matrix_python.py" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Graph/Basics/bfs_matrix_python.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Graph/Hard/shortest_distance_to_all_buildings.py" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Graph/Hard/shortest_distance_to_all_buildings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Graph/Real_world/find_all_concatenated_words.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Real_world_graph/find_all_concatenated_words.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Graph/Real_world/nested_list_weight_sum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Real_world_graph/nested_list_weight_sum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Graph/Real_world/num_nodes_with_same_label_dfs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Real_world_graph/num_nodes_with_same_label_dfs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Graph/Real_world/num_nodes_with_same_labels.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Graph/Real_world/open_lock.py" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Real_world_graph/open_lock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Graph/Real_world/time_needed_to_inform_all_employees.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Real_world_graph/time_needed_to_inform_all_employees.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Graph/course_schedule_2_inDegree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Graph/course_schedule_2_inDegree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Interval/max_population_year.py" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Interval/max_population_year.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Split/number_of_good_ways_to_split_good_string.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Split/number_of_good_ways_to_split_good_string.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Split/partition_equal_subset_sum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Split/partition_equal_subset_sum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Trie/Hard/auto_complete_system.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Trie/Hard/auto_complete_system.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Trie/design_search_autocomplete_system.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Trie/design_search_autocomplete_system.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/min_max/maximimum_swap_efficient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/min_max/maximimum_swap_efficient.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +96,7 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file:///Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/queue.py" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib-common/1.7.20/kotlin-stdlib-common-1.7.20-sources.jar!/generated/_Collections.kt" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/1.7.20/kotlin-stdlib-1.7.20-sources.jar!/generated/_ArraysJvm.kt" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/1.7.20/kotlin-stdlib-1.7.20-sources.jar!/kotlin/text/StringsJVM.kt" root0="SKIP_INSPECTION" />
@@ -59,6 +105,7 @@
     <setting file="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/cachetools/cachetools/func.pyi" root0="SKIP_INSPECTION" />
     <setting file="file://$USER_HOME$/Library/Caches/JetBrains/IdeaIC2023.1/python_stubs/998861331/_collections.py" root0="SKIP_INSPECTION" />
     <setting file="file://$USER_HOME$/Library/Caches/JetBrains/IdeaIC2023.1/python_stubs/998861331/builtins.py" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-17.0.7/Contents/Home/lib/src.zip!/java.base/java/util/AbstractQueue.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-17.0.7/Contents/Home/lib/src.zip!/java.base/java/util/LinkedList.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -70,30 +117,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/josephzh/Desktop/updated_algo/untitled/src/min_max&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Kotlin&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/josephzh/Desktop/updated_algo/untitled/src/Split",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Python"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Graph" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/untitled/src/Split" />
       <recent name="$PROJECT_DIR$/untitled/src/min_max" />
       <recent name="$PROJECT_DIR$/untitled/src/String/Basic" />
       <recent name="$PROJECT_DIR$/untitled/src/String/substring" />
       <recent name="$PROJECT_DIR$/untitled/src/Python_basics" />
-      <recent name="$PROJECT_DIR$/untitled/src/Graph/Distance" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/untitled/src/Trie/Hard" />
@@ -106,36 +153,8 @@
       <recent name="Tree.Basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.longest_common_prefix_trie">
-    <configuration name="CompareByKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interval.CompareByKt" />
-      <module name="updated_algo2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Employee_free_timeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Employee_free_timeKt" />
-      <module name="updated_algo2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Employee_free_time_goodKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Employee_free_time_goodKt" />
-      <module name="updated_algo2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Interval.SolutionKt" />
-      <module name="updated_algo2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="longest_common_prefix_trie" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.object_Comparator">
+    <configuration name="custom_sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="updated_algo2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -143,11 +162,95 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/untitled/src/String" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/untitled/src/Python_basics" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untitled/src/String/longest_common_prefix_trie.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untitled/src/Python_basics/custom_sort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="find_closest_sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="updated_algo2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/untitled/src/Two_array" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untitled/src/Two_array/find_closest_sum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="find_difference_of_two_array" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="updated_algo2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/untitled/src/Two_array" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untitled/src/Two_array/find_difference_of_two_array.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="object_Comparator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="updated_algo2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/untitled/src/Python_basics" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untitled/src/Python_basics/object_Comparator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="optimize_memory_usage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="updated_algo2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/untitled/src/Real_world" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untitled/src/Real_world/optimize_memory_usage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,11 +261,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.longest_common_prefix_trie" />
-        <item itemvalue="Kotlin.Employee_free_time_goodKt" />
-        <item itemvalue="Kotlin.SolutionKt" />
-        <item itemvalue="Kotlin.CompareByKt" />
-        <item itemvalue="Kotlin.Employee_free_timeKt" />
+        <item itemvalue="Python.object_Comparator" />
+        <item itemvalue="Python.custom_sort" />
+        <item itemvalue="Python.find_closest_sum" />
+        <item itemvalue="Python.find_difference_of_two_array" />
+        <item itemvalue="Python.optimize_memory_usage" />
       </list>
     </recent_temporary>
   </component>
@@ -626,7 +729,7 @@
           <option name="timeStamp" value="158" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/untitled/src/Graph/Real_world/find_all_concatenated_words.kt</url>
+          <url>file://$PROJECT_DIR$/untitled/src/Real_world_graph/find_all_concatenated_words.kt</url>
           <line>31</line>
           <option name="timeStamp" value="162" />
         </line-breakpoint>
@@ -650,6 +753,11 @@
           <line>22</line>
           <option name="timeStamp" value="168" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Real_world_graph/print_all_employee_names_improved.kt</url>
+          <line>40</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/untitled/src/String/Hard/substring_with_concatenation_of_all_words.py</url>
           <line>51</line>
@@ -669,6 +777,91 @@
           <url>file://$PROJECT_DIR$/untitled/src/String/longest_common_prefix_trie.py</url>
           <line>44</line>
           <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Graph/Distance/priority_queue.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="179" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Graph/Distance/dijkstra's_algo.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="181" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Graph/Distance/dijkstra's_algo.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Graph/Distance/dijkstra's_algo.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Graph/Distance/dijkstra's_algo.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Graph/Distance/dijkstra's_algo.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Graph/Distance/dijkstra's_algo.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Graph/Distance/dijkstra's_algo.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Graph/Distance/dijkstra's_algo.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Real_world/optimize_memory_usage.py</url>
+          <line>79</line>
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Real_world/optimize_memory_usage.py</url>
+          <line>83</line>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Real_world/optimize_memory_usage.py</url>
+          <line>82</line>
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Real_world/optimize_memory_usage.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Real_world/optimize_memory_usage.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Real_world/optimize_memory_usage.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Real_world/optimize_memory_usage.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Real_world/optimize_memory_usage.py</url>
+          <line>86</line>
+          <option name="timeStamp" value="202" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

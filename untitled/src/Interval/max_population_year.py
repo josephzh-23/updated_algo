@@ -13,6 +13,7 @@ due to free initiliazation here
 from typing import List
 
 
+# sweeping line calculation here
 def maxPopulation(years: List[List[int]]):
 
     # so this would be {1993: 1} as the answer here

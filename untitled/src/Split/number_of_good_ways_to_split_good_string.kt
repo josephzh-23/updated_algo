@@ -3,7 +3,7 @@ package Split
 // Increase sth by 1 the frequency
 
 // You are given the string here "aacaba"
-
+// Using the 2 map approach
 // https://leetcode.com/problems/number-of-good-ways-to-split-a-string/description/
 fun numSplits(s: String) {
 

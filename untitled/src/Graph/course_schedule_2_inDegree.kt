@@ -3,6 +3,7 @@ package Graph
 import java.util.*
 
 /*
+Aka : toplogical sorting here
 For example, the pair [0, 1],
 indicates that to take course 0 you have to first take course 1.
  */
