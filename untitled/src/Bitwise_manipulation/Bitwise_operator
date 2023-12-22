@@ -1,0 +1,26 @@
+All TC : O(1)
+
+AND (&):
+X & Y → This keeps the bits that are set for both X and Y.
+
+If differnt bit-> then becomes 0
+if same bit -> then 1
+
+XOR (^):
+X^Y → This checks if a position has a set bit in either one of X or Y,
+if there is then the result also has a set bit there. Eg.
+
+If both are same then becomes 0
+if both are different then becomes 1
+X = 1011010
+Y = 0101010
+------------------
+X^Y = 1110000
+
+When you have 0 ^ 2 then becomes = 2
+
+OR (|):
+X | Y → This keeps all the bits that are set either in X or in Y.
+
+NOT (~):
+~X → This inverts all the bits present in the binary representation of X.
