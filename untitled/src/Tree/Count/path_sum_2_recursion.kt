@@ -1,11 +1,7 @@
 package Tree.Count
 
 import Tree.Basic.TreeNode
-/*
-https://leetcode.com/problems/path-sum-ii/description/
-In this one we want all root-to-leaf path where the sum of the node values in
-the path equals target Sum
- */
+
 
 fun main() {
     var r = TreeNode(5)
@@ -34,6 +30,6 @@ private fun pathSum(root: TreeNode?, sum: Int, path: MutableList<Int>, result: M
     if (root == null) return
     path.add(root.value)
     if (root.left == null && root.right == null && sum == root.value) result.add(path)
-    pathSum(root.left, sum - root.value, ArrayList(path), result)
-    pathSum(root.right, sum - root.value, ArrayList(path), result)
+    pathSum(root.left, sum - root.value, ArrayList<Int>(path), result)
+    pathSum(root.right, sum - root.value, ArrayList<Int>(path), result)
 }

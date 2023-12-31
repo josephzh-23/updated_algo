@@ -1,4 +1,5 @@
 """
+https://leetcode.com/problems/partition-labels/description/
 Here use a map that store the following
 
 char    last index

@@ -2,6 +2,7 @@ package Prefix_Sum
 
 /*
 
+All we are doing here is getting the sum between the left and right indices
 sumRange(i, j) = sum(j + 1) - sum(i)
 O(n) pre-compuatation
 O(1) since cumulative sum is cached here

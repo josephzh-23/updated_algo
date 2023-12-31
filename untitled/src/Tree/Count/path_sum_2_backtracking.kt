@@ -3,13 +3,8 @@ package Tree.Count
 
 import Tree.Basic.TreeNode
 
-
-/*
-https://leetcode.com/problems/path-sum-ii/description/
-In this one we want all root-to-leaf path where the sum of the node values in
-the path equals target Sum
- */
-
+// This can be linked to binary tree path problem
+//https://leetcode.com/problems/path-sum-ii/description/
 fun main() {
     var r = TreeNode(5)
     r.left = TreeNode(4)

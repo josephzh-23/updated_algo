@@ -5,41 +5,127 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f416e209-d1fb-426e-b2ed-4ac1e97387a6" name="Changes" comment="sdfsdf">
-      <change afterPath="$PROJECT_DIR$/untitled/src/Bitwise_manipulation/Bitwise_operator" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Bitwise_manipulation/cool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Bitwise_manipulation/find_parity_of_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Bitwise_manipulation/missing_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Bitwise_manipulation/shift_opeartor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Bitwise_manipulation/shift_operator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Dynamic_programming/coin_change_recursion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Interval/insert_interval.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Python_basics/string_toChararray.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Real_world/min_number_refueling_stops.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Recursion/subsequence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Search/Basic/find_first_index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Search/Basic/find_last_index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Search/Basic/index_of_last_element_smaller.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Search/Basic/index_of_least_element_greater_than_key.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Search/find_target_indice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Two_array/find_distance_value_between_array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Two_array/find_target_indices_after_sorting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/palindrome/min_move_to_make_binary_string_palindrome.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/palindrome/min_moves_to_make_palindrome.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/palindrome/palindromic_susbtring.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/palindrome/valid_palindrome_ii.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/string_dfs/palindromic_partition.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/string_dfs/string_permutation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/string_dfs/string_permutation_recursion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Amazon/friends_circle.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Amazon/item_in_container.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Amazon/optimize_box.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Array/Basic/monotonic_stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Array/subarray/diff_between_max_and_min_average_of_all.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Array/subarray/longest_continuous_subarray_with_abs_diff.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Array/subarray/shortest_array_to_be_removed_after_sorting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Array/subarray/subarray_product_less_than_k.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Array/subarray/sum_of_subarray_miniimum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Array/two_pointer/basic_template.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Array/two_pointer/remove_duplicate_constant.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Array/two_pointer/remove_element_constant.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Array/two_pointer/sortColors.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Array/two_pointer/three_sum_closest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Array_manipulation/Two_pointer/move_zero.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_search/capacity_to_ship_packages_within_days.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_search/cut_ribbons.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_search/cutting_ribbon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_search/max.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Cheatsheet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Design/design_in_memory_file_system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Dynamic_programming/2d_programming/solution.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Dynamic_programming/brute_force/interleave_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Dynamic_programming/brute_force/interleave_string_memo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Graph/Basics/bfs_adjlist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Graph/Union_set/unionCool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Graph/dijkstra/count_ways_to_reach_destination.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Graph/dijkstra/dijkstra's_algo_adjlist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Graph/dijkstra/dijkstras_algo_matrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Graph/undirected_graph/check_if_all_node_reachable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Heap/carpool.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Heap/last_stone_weight.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Heap/meeting_room2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Heap/process_task_using_servers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Heap/seat_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Heap/single_threaded_cpu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Monotonic_stack/daily_temperatures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Monotonic_stack/largest_rectangle_histogram_stack.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Monotonic_stack/monotonic_stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Monotonic_stack/remove_k_digits.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Numbers/max_swap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Python_basics/convert_string_to_list_integers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Python_basics/dictionary_advanced.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Python_basics/length.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Python_basics/max_heap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Real_world_graph/number_of_provinces.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Sliding_window/Basic/dynamic_sliding_window.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Sliding_window/Basic/dynamic_sliding_window_with_k.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Sliding_window/Basic/fixed_sliding_window.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/String/Basic/count_vowels_in_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/String/min_swap_make_string_balanced.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/String/subsequence/is_subsequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/String/subsequence/is_subsequence_recursion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/String/subsequence/number_of_matching_subsequences.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/String/substring/count_binary_substring.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/String/substring/count_binary_substring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Tree/Basic/check_if_path_exists.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Tree/Basic/inorder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Tree/Basic/inorder_iter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Tree/Basic/level_order_traversal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Tree/Basic/preorder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Tree/Depth/minimum_depth_of_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Tree/Search/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Tree/all_nodes_distance_k_dfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Tree/amount_of_time_for_tree_infected.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Tree/closest_binary_search_tree_value.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Tree/min_depth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Tree/minimum_amount_of_time_to_infect_node.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/for_loop_trick/diff_between_maxi_and_min_avergage_of_all_k_length_subarrays.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/min_max/Sliding_window/dynamic_sliding_window.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/min_max/Sliding_window/max_points_you_can_obtain_from_cards.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/min_max/max_points_from_card.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/min_max/min_rounds_to_complete_all_tasks.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Dynamic_programming/coin_change.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Numbers/Bit_manipuation/add_binary.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Bitwise_manipulation/add_binary.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Numbers/Bit_manipuation/binary_string.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Bitwise_manipulation/binary_string.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Numbers/Bit_manipuation/plus_one.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Bitwise_manipulation/plus_one.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Numbers/Bit_manipuation/single_number.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Bitwise_manipulation/single_number.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Numbers/Bit_manipuation/single_number_optimal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Bitwise_manipulation/single_number_optimal.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Python_basics/list_of_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Python_basics/list_of_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Two_array/Intersection_of_two_arrays.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Two_array/Intersection_of_two_arrays_two_pointer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Array/two_pointer/is_subsequence.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Array/two_pointer/is_subsequence.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Array_manipulation/remove_duplicates_from_sorted_array.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Array_manipulation/Two_pointer/remove_duplicates_from_sorted_array.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Array_manipulation/remove_duplicates_from_sorted_array_ii.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Array_manipulation/Two_pointer/remove_duplicates_from_sorted_array_ii.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Graph/Basics/bfs_adjlist.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Graph/Basics/bfs_adjlist.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Hard/possible_bipartition_union_set.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Hard/possible_bipartition_union_set.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Heap/meeting_room2.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Numbers/Bit_manipuation/add_binary.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Numbers/Bit_manipuation/binary_string.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Numbers/Bit_manipuation/plus_one.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Numbers/Bit_manipuation/single_number.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Numbers/Bit_manipuation/single_number_optimal.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Numbers/maximimum_swap_efficient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Numbers/maximimum_swap_efficient.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Prefix_Sum/range_sum_query_immutable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Prefix_Sum/range_sum_query_immutable.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Prefix_Sum/range_sum_query_mutable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Prefix_Sum/range_sum_query_mutable.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Python_basics/2d_matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Python_basics/2d_matrix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Python_basics/array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Search/1_billion_users.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Search/binary_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Binary_search/binary_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Search/binary_search_loop.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Search/binary_search_recursion.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Search/find_ceiling.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Search/find_min_in_rotated.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Search/find_target_indice.py" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Binary_search/find_target_indice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Search/search_2d_matrix_2.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Search/search_in_rotated.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Search/search_in_rotated.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Search/trial.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Split/partition_label.py" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Split/partition_label.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Tree/Count/path_sum_2_backtracking.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Tree/Count/path_sum_2_backtracking.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Tree/Count/path_sum_2_recursion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Tree/Count/path_sum_2_recursion.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Tree/Hard/binary_tree_max_path_sum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Tree/Hard/path_with_max_sum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Tree/Top6/find_kth_smallest_in_tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Tree/Search/find_kth_smallest_in_tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Tree/conversion/convert_sorted_array_to_bstree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Tree_manipulation/convert_sorted_array_to_bstree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Tree/conversion/convert_sorted_list_to_bstree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Tree_manipulation/convert_sorted_list_to_bstree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Tree/find_all_leaf_nodes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Tree/Search/find_all_leaf_nodes.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Tree/flatten_tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Tree/Depth/flatten_tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Tree/max_depth_of_tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Tree/Depth/max_depth_of_tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Tree/max_depth_of_tree_bfs.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Tree/Depth/max_depth_of_tree_bfs.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Tree/max_depth_of_tree_recursion.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Tree/Depth/max_depth_of_tree_recursion.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Tree/path_sum_2_backtracking.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Tree/path_sum_2_recursion.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Tree/populate_next_pointer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Tree_manipulation/populate_next_pointer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Tree/populate_next_pointer_O(1).kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Tree_manipulation/populate_next_pointer_O(1).kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Tree/search_key_in_tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Tree/Search/search_key_in_tree.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Two_array/Intersection_of_two_arrays.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/min_max/min_round_complete_rounds.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/min_max/min_round_complete_all_tasks.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +137,9 @@
       <list>
         <option value="Class" />
         <option value="Kotlin Object" />
-        <option value="Kotlin Class" />
         <option value="Kotlin Enum" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
         <option value="Python Script" />
       </list>
     </option>
@@ -96,44 +182,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/josephzh/Desktop/updated_algo/untitled/src/Bitwise_manipulation&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/josephzh/Desktop/updated_algo/untitled/src/Monotonic_stack",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Graph" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/untitled/src/Monotonic_stack" />
+      <recent name="$PROJECT_DIR$/untitled/src/Array/subarray" />
+      <recent name="$PROJECT_DIR$/untitled/src/Sliding_window/Basic" />
       <recent name="$PROJECT_DIR$/untitled/src/Bitwise_manipulation" />
       <recent name="$PROJECT_DIR$/untitled/src/Two_array" />
-      <recent name="$PROJECT_DIR$/untitled/src/Split" />
-      <recent name="$PROJECT_DIR$/untitled/src/min_max" />
-      <recent name="$PROJECT_DIR$/untitled/src/String/Basic" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/untitled/src/Bitwise_manipulation" />
-      <recent name="$PROJECT_DIR$/untitled/src/Search/Basic" />
-      <recent name="$PROJECT_DIR$/untitled/src/palindrome" />
-      <recent name="$PROJECT_DIR$/untitled/src/Trie/Hard" />
-      <recent name="$PROJECT_DIR$/untitled/src/String_manipulation" />
+      <recent name="$PROJECT_DIR$/untitled/src/Binary_search" />
+      <recent name="$PROJECT_DIR$/untitled/src/Tree/Depth" />
+      <recent name="$PROJECT_DIR$/untitled/src/Tree/Search" />
+      <recent name="$PROJECT_DIR$/untitled/src/Tree/Count" />
+      <recent name="$PROJECT_DIR$/untitled/src/Tree_manipulation" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="Tree.Basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.cool">
-    <configuration name="cool" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.capacity_to_ship_packages_within_days">
+    <configuration name="capacity_to_ship_packages_within_days" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="updated_algo2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,11 +227,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/untitled/src/Bitwise_manipulation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/untitled/src/Binary_search" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untitled/src/Bitwise_manipulation/cool.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untitled/src/Binary_search/capacity_to_ship_packages_within_days.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,7 +240,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="find_target_indices_after_sorting" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="check_if_path_exists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="updated_algo2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -162,11 +248,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/untitled/src/Two_array" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/untitled/src/Tree/Basic" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untitled/src/Two_array/find_target_indices_after_sorting.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untitled/src/Tree/Basic/check_if_path_exists.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,7 +261,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="min_number_refueling_stops" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="max" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="updated_algo2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -183,11 +269,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/untitled/src/Real_world" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/untitled/src/Binary_search" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untitled/src/Real_world/min_number_refueling_stops.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untitled/src/Binary_search/max.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -196,7 +282,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="palindromic_partition" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="min_depth" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="updated_algo2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -204,11 +290,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/untitled/src/string_dfs" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/untitled/src/Tree" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untitled/src/string_dfs/palindromic_partition.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untitled/src/Tree/min_depth.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -217,7 +303,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="subset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="number_of_matching_subsequences" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="updated_algo2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -225,11 +311,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/untitled/src/Backtracking" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/untitled/src/String/subsequence" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untitled/src/Backtracking/subset.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untitled/src/String/subsequence/number_of_matching_subsequences.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -240,11 +326,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.cool" />
-        <item itemvalue="Python.find_target_indices_after_sorting" />
-        <item itemvalue="Python.min_number_refueling_stops" />
-        <item itemvalue="Python.subset" />
-        <item itemvalue="Python.palindromic_partition" />
+        <item itemvalue="Python.capacity_to_ship_packages_within_days" />
+        <item itemvalue="Python.max" />
+        <item itemvalue="Python.min_depth" />
+        <item itemvalue="Python.check_if_path_exists" />
+        <item itemvalue="Python.number_of_matching_subsequences" />
       </list>
     </recent_temporary>
   </component>
@@ -546,11 +632,11 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/untitled/src/Graph/Basics/bfs_adjlist.kt</url>
-          <line>8</line>
+          <line>9</line>
           <option name="timeStamp" value="87" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/untitled/src/min_max/min_round_complete_rounds.kt</url>
+          <url>file://$PROJECT_DIR$/untitled/src/min_max/min_round_complete_all_tasks.kt</url>
           <line>25</line>
           <option name="timeStamp" value="90" />
         </line-breakpoint>
@@ -858,6 +944,11 @@
           <url>file://$PROJECT_DIR$/untitled/src/Real_world/min_number_refueling_stops.py</url>
           <line>42</line>
           <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Python_basics/length.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="206" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
