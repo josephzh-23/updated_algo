@@ -52,7 +52,7 @@ internal class UnionFind2(size: Int) {
     }
 }
 
-internal class Solution {
+internal class Solution5 {
     fun numIslands2(m: Int, n: Int, positions: Array<IntArray>): List<Int> {
         val x = intArrayOf(-1, 1, 0, 0)
         val y = intArrayOf(0, 0, -1, 1)

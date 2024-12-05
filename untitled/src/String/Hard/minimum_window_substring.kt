@@ -7,6 +7,81 @@ O(n + m)    this will be the end
 S will be sth like the following
 "ADOBECODEBANC"
 t will be "ABC"
+
+Now let's go over this problem again
+
+1. Given s and t
+
+Every substring s such that every character in t appears in it here
+
+2. And this is quite interesitng
+
+
+T = "ABC"
+S
+
+Step 1:
+A D O B E C O D E B A N C
+i
+j
+
+count = 3
+left = 0        right = 12 (there are 12 indices)
+found = false
+What's count?
+
+    It's the map size, when all characters are found size becomes 0
+at beginning the size is just 3
+
+    We have a map at the start of this since no character has been found yet
+{A : 1, B: 1, C: 1}
+
+
+
+
+At idx = 0, A is found then map becomes
+{A : 0, B: 1, C: 1}
+count = 2
+
+Step 2:
+Then move j forward
+A D O B E C O D E B A N C
+i
+      j
+-We keep moving j forward until B is found here
+then reduce char count in map
+{A : 0, B: 0, C: 1}
+count = 1
+
+Step 3
+Then keep moving j until 'c' is found
+A D O B E C O D E B A N C
+i
+          j
+{A : 0, B: 0, C: 0}     everything becomes 0 here
+count = 0
+
+Step 4
+mve i up by 1
+A D O B E C O D E B A N C
+i
+          j
+
+  And now, count = 1       minLenght = 5
+  left = 0  right = 5           found = true
+
+
+step 5:
+Then we start moving i and j both
+A D O B E C O D E B A N C
+  i
+            j
+  And now, count = 1       minLenght = 5
+  left = 0  right = 5           found = true
+
+ At this point since A is not in the map anymore, we have
+ we increment A by 1 here
+ {A : 1, B: 0, C: 0}     everything becomes 0 here
  */
 fun minWindow(s: String, t: String): String {
     if (s == null || t == null || s.isEmpty() || t.isEmpty()) return ""
@@ -38,6 +113,7 @@ fun minWindow(s: String, t: String): String {
 
         val endChar = s[j++]
 
+
         if (map.containsKey(endChar)) { // Decrement this value in 1
             map.put(endChar, map.getOrDefault(endChar, 0) - 1)
             if (map[endChar] == 0) count -= 1
@@ -45,7 +121,8 @@ fun minWindow(s: String, t: String): String {
 
         if (count > 0) continue
 
-        // We increase the start character
+        // We increase the start character, count is the size of the map
+        //
         while (count == 0) {
             val startChar = s[i++]
 
@@ -55,7 +132,12 @@ fun minWindow(s: String, t: String): String {
                     put(startChar, getOrDefault(startChar, 0) + 1)
                     if (getOrDefault(startChar, 0) > 0) {
 
-                        // Increase the count again at the
+                        /*
+                        Increase the count again at the since there is
+                        now more then 1 character going back to the map
+
+
+                         */
                         count += 1
                     }
                 }

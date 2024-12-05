@@ -1,6 +1,6 @@
 package Array
 
-import Binary_search.binarySearch
+import Search.binarySearch
 
 
 typealias intpair = Pair<Int, Int>

@@ -2,6 +2,8 @@ package palindrome
 
 import LinkedList.ListNode
 
+fun main() {
+}
 
 internal class Solution {
     fun isPalindrome(head: ListNode): Boolean {

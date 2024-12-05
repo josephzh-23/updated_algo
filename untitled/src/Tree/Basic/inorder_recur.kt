@@ -1,7 +1,14 @@
 package Tree.Basic
 
 import Tree.helper2
+    /*
+    If the tree is as you said
+        A
+      B   C
+     D  E
 
+In order here will then be d -> b -> e-> A-> c
+     */
 // in order left, r, right
 // preOrder: r, left and right
 // postOrder: left, right, center

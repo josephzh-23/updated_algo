@@ -4,13 +4,7 @@ import Graph.Islands.directions
 import java.util.*
 
 
-var matrix = arrayOf(
-    intArrayOf(1, 1, 1, 1),
-    intArrayOf(1, 0, 0, 0),
-    intArrayOf(1, 0, 0, 0),
-    intArrayOf(1, 0, 0, 0)
 
-);
 
 
 // Using the bfs adjacency matrix here
@@ -53,6 +47,13 @@ fun searchMatrix(matrix: Array<IntArray>): Boolean {
 }
 
 fun main() {
+    var matrix = arrayOf(
+        intArrayOf(0, 0, 0),
+        intArrayOf(1, 1, 0),
+        intArrayOf(1, 1, 0)
+    );
+
+
     searchMatrix(matrix)
     println("$")
 }

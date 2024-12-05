@@ -16,7 +16,7 @@ fun main() {
 }
 
 // This will be a post order traversal
-class Sole{
+class Sole23{
 
     // This will hold the result as we traverse thru each path here
     var res = 0

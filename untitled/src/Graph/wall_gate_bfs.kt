@@ -48,7 +48,7 @@ fun wallsAndGates(rooms: Array<IntArray>) {
         val sz = pq.size
         for (ii in 0 until sz) {
             val np = pq.poll()
-            for (dir in dirs) {
+            for (dir in dirs8) {
                 val x = np[0] + dir[0]
                 val y = np[1] + dir[1]
                 if (x >= 0 && x < m && y >= 0 && y < n && rooms[x][y] != 0 && rooms[x][y] != -1 && !visited[x][y]) {

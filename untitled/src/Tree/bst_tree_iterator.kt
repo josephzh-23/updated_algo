@@ -3,7 +3,7 @@ package Tree
 import Tree.Basic.TreeNode
 
 // There is also an easier time to do this
-class BSTTreeIterator(var treeNode: TreeNode){
+class BSTTreeIterator4(var treeNode: TreeNode){
     var index = 0
 
     var list = mutableListOf<Int>()

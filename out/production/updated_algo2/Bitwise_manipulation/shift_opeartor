@@ -1,0 +1,9 @@
+All TC: O (1)
+Right and left shift
+
+1. Left shift multiples # by 2, while right right divides it by 2
+
+19: 10011
+
+(19>>2) : 100
+So we lose the 2 bits on right
