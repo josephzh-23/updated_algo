@@ -6,19 +6,28 @@ And then becomes as we said here
  */
 
 /*
-Find the point of change here
-The # starts changing from 1st decreasing sequence from the end
 
-1 1 5 4 6
-1 1 5 6 4
 
-Step 2: Find the next highest number present after the current number
-and rearrange these numbers
+So the code will look like here
 
-step 3: rearrange the rest of the numbers to make sure it fits here
+[1, 3, 5, 4, 2] here
 
-[1, 2, 3]
-[1, 3, 2]
+So to work on this we have
+
+1. Finding pivot: Backward traverse
+Find first decreasing which is 3 at index 1 since 3 < 5
+
+2. We need to find the smallest number greater than the pivot 3, starting from the end of the array. Traverse: 2 (not greater), 4 (greater, stop here). The successor is 4 at index 3.
+
+
+3. Swap the pivot and its successor
+swap 3 and 4
+The array is now: [1, 4, 5, 3, 2].
+
+4. Then reverse the suffix here
+
+Reverse the Suffix:
+We reverse the suffix starting right after the pivot's new position (index 1) till the end. The suffix is [5, 3, 2] and its reverse is [2, 3, 5]. The array after reversing the suffix is: [1, 4, 2, 3, 5].
  */
 fun nextPermutation(nums: IntArray) {
     var i = nums.size - 2

@@ -5,8 +5,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f416e209-d1fb-426e-b2ed-4ac1e97387a6" name="Changes" comment="sdfsdf">
-      <change afterPath="$PROJECT_DIR$/untitled/src/Array_manipulation/file.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Array_manipulation/trial.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/Build/Binary_Tree_Level_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/Build/Flatten_BST_linkedlist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/Build/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/Build/build_BST_from_preorder_inorder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/Build/build_BSTree_from_inOrder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/Build/build_BSTree_from_preOrder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/Build/build_bstree_from_sorted_array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/Build/build_linkedlist_for_each_level.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/Build/build_tree_from_preOrder_array_bad_approach.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/Build/build_tree_from_preOrder_good_approach.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/Build/checkIfTreeBalanced.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/Build/construct_binary_search_tree_from_brackets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/Build/construct_string_from_binary_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/Build/convert_bstree_into_sorted_array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/Build/is_sub_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/Build/maximum_binary_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/Build/practice.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/Build/validate_BSTree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/add_row_to_a_tree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/balance_a_binary_search_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/complete_binary_tree_inserter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/conversion/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/conversion/convert_binary_tree_to_sorted_array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/conversion/convert_sorted_array_to_bstree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/conversion/convert_sorted_list_to_bstree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/deleteNode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/deleteNodeRec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/delete_a_node_in_binary_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/delete_a_node_in_bst_iterative.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/delete_a_node_in_bst_recursive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/delete_nodes_and_return_forest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/invert_tree_iter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/invert_tree_rec.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/populate_next_node_O(1).kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/populate_next_right_pointer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/practice.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/trim_a_binary_tree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Graph_string/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Graph_string/acccountsMerge.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Graph_string/alien_dictinoary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Graph_string/distinct_subsequences.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Graph_string/interleave_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Graph_string/interleave_string_improved_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Graph_string/lexiographical_numbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Graph_string/regular_expression_matching.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Graph_string/remove_subfolders_from_file_system.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Graph_string/sentence_similarity_ii.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Graph_string/sign.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Graph_string/sliding_puzzle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Graph_string/smallest_common_region.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Graph_string/web_crawler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Graph_string/wildcard_matching.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Graph_string/word_break.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Graph_string/word_break.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Graph_string/word_break_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Graph_string/word_ladder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Graph_string/word_pattern.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Graph_string/word_pattern_2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Sliding_window/longest_substring_with_at_most_K_repeating_characters.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Stacks_Queue/next_greater_element_ii.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Stacks_Queue/next_largest_number_to_the_right.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/String_manipulation/adding_spaces_to_string.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/sorting/check_if_array_is_sorted_and_rotated.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/AcccountsMergeKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/AcccountsMergeKt.class" afterDir="false" />
@@ -371,6 +433,9 @@
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Heap/Solution33.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Heap/Solution33.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Heap/Task_schedulerKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Heap/Task_schedulerKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Interval.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Interval.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Interval/CompareByKt$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Interval/CompareByKt$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Interval/CompareByKt.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Interval_list_intersectionKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Interval_list_intersectionKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/IsCapturedKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/IsCapturedKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Is_graph_bipartite_union_findKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Is_graph_bipartite_union_findKt.class" afterDir="false" />
@@ -856,7 +921,7 @@
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/tricks/Traverse_graph_boundaryKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/tricks/Traverse_graph_boundaryKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/tricks/Two_consecutive_loopsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/tricks/Two_consecutive_loopsKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/tricks/Two_pointerKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/tricks/Two_pointerKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Interval/compareBy.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Interval/compareBy.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Array/next_permutation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Array/next_permutation.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -883,55 +948,70 @@
     &quot;state&quot;: &quot;OPEN&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="dc4debb1-832c-478b-8568-4ce2e06b0b70" />
-        <option name="url" value="https://github.com/josephzh-23/updated_algo" />
-      </UrlAndAccount>
-    </option>
-  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/josephzh-23/updated_algo&quot;,
+    &quot;accountId&quot;: &quot;f0298e05-1000-4a34-9e47-6576df548ab2&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file:///Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/queue.py" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib-common/1.7.20/kotlin-stdlib-common-1.7.20-sources.jar!/generated/_Collections.kt" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/1.7.20/kotlin-stdlib-1.7.20-sources.jar!/generated/_ArraysJvm.kt" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/1.7.20/kotlin-stdlib-1.7.20-sources.jar!/kotlin/Collections.kt" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/org/jetbrains/kotlin/kotlin-stdlib/1.7.20/kotlin-stdlib-1.7.20-sources.jar!/kotlin/text/StringsJVM.kt" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/untitled/src/Basics/2d_matrix.kt" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/untitled/src/String/Hard/substring_with_concatenation_of_all_words.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_PLUGINS_DIR$/python-ce/helpers/typeshed/stubs/cachetools/cachetools/func.pyi" root0="SKIP_INSPECTION" />
-    <setting file="file://$USER_HOME$/Library/Caches/JetBrains/IdeaIC2023.1/python_stubs/998861331/_collections.py" root0="SKIP_INSPECTION" />
-    <setting file="file://$USER_HOME$/Library/Caches/JetBrains/IdeaIC2023.1/python_stubs/998861331/builtins.py" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-17.0.7/Contents/Home/lib/src.zip!/java.base/java/lang/ArrayIndexOutOfBoundsException.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-17.0.7/Contents/Home/lib/src.zip!/java.base/java/util/AbstractQueue.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-17.0.7/Contents/Home/lib/src.zip!/java.base/java/util/LinkedList.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-17.0.7/Contents/Home/lib/src.zip!/java.base/java/util/PriorityQueue.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 8
+  &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2QIvVucEFmT0w6dixdRq4coKXaT" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Kotlin.Array_manipulation.executor": "Run",
-    "Kotlin.TrialKt.executor": "Run",
+    "Kotlin.Bfs_matrixKt.executor": "Run",
+    "Kotlin.Find_kth_largest_elementKt.executor": "Run",
+    "Kotlin.Inorder_recurKt.executor": "Run",
+    "Kotlin.Longest_substring_with_at_most_K_repeating_charactersKt.executor": "Run",
+    "Kotlin.Minimum_number_of_changes_to_make_binary_string_beautifulKt.executor": "Run",
+    "Kotlin.New_classKt.executor": "Debug",
+    "Kotlin.Next_largest_number_to_the_rightKt (1).executor": "Run",
+    "Kotlin.Next_largest_number_to_the_rightKt.executor": "Run",
+    "Kotlin.Next_permutationKt.executor": "Run",
+    "Kotlin.Permutation_in_string_mapKt.executor": "Run",
+    "Kotlin.Shortest_path_with_increasing_matrixKt.executor": "Run",
+    "Kotlin.Task_schedulerKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/josephzh/Desktop/updated_algo/untitled/src/Monotonic_stack",
-    "project.structure.last.edited": "Project",
+    "last_opened_file_path": "/Users/qzhou/Desktop/updated_algo/untitled/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.language.Kotlin"
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -939,124 +1019,83 @@
       <recent name="Graph" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/untitled/src/Monotonic_stack" />
-      <recent name="$PROJECT_DIR$/untitled/src/Array/subarray" />
-      <recent name="$PROJECT_DIR$/untitled/src/Sliding_window/Basic" />
-      <recent name="$PROJECT_DIR$/untitled/src/Bitwise_manipulation" />
-      <recent name="$PROJECT_DIR$/untitled/src/Two_array" />
+      <recent name="$PROJECT_DIR$/untitled/src" />
+      <recent name="$PROJECT_DIR$/untitled/src/String_manipulation" />
+      <recent name="$PROJECT_DIR$/untitled/src/Sliding_window" />
+      <recent name="$PROJECT_DIR$/untitled/src/Prefix_Sum/template" />
+      <recent name="$PROJECT_DIR$/untitled/src/Prefix_Sum" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/untitled/src/String" />
       <recent name="$PROJECT_DIR$/untitled/src/Binary_search" />
       <recent name="$PROJECT_DIR$/untitled/src/Tree/Depth" />
       <recent name="$PROJECT_DIR$/untitled/src/Tree/Search" />
       <recent name="$PROJECT_DIR$/untitled/src/Tree/Count" />
-      <recent name="$PROJECT_DIR$/untitled/src/Tree_manipulation" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="Tree.Basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Array_manipulation">
-    <configuration name="Array_manipulation" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array_manipulation" />
+  <component name="RunManager" selected="Kotlin.Next_permutationKt">
+    <configuration name="Longest_substring_with_at_most_K_repeating_charactersKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sliding_window.Longest_substring_with_at_most_K_repeating_charactersKt" />
       <module name="updated_algo2" />
-      <shortenClasspath name="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="check_if_path_exists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="New_classKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Heap.New_classKt" />
       <module name="updated_algo2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/untitled/src/Tree/Basic" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untitled/src/Tree/Basic/check_if_path_exists.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="max" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Next_largest_number_to_the_rightKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Next_largest_number_to_the_rightKt" />
       <module name="updated_algo2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/untitled/src/Binary_search" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untitled/src/Binary_search/max.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="min_depth" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Next_largest_number_to_the_rightKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stacks_Queue.Next_largest_number_to_the_rightKt" />
       <module name="updated_algo2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/untitled/src/Tree" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untitled/src/Tree/min_depth.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="number_of_matching_subsequences" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Next_permutationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.Next_permutationKt" />
       <module name="updated_algo2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/untitled/src/String/subsequence" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/untitled/src/String/subsequence/number_of_matching_subsequences.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.Array_manipulation" />
+      <item itemvalue="Kotlin.Longest_substring_with_at_most_K_repeating_charactersKt" />
+      <item itemvalue="Kotlin.New_classKt" />
+      <item itemvalue="Kotlin.Next_largest_number_to_the_rightKt" />
+      <item itemvalue="Kotlin.Next_largest_number_to_the_rightKt (1)" />
+      <item itemvalue="Kotlin.Next_permutationKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.Array_manipulation" />
+        <item itemvalue="Kotlin.Next_permutationKt" />
+        <item itemvalue="Kotlin.Next_largest_number_to_the_rightKt (1)" />
+        <item itemvalue="Kotlin.Next_largest_number_to_the_rightKt" />
+        <item itemvalue="Kotlin.Longest_substring_with_at_most_K_repeating_charactersKt" />
+        <item itemvalue="Kotlin.New_classKt" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.22855.74" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.22855.74" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -1066,6 +1105,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1685053937387</updated>
+      <workItem from="1732575693716" duration="4945000" />
+      <workItem from="1732840559503" duration="27106000" />
+      <workItem from="1733341333731" duration="1940000" />
+      <workItem from="1733355675834" duration="2000" />
+      <workItem from="1733356880173" duration="7993000" />
+      <workItem from="1733448562641" duration="3906000" />
+      <workItem from="1733591606704" duration="6654000" />
+      <workItem from="1733844512181" duration="2759000" />
     </task>
     <task id="LOCAL-00001" summary="sdfsdf">
       <created>1702827413273</created>
@@ -1076,6 +1123,15 @@
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.facetType" implementationName="Python" />
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="com.intellij.configurationType" implementationName="PythonConfigurationType" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -1098,7 +1154,7 @@
         <line-breakpoint enabled="true" type="kotlin-function">
           <url>file://$PROJECT_DIR$/untitled/src/Graph/traversal_with_steps/shortest_path_get_food.kt</url>
           <line>64</line>
-          <properties>
+          <properties method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -1107,7 +1163,7 @@
         <line-breakpoint enabled="true" type="kotlin-function">
           <url>file://$PROJECT_DIR$/untitled/src/Graph/Basics/maze_bfs.kt</url>
           <line>28</line>
-          <properties>
+          <properties method="searchMatrix">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -1116,7 +1172,7 @@
         <line-breakpoint enabled="true" type="kotlin-function">
           <url>file://$PROJECT_DIR$/untitled/src/Array/pair_sums.kt</url>
           <line>4</line>
-          <properties>
+          <properties method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -1536,9 +1592,24 @@
           <option name="timeStamp" value="164" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Interval/employee_free_time.kt</url>
+          <line>70</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Interval/employee_free_time_good.kt</url>
+          <line>22</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/untitled/src/Real_world_graph/print_all_employee_names_improved.kt</url>
           <line>40</line>
           <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/Heap/new_class.kt</url>
+          <line>39</line>
+          <option name="timeStamp" value="181" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
