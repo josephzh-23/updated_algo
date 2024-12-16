@@ -3,7 +3,7 @@ package Tree.conversion
 import Tree.Basic.TreeNode
 
 
-internal class Solution {
+internal class Solution14242 {
     lateinit var nums: IntArray
     fun helper(left: Int, right: Int): TreeNode? {
         if (left > right) return null

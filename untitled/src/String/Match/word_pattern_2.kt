@@ -1,7 +1,7 @@
 package String.Match
 
 
-class Solution {
+class Solution3232 {
     fun wordPatternMatch(pattern: String, str: String): Boolean {
         val map: MutableMap<Char, String?> = HashMap()
         val set: MutableSet<String> = HashSet()
