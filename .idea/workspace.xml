@@ -5,83 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f416e209-d1fb-426e-b2ed-4ac1e97387a6" name="Changes" comment="sdfsdf">
-      <change afterPath="$PROJECT_DIR$/untitled/src/Greedy/can_place_flowers.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/132_pattern.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/Implement_using_queue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/Monotonic_stack/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/Monotonic_stack/build_monotonic_stack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/Monotonic_stack/car_fleet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/Monotonic_stack/car_fleet_using_stack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/Monotonic_stack/cheatsheet" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/Monotonic_stack/largest_rectangle_histogram_stack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/Monotonic_stack/maximal_rectangle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/Monotonic_stack/next_greater_element.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/Monotonic_stack/next_greater_element_ii.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/Monotonic_stack/next_greater_frequency_element.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/Monotonic_stack/next_greater_frequency_element_native.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/asteroid_collision.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/basic_calculation.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/basic_calculator.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/basic_calculator_3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/building_with_an_ocean_view_best.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/building_with_an_ocean_view_self.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/can_place_flowers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/cheatsheet" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/find_the_max_of_min_for_every_window_in_a_given_array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/get_top_of_stack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/largest_rectangle_in_histogram.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/min_stack.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/number_of_visible_people_in_a_queue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/practice.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/remove_all_duplicate_letters.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/remove_all_duplicates_in_adjacent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/remove_k_digits.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/reverse_string.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/stack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/stack_template.pu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/template/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/template/stack_last_occurence.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/template/stack_with_inner_loop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/untitled/src/Stack/valid_parenthesis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Array/candy.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Tree/Basic/traverse_each_row_in_tree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/untitled/src/Tree/boundary_of_binary_tree.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Binary_tree_manipulation/Build/construct_binary_search_tree_from_brackets.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/META-INF/updated_algo2.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/META-INF/updated_algo2.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Next_largest_number_to_the_rightKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Stacks_Queue/CustomStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Stacks_Queue/Next_greater_elementKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Stacks_Queue/Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Stacks_Queue/Pair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Stacks_Queue/Remove_all_duplicate_in_arrKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Stacks_Queue/Remove_all_duplicates_adjacentKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Stacks_Queue/Simplify_pathKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Stacks_Queue/String_builderKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Tree/Top6/Populate_next_node_O_1_Kt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Two_array/gas_station.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/add_row_to_a_tree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/add_row_to_a_tree.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/conversion/convert_sorted_array_to_bstree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/conversion/convert_sorted_array_to_bstree.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/conversion/convert_sorted_list_to_bstree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/conversion/convert_sorted_list_to_bstree.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/populate_next_node_O(1).kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/populate_next_node_O(1).kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/populate_next_right_pointer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/populate_next_right_pointer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Graph/dfs_string/acccountsMerge.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Graph/dfs_string/acccountsMerge.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Graph/dfs_string/word_break.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Graph/dfs_string/word_break.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Graph_string/regular_expression_matching.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Graph_string/regular_expression_matching.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Graph_string/sentence_similarity_ii.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Graph_string/sentence_similarity_ii.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Graph_string/sign.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Graph_string/sign.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Graph_string/wildcard_matching.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Graph_string/wildcard_matching.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Graph_string/word_pattern.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Graph_string/word_pattern.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Hard/basic_calculator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Hard/basic_calculator.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Hard/basic_calculator_3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Hard/basic_calculator_3.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Stacks_Queue/Simplify_path.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Stack/Simplify_path.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Stacks_Queue/next_greater_element.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Stack/next_greater_element.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Stacks_Queue/next_greater_element_ii.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Stack/next_greater_element_ii.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Stacks_Queue/next_largest_number_to_the_right.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Stack/next_largest_number_to_the_right.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Stacks_Queue/remove_all_duplicate_in_arr.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Stack/remove_all_duplicate_in_arr.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Stacks_Queue/remove_all_duplicates_adjacent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Stack/remove_all_duplicates_adjacent.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Stacks_Queue/stack_with_increment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Stack/stack_with_increment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Stacks_Queue/string_builder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Stack/string_builder.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/String/Match/word_pattern_2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/String/Match/word_pattern_2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Tree/Top6/populate_next_node_O(1).kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Tree/Top6/populate_next_node_O(1).kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Tree/Top6/practice.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Tree/Top6/practice.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/Two_array/gas_station.py" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Greedy/gas_station.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Stack/Remove_all_duplicate_lettersKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Tree/Basic/Preorder_iterativeKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Tree/Basic/Preorder_iterativeKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Tree/Binary_tree_vertical_order_traversalKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Tree/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/updated_algo2/Tree/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/updated_algo2/Tree/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/Build/construct_binary_search_tree_from_brackets.py" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Binary_tree_manipulation/Build/construct_binary_search_tree_from_string.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Stack/remove_all_duplicate_letters.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Stack/remove_all_duplicate_letters.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Tree/Basic/preorder_iterative.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Tree/Basic/preorder_iterative.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Tree/binary_tree_vertical_order_traversal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Tree/binary_tree_vertical_order_traversal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Tree/inorder_iter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/Tree/inorder_iter.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,18 +84,22 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Kotlin.Bfs_matrixKt.executor": "Run",
+    "Kotlin.Boundary_of_binary_treeKt.executor": "Run",
     "Kotlin.Find_kth_largest_elementKt.executor": "Run",
     "Kotlin.Inorder_recurKt.executor": "Run",
     "Kotlin.Longest_substring_with_at_most_K_repeating_charactersKt.executor": "Run",
+    "Kotlin.Main.executor": "Run",
     "Kotlin.Minimum_number_of_changes_to_make_binary_string_beautifulKt.executor": "Run",
     "Kotlin.New_classKt.executor": "Debug",
     "Kotlin.Next_largest_number_to_the_rightKt (1).executor": "Run",
     "Kotlin.Next_largest_number_to_the_rightKt.executor": "Run",
     "Kotlin.Next_permutationKt.executor": "Run",
     "Kotlin.Permutation_in_string_mapKt.executor": "Run",
+    "Kotlin.Preorder_iterativeKt.executor": "Run",
     "Kotlin.Remove_all_duplicate_lettersKt.executor": "Run",
     "Kotlin.Shortest_path_with_increasing_matrixKt.executor": "Run",
     "Kotlin.Task_schedulerKt.executor": "Run",
+    "Kotlin.Traverse_each_row_in_treeKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -198,30 +141,23 @@
       <recent name="Tree.Basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Remove_all_duplicate_lettersKt">
-    <configuration name="Longest_substring_with_at_most_K_repeating_charactersKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sliding_window.Longest_substring_with_at_most_K_repeating_charactersKt" />
+  <component name="RunManager" selected="Kotlin.Traverse_each_row_in_treeKt">
+    <configuration name="Boundary_of_binary_treeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.Boundary_of_binary_treeKt" />
       <module name="updated_algo2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Next_largest_number_to_the_rightKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stacks_Queue.Next_largest_number_to_the_rightKt" />
+    <configuration name="Main" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.Main" />
       <module name="updated_algo2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Next_largest_number_to_the_rightKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stack.Next_largest_number_to_the_rightKt" />
-      <module name="updated_algo2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Next_permutationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.Next_permutationKt" />
+    <configuration name="Preorder_iterativeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.Basic.Preorder_iterativeKt" />
       <module name="updated_algo2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -234,20 +170,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Traverse_each_row_in_treeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.Basic.Traverse_each_row_in_treeKt" />
+      <module name="updated_algo2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Kotlin.Traverse_each_row_in_treeKt" />
+      <item itemvalue="Kotlin.Boundary_of_binary_treeKt" />
+      <item itemvalue="Kotlin.Main" />
+      <item itemvalue="Kotlin.Preorder_iterativeKt" />
       <item itemvalue="Kotlin.Remove_all_duplicate_lettersKt" />
-      <item itemvalue="Kotlin.Longest_substring_with_at_most_K_repeating_charactersKt" />
-      <item itemvalue="Kotlin.Next_largest_number_to_the_rightKt" />
-      <item itemvalue="Kotlin.Next_largest_number_to_the_rightKt (1)" />
-      <item itemvalue="Kotlin.Next_permutationKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Traverse_each_row_in_treeKt" />
+        <item itemvalue="Kotlin.Boundary_of_binary_treeKt" />
+        <item itemvalue="Kotlin.Preorder_iterativeKt" />
+        <item itemvalue="Kotlin.Main" />
         <item itemvalue="Kotlin.Remove_all_duplicate_lettersKt" />
-        <item itemvalue="Kotlin.Next_permutationKt" />
-        <item itemvalue="Kotlin.Next_largest_number_to_the_rightKt (1)" />
-        <item itemvalue="Kotlin.Next_largest_number_to_the_rightKt" />
-        <item itemvalue="Kotlin.Longest_substring_with_at_most_K_repeating_charactersKt" />
       </list>
     </recent_temporary>
   </component>
@@ -275,6 +218,8 @@
       <workItem from="1733448562641" duration="3906000" />
       <workItem from="1733591606704" duration="6654000" />
       <workItem from="1733844512181" duration="2759000" />
+      <workItem from="1734478201204" duration="1256000" />
+      <workItem from="1734479700358" duration="4216000" />
     </task>
     <task id="LOCAL-00001" summary="sdfsdf">
       <created>1702827413273</created>

@@ -3,7 +3,10 @@ package Tree.Basic
 import java.util.*
 
 // Preorder iterative traversal here
+/*
 
+Pre order
+ */
 // Preorder iterative process traversal leetcode
 
 fun main(args: Array<String>) {

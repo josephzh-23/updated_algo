@@ -2,6 +2,10 @@ package Tree
 
 import Tree.Basic.TreeNode
 import java.util.*
+/*
+
+So it goes parent, left and then right
+ */
 
 
 
